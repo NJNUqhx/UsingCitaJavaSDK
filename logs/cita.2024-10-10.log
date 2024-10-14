@@ -1,0 +1,262 @@
+2024-10-10 18:28:06 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress = de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-10 18:28:13 [main] INFO  u.ContractUtil.deployContract(ContractUtil.java:41)
+deploy contract success and contract address is 0x66251ec109efaa58799f677920499a057d871ae0
+2024-10-10 18:35:02 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-10 18:35:08 [main] INFO  u.ContractUtil.deployContract(ContractUtil.java:56)
+deploy contract success and contract address is 0x6a6827e39ba572f32535512dc3338bfef84a3bc6
+2024-10-10 18:37:38 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-10 18:37:43 [main] INFO  u.ContractUtil.deployContract(ContractUtil.java:56)
+deploy contract success and contract address is 0x0d0e943e295f6551ea9a5e25844d07cf1ae9b92b
+2024-10-10 19:03:05 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-10 19:03:05 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-10 19:03:11 [main] INFO  u.ContractUtil.deployContract(ContractUtil.java:56)
+deploy contract success and contract address is 0x7d8cab2e9c3195bf257277dec3eb608b43a7d218
+2024-10-10 19:03:11 [main] INFO  ContractUtilTest.TestDeployContract(ContractUtilTest.java:39)
+TestDeployContract
+2024-10-10 19:03:11 [main] INFO  ContractUtilTest.TestDeployContract(ContractUtilTest.java:40)
+contractAddress: 0x7d8cab2e9c3195bf257277dec3eb608b43a7d218
+2024-10-10 19:04:47 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-10 19:04:48 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-10 19:04:53 [main] INFO  u.ContractUtil.deployContract(ContractUtil.java:56)
+deploy contract success and contract address is 0x1144cde08fdd2ba66a36826b9b2c359af01f8077
+2024-10-10 19:04:53 [main] INFO  ContractUtilTest.TestDeployContract(ContractUtilTest.java:39)
+[TestDeployContract]contractPath: D:\GitHub\UsingCitaJavaSDK\src\solidity\contracts\BillManagement.sol
+2024-10-10 19:04:53 [main] INFO  ContractUtilTest.TestDeployContract(ContractUtilTest.java:40)
+[TestDeployContract]contractAddress: 0x1144cde08fdd2ba66a36826b9b2c359af01f8077
+2024-10-10 19:14:49 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-10 19:25:01 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-10 19:25:01 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-10 19:25:06 [main] INFO  u.ContractUtil.deployContract(ContractUtil.java:57)
+deploy contract success and contract address is 0x188413fec152badc8b3f4f7830b8b6fd492190c5
+2024-10-10 19:25:06 [main] INFO  ContractUtilTest.TestDeployContract(ContractUtilTest.java:40)
+[TestDeployContract]contractPath: D:\GitHub\UsingCitaJavaSDK\src\solidity\contracts\BillManagement.sol
+2024-10-10 19:25:06 [main] INFO  ContractUtilTest.TestDeployContract(ContractUtilTest.java:41)
+[TestDeployContract]contractAddress: 0x188413fec152badc8b3f4f7830b8b6fd492190c5
+2024-10-10 19:25:12 [main] INFO  u.ContractUtil.storeAbiToBlockchain(ContractUtil.java:77)
+call upload abi method success. Receipt com.citahub.cita.protocol.core.methods.response.TransactionReceipt@3e628b24
+2024-10-10 19:25:12 [main] INFO  u.ContractUtil.storeAbiToBlockchain(ContractUtil.java:79)
+call upload abi method success and receipt is 0x68e18469352ca5c4f11f6ce46f292b4f2c612502d5500c473f2e468a30754fff
+2024-10-10 19:25:12 [main] INFO  ContractUtilTest.TestDeployContract(ContractUtilTest.java:44)
+[TestDeployContract]:storeAbiTpBlockChain
+2024-10-10 19:27:03 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-10 19:28:49 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-10 19:30:24 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-10 19:57:11 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-10 19:57:34 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-10 19:57:57 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-10 20:28:26 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-10 20:28:34 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-10 20:28:34 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-10 20:28:39 [main] INFO  u.ContractUtil.deployContract(ContractUtil.java:61)
+deploy contract success and contract address is 0xdca74414efb68f9ab15f155dbbfb27ff7cc26fc0
+2024-10-10 20:28:39 [main] INFO  ContractUtilTest.TestDeployContract(ContractUtilTest.java:45)
+[TestDeployContract]contractPath: D:\GitHub\UsingCitaJavaSDK\src\solidity\contracts\BillManagement.sol
+2024-10-10 20:28:39 [main] INFO  ContractUtilTest.TestDeployContract(ContractUtilTest.java:46)
+[TestDeployContract]contractAddress: 0xdca74414efb68f9ab15f155dbbfb27ff7cc26fc0
+2024-10-10 20:28:44 [main] INFO  u.ContractUtil.storeAbiToBlockchain(ContractUtil.java:81)
+call upload abi method success. Receipt com.citahub.cita.protocol.core.methods.response.TransactionReceipt@69f666cd
+2024-10-10 20:28:44 [main] INFO  u.ContractUtil.storeAbiToBlockchain(ContractUtil.java:83)
+call upload abi method success and receipt is 0xe86791c6a316ed60c3652a64a9628eed89aaae8d4dc97d8a8b56479476fa5b9f
+2024-10-10 20:28:44 [main] INFO  ContractUtilTest.TestDeployContract(ContractUtilTest.java:49)
+[TestDeployContract]:storeAbiTpBlockChain
+2024-10-10 20:29:21 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-10 20:31:57 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-10 20:31:58 [main] INFO  ContractUtilTest.TestCallContractSetBill(ContractUtilTest.java:72)
+[TestCallContractSetBill]Create Bill Transaction Hash Success
+2024-10-10 20:31:58 [main] INFO  ContractUtilTest.TestCallContractSetBill(ContractUtilTest.java:75)
+[TestCallContractSetBill]交易信息哈希: 0x35e72eb90fdf1da10974549dab4bdd1f31833db724d9c727611aa9f7aff3b4eb
+2024-10-10 20:42:19 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-10 20:42:20 [main] INFO  ContractUtilTest.TestCallContractSetBill(ContractUtilTest.java:72)
+[TestCallContractSetBill]Create Bill Transaction Hash Success
+2024-10-10 20:42:20 [main] INFO  ContractUtilTest.TestCallContractSetBill(ContractUtilTest.java:75)
+[TestCallContractSetBill]交易信息哈希: 0x52bb8a61a7823eafec9fdf160519ccda7009aea40de310cb1482d6920c51a256
+2024-10-10 20:42:24 [main] INFO  ContractUtilTest.TestCallContractSetBill(ContractUtilTest.java:79)
+[TestCallContractSetBill]块哈希: 0xac63eb16980a802a70a2f4d68c84148f0d3c8ec7f2475df4107168a04a61982e
+2024-10-10 20:49:46 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-10 20:49:46 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-10 20:52:23 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-10 20:52:23 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-10 20:55:31 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-10 20:55:31 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-10 20:55:31 [main] INFO  u.ContractUtil.callContractSetBill(ContractUtil.java:114)
+交易信息哈希: 0xbefd584de5bec4a395f3c3fb029325c3d911dc7833a9906f2170c8235b9a7e79
+2024-10-10 20:55:37 [main] INFO  u.ContractUtil.callContractSetBill(ContractUtil.java:118)
+回执块哈希: 0x6a8be701b359d2d6f2e109c6879d5f414f5e2b3cf35ca7a25c3dd3f88655e418
+2024-10-10 21:01:03 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-10 21:01:03 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-10 21:03:07 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-10 21:03:07 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-10 21:06:04 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-10 21:06:04 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-10 21:07:28 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-10 21:07:28 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-10 21:09:07 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-10 21:09:07 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-10 21:09:55 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-10 21:09:55 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-10 21:12:46 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-10 21:12:47 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-10 21:12:47 [main] INFO  u.ContractUtil.callContractGetBill(ContractUtil.java:139)
+调用查询账单合约方法
+2024-10-10 21:14:10 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-10 21:14:11 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-10 21:14:11 [main] INFO  u.ContractUtil.callContractGetBill(ContractUtil.java:139)
+调用查询账单合约方法
+2024-10-10 21:17:48 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-10 21:17:48 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-10 21:17:48 [main] INFO  u.ContractUtil.callContractGetBill(ContractUtil.java:139)
+调用查询账单合约方法
+2024-10-10 21:17:49 [main] INFO  u.ContractUtil.callContractGetBill(ContractUtil.java:143)
+调用查询账单合约-返回类型:class java.util.ArrayList
+2024-10-10 21:18:18 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-10 21:18:18 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-10 21:18:18 [main] INFO  u.ContractUtil.callContractGetBill(ContractUtil.java:139)
+调用查询账单合约方法
+2024-10-10 21:18:18 [main] INFO  u.ContractUtil.callContractGetBill(ContractUtil.java:143)
+调用查询账单合约-返回类型:class java.util.ArrayList
+2024-10-10 21:20:26 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-10 21:20:26 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-10 21:20:26 [main] INFO  u.ContractUtil.callContractGetBill(ContractUtil.java:139)
+调用查询账单合约方法
+2024-10-10 21:37:37 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-10 21:37:38 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-10 21:39:35 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-10 21:39:35 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-10 21:39:41 [main] INFO  u.ContractUtil.deployContract(ContractUtil.java:62)
+deploy contract success and contract address is 0xa66d1edf84b9c88382c47061173ff31ae58be19d
+2024-10-10 21:39:41 [main] INFO  ContractUtilTest.TestDeployContract(ContractUtilTest.java:47)
+[TestDeployContract]contractPath: D:\GitHub\UsingCitaJavaSDK\src\solidity\contracts\BillManagement.sol
+2024-10-10 21:39:41 [main] INFO  ContractUtilTest.TestDeployContract(ContractUtilTest.java:48)
+[TestDeployContract]contractAddress: 0xa66d1edf84b9c88382c47061173ff31ae58be19d
+2024-10-10 21:39:46 [main] INFO  u.ContractUtil.storeAbiToBlockchain(ContractUtil.java:82)
+call upload abi method success. Receipt com.citahub.cita.protocol.core.methods.response.TransactionReceipt@f6f22d4d
+2024-10-10 21:39:46 [main] INFO  u.ContractUtil.storeAbiToBlockchain(ContractUtil.java:84)
+call upload abi method success and receipt is 0xdac7dc6a035cc160a33452c36d95c51e978a2399caf1c42ad2bb683bc04b5f5a
+2024-10-10 21:39:46 [main] INFO  ContractUtilTest.TestDeployContract(ContractUtilTest.java:51)
+[TestDeployContract]:storeAbiTpBlockChain
+2024-10-10 21:40:56 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-10 21:40:56 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-10 21:40:56 [main] INFO  u.ContractUtil.callContractSetBill(ContractUtil.java:107)
+调用创建账单合约方法
+2024-10-10 21:40:56 [main] INFO  u.ContractUtil.callContractSetBill(ContractUtil.java:115)
+交易信息哈希: 0x4c084b16951e64cfc196a6bfe5aeee44fd9969a9c3ba6588b4d71ed4a4067a83
+2024-10-10 21:41:02 [main] INFO  u.ContractUtil.callContractSetBill(ContractUtil.java:119)
+回执块哈希: 0x8c61ad1829b48134d660d83f6af09959c9f99c79c71463acc971f5b28093259c
+2024-10-10 21:41:15 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-10 21:41:15 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-10 21:41:15 [main] INFO  u.ContractUtil.callContractSetBill(ContractUtil.java:107)
+调用创建账单合约方法
+2024-10-10 21:41:15 [main] INFO  u.ContractUtil.callContractSetBill(ContractUtil.java:115)
+交易信息哈希: 0x2bab368ada07dd73be2712ff9adc8c12e0b2b3bc66708e93455b31b0ed279bd6
+2024-10-10 21:41:19 [main] INFO  u.ContractUtil.callContractSetBill(ContractUtil.java:119)
+回执块哈希: 0xf95c5f61af70304a09d01601ee8ee5af650c72cb1bde3a1820422e6ce2c40da8
+2024-10-10 21:41:32 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-10 21:41:32 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-10 21:41:32 [main] INFO  u.ContractUtil.callContractGetBill(ContractUtil.java:139)
+调用查询账单合约方法
+2024-10-10 21:41:32 [main] INFO  u.ContractUtil.callContractGetBill(ContractUtil.java:143)
+调用查询账单合约-返回类型:class java.util.ArrayList
+2024-10-10 21:41:44 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-10 21:41:44 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-10 21:41:44 [main] INFO  u.ContractUtil.callContractGetBill(ContractUtil.java:139)
+调用查询账单合约方法
+2024-10-10 21:41:44 [main] INFO  u.ContractUtil.callContractGetBill(ContractUtil.java:143)
+调用查询账单合约-返回类型:class java.util.ArrayList
+2024-10-10 21:41:56 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-10 21:41:57 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-10 21:41:57 [main] INFO  u.ContractUtil.callContractGetBill(ContractUtil.java:139)
+调用查询账单合约方法
+2024-10-10 21:43:49 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-10 21:43:50 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-10 21:52:27 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-10 21:52:27 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-10 21:52:32 [main] INFO  u.ContractUtil.deployContract(ContractUtil.java:62)
+deploy contract success and contract address is 0x534cec6a134b9b3486396f07aa7b6741f3f0b4a5
+2024-10-10 21:52:32 [main] INFO  ContractUtilTest.TestDeployContract(ContractUtilTest.java:47)
+[TestDeployContract]contractPath: D:\GitHub\UsingCitaJavaSDK\src\solidity\contracts\BillManagement.sol
+2024-10-10 21:52:32 [main] INFO  ContractUtilTest.TestDeployContract(ContractUtilTest.java:48)
+[TestDeployContract]contractAddress: 0x534cec6a134b9b3486396f07aa7b6741f3f0b4a5
+2024-10-10 21:52:38 [main] INFO  u.ContractUtil.storeAbiToBlockchain(ContractUtil.java:82)
+call upload abi method success. Receipt com.citahub.cita.protocol.core.methods.response.TransactionReceipt@cd1765b9
+2024-10-10 21:52:38 [main] INFO  u.ContractUtil.storeAbiToBlockchain(ContractUtil.java:84)
+call upload abi method success and receipt is 0xd4c0da5148f9e24578d6c90d352a76daad167b2ea11a3504ab387300da963ec4
+2024-10-10 21:52:38 [main] INFO  ContractUtilTest.TestDeployContract(ContractUtilTest.java:51)
+[TestDeployContract]:storeAbiTpBlockChain
+2024-10-10 21:53:00 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-10 21:53:01 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-10 21:53:01 [main] INFO  u.ContractUtil.callContractSetBill(ContractUtil.java:107)
+调用创建账单合约方法
+2024-10-10 21:53:01 [main] INFO  u.ContractUtil.callContractSetBill(ContractUtil.java:115)
+交易信息哈希: 0xbaae4c6d1d32fab8ecd7f1b01de1031681b66b48e36c79762e4d412f04dbb469
+2024-10-10 21:53:05 [main] INFO  u.ContractUtil.callContractSetBill(ContractUtil.java:119)
+回执块哈希: 0x473183748bcfd8b604d6070b3a6c5e678b91db81b6acf48ab5dd014cf95dd851

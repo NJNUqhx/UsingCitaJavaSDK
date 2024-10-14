@@ -1,0 +1,30 @@
+cd /data/cita/cita_sm2_sm3
+sudo rm -rf test-chain
+cat cita_key
+
+sudo bin/cita create --super_admin "0xde24b2010e4c883dab2b6097fcd2ab86fb0cf0df" --nodes "127.0.0.1:4000,127.0.0.1:4001,127.0.0.1:4002,127.0.0.1:4003"
+
+docker stop cita_run_container && docker rm cita_run_container
+
+
+
+初始化：sudo sh ./setup.sh test-chain 4
+启动：sudo sh ./start.sh test-chain 4
+停止：sudo sh ./stop.sh test-chain 4
+
+
+cita-cli rpc blockNumber
+
+docker tag 386183f731cf cita/cita-run:ubuntu-18.04-20190419
+
+
+
+
+
+cita-cli rpc sendRawTransaction \
+    --code 0x608060405234801561001057600080fd5b5060df8061001f6000396000f3006080604052600436106049576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806360fe47b114604e5780636d4ce63c146078575b600080fd5b348015605957600080fd5b5060766004803603810190808035906020019092919050505060a0565b005b348015608357600080fd5b50608a60aa565b6040518082815260200191505060405180910390f35b8060008190555050565b600080549050905600a165627a7a723058205aed214856a5c433292a354261c9eb88eed1396c83dabbe105bde142e49838ac0029  \
+    --private-key 0xceee464f62f232c98e134aba289e2259270ee3fa9b46c470ac4e71651bf1fe5a
+
+"D:\GitHub\solidity-windows\solc.exe"
+
+solc --abi --bin BillManagement.sol -o D:\GitHub\UsingCitaJavaSDK\src\solidity\contracts\tmp

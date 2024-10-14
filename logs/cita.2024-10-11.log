@@ -1,0 +1,741 @@
+2024-10-11 16:19:51 [main] ERROR c.CITAConfig.load(CITAConfig.java:63)
+Failed to read config at path file:/D:/GitHub/UsingCitaJavaSDK/target/classes/cita.properties
+2024-10-11 16:22:56 [main] ERROR c.CITAConfig.load(CITAConfig.java:63)
+Failed to read config at path file:/D:/GitHub/UsingCitaJavaSDK/target/classes/cita.properties
+2024-10-11 16:46:19 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-11 16:46:56 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-11 17:02:01 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-11 17:08:18 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-11 17:08:18 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-11 17:09:42 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-11 17:09:42 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-11 17:09:48 [main] INFO  u.ContractUtil.deployContract(ContractUtil.java:62)
+deploy contract success and contract address is 0x585fa10d815ff6439962b0fe22427d611c14a3bc
+2024-10-11 17:09:48 [main] INFO  c.CITAConfig.update(CITAConfig.java:118)
+update cita.properties success. key: BillManagementContractAddress value: 0x585fa10d815ff6439962b0fe22427d611c14a3bc
+2024-10-11 17:09:49 [main] INFO  ContractUtilTest.TestDeployBillManagementContract(ContractUtilTest.java:49)
+[TestDeployContract]contractPath: src/solidity/contracts/BillManagement.sol
+2024-10-11 17:09:49 [main] INFO  ContractUtilTest.TestDeployBillManagementContract(ContractUtilTest.java:50)
+[TestDeployContract]contractAddress: 0x585fa10d815ff6439962b0fe22427d611c14a3bc
+2024-10-11 17:09:54 [main] INFO  u.ContractUtil.storeAbiToBlockchain(ContractUtil.java:82)
+call upload abi method success. Receipt com.citahub.cita.protocol.core.methods.response.TransactionReceipt@e4ebf7a9
+2024-10-11 17:09:54 [main] INFO  u.ContractUtil.storeAbiToBlockchain(ContractUtil.java:84)
+call upload abi method success and receipt is 0x55482c786479ec59f25ab86007634a64f7bced910786e035a859980f12cd4f08
+2024-10-11 17:09:54 [main] INFO  ContractUtilTest.TestDeployBillManagementContract(ContractUtilTest.java:53)
+[TestDeployContract]:storeAbiTpBlockChain
+2024-10-11 17:11:58 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-11 17:11:58 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-11 17:11:58 [main] INFO  u.ContractUtil.callContractGetBill(ContractUtil.java:139)
+调用查询账单合约方法
+2024-10-11 17:14:34 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-11 17:14:35 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-11 17:14:35 [main] INFO  u.ContractUtil.callContractSetBill(ContractUtil.java:107)
+调用创建账单合约方法
+2024-10-11 17:16:19 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-11 17:16:19 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-11 17:16:24 [main] INFO  u.ContractUtil.deployContract(ContractUtil.java:62)
+deploy contract success and contract address is 0xe7e971b048b2fecd2054053e6aa97f30692d1959
+2024-10-11 17:16:24 [main] INFO  c.CITAConfig.update(CITAConfig.java:118)
+update cita.properties success. key: BillManagementContractAddress value: 0xe7e971b048b2fecd2054053e6aa97f30692d1959
+2024-10-11 17:16:24 [main] INFO  ContractUtilTest.TestDeployBillManagementContract(ContractUtilTest.java:49)
+[TestDeployContract]contractPath: src/solidity/contracts/BillManagement.sol
+2024-10-11 17:16:24 [main] INFO  ContractUtilTest.TestDeployBillManagementContract(ContractUtilTest.java:50)
+[TestDeployContract]contractAddress: 0xe7e971b048b2fecd2054053e6aa97f30692d1959
+2024-10-11 17:16:30 [main] INFO  u.ContractUtil.storeAbiToBlockchain(ContractUtil.java:82)
+call upload abi method success. Receipt com.citahub.cita.protocol.core.methods.response.TransactionReceipt@443c6fae
+2024-10-11 17:16:30 [main] INFO  u.ContractUtil.storeAbiToBlockchain(ContractUtil.java:84)
+call upload abi method success and receipt is 0xe0d56cb4bbc73d4d2731274f5adbe4b06b71ae6d68f93df39717d3ec44c8caad
+2024-10-11 17:16:30 [main] INFO  ContractUtilTest.TestDeployBillManagementContract(ContractUtilTest.java:53)
+[TestDeployContract]:storeAbiTpBlockChain
+2024-10-11 17:21:04 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-11 17:21:04 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-11 17:21:04 [main] INFO  u.ContractUtil.callContractSetBill(ContractUtil.java:107)
+调用创建账单合约方法
+2024-10-11 17:28:40 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-11 17:28:40 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-11 17:28:40 [main] INFO  u.ContractUtil.callContractSetBill(ContractUtil.java:107)
+调用创建账单合约方法
+2024-10-11 17:28:40 [main] INFO  u.ContractUtil.callContractSetBill(ContractUtil.java:108)
+contractAddress: src/solidity/contracts/BusinessManagement.sol
+2024-10-11 17:32:48 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-11 17:32:49 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-11 17:32:49 [main] INFO  u.ContractUtil.callContractSetBill(ContractUtil.java:107)
+调用创建账单合约方法
+2024-10-11 17:32:49 [main] INFO  u.ContractUtil.callContractSetBill(ContractUtil.java:108)
+contractAddress: 0xe7e971b048b2fecd2054053e6aa97f30692d1959
+2024-10-11 17:32:50 [main] INFO  u.ContractUtil.callContractSetBill(ContractUtil.java:116)
+交易信息哈希: 0xcfbc348bd916c3a85ed1cce47db1f4370bed6189094dbe9ccc9f5deacc9eb8cd
+2024-10-11 17:32:54 [main] INFO  u.ContractUtil.callContractSetBill(ContractUtil.java:120)
+回执块哈希: 0x1f5990cb14b62fc3755886de9de0e840f02385303c2e9c4374a65feea03c511f
+2024-10-11 17:33:19 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-11 17:33:20 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-11 17:33:20 [main] INFO  u.ContractUtil.callContractSetBill(ContractUtil.java:107)
+调用创建账单合约方法
+2024-10-11 17:33:20 [main] INFO  u.ContractUtil.callContractSetBill(ContractUtil.java:108)
+contractAddress: 0xe7e971b048b2fecd2054053e6aa97f30692d1959
+2024-10-11 17:33:20 [main] INFO  u.ContractUtil.callContractSetBill(ContractUtil.java:116)
+交易信息哈希: 0x8c0d6ca19dbb28817cfb0e2feb895a9a8d6ec3eb0479f9b1ac7118476d2b85da
+2024-10-11 17:33:24 [main] INFO  u.ContractUtil.callContractSetBill(ContractUtil.java:120)
+回执块哈希: 0x9d14822a1510ea6f6b9520f24eba938f1b18304d0407314aff10d30b87304d19
+2024-10-11 17:34:38 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-11 17:34:39 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-11 17:34:39 [main] INFO  u.ContractUtil.callContractGetBill(ContractUtil.java:140)
+调用查询账单合约方法
+2024-10-11 17:35:58 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-11 17:36:18 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-11 17:36:18 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-11 17:36:18 [main] INFO  u.ContractUtil.callContractGetBill(ContractUtil.java:140)
+调用查询账单合约方法
+2024-10-11 17:36:18 [main] INFO  u.ContractUtil.callContractGetBill(ContractUtil.java:144)
+调用查询账单合约-返回类型:class java.util.ArrayList
+2024-10-11 17:40:40 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-11 17:40:40 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-11 17:40:40 [main] INFO  u.ContractUtil.callContractGetBill(ContractUtil.java:140)
+调用查询账单合约方法
+2024-10-11 17:40:40 [main] INFO  u.ContractUtil.callContractGetBill(ContractUtil.java:145)
+调用查询账单合约-返回类型:class java.util.ArrayList
+2024-10-11 17:41:27 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-11 17:41:27 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-11 17:41:27 [main] INFO  u.ContractUtil.callContractGetBill(ContractUtil.java:140)
+调用查询账单合约方法
+2024-10-11 17:41:27 [main] INFO  u.ContractUtil.callContractGetBill(ContractUtil.java:151)
+Exception occurred while calling ContractUtil.callContractGetBill: Index: 0
+java.lang.IndexOutOfBoundsException: Index: 0
+	at java.util.Collections$EmptyList.get(Collections.java:4454)
+	at service.Account.appCall(Account.java:192)
+	at service.Account.callContract(Account.java:171)
+	at service.Account.callContract(Account.java:142)
+	at util.ContractUtil.callContractGetBill(ContractUtil.java:144)
+	at ContractUtilTest.TestCallContractGetBill(ContractUtilTest.java:81)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:727)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:217)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:147)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:127)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:90)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:55)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:102)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:53)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)
+2024-10-11 17:42:02 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-11 17:42:02 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-11 17:42:02 [main] INFO  u.ContractUtil.callContractGetBill(ContractUtil.java:140)
+调用查询账单合约方法
+2024-10-11 17:42:02 [main] ERROR u.ContractUtil.callContractGetBill(ContractUtil.java:151)
+Exception occurred while calling ContractUtil.callContractGetBill: Index: 0
+java.lang.IndexOutOfBoundsException: Index: 0
+	at java.util.Collections$EmptyList.get(Collections.java:4454)
+	at service.Account.appCall(Account.java:192)
+	at service.Account.callContract(Account.java:171)
+	at service.Account.callContract(Account.java:142)
+	at util.ContractUtil.callContractGetBill(ContractUtil.java:144)
+	at ContractUtilTest.TestCallContractGetBill(ContractUtilTest.java:81)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:727)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:217)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:147)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:127)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:90)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:55)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:102)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:53)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)
+2024-10-11 20:42:54 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-11 20:42:54 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-11 20:42:54 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:53)
+调用创建账单合约方法
+2024-10-11 20:42:54 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:54)
+contractAddress: 0xe7e971b048b2fecd2054053e6aa97f30692d1959
+2024-10-11 20:42:54 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:62)
+交易信息哈希: 0x7cdd97bb06dd07c20771f30edb3cd59ea58a4bc2773e00cd82e2c3417bf94bb5
+2024-10-11 20:43:01 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:66)
+回执块哈希: 0x891e8c58f418571c630e352a2047c6f0cebb3b5de297db370d2a481e7e026e41
+2024-10-11 20:43:40 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-11 20:43:40 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-11 20:43:40 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:53)
+调用创建账单合约方法
+2024-10-11 20:43:40 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:54)
+contractAddress: 0xe7e971b048b2fecd2054053e6aa97f30692d1959
+2024-10-11 20:43:40 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:62)
+交易信息哈希: 0xec82cc0599a74d576637d2191e9f716ad76f9c14bfb78ef8ab593afc94df4ea0
+2024-10-11 20:43:46 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:66)
+回执块哈希: 0x0da0456abd09c442c90a6f463e8cd9e589c6673b0ce16aa5dcd6fe31248c95fd
+2024-10-11 20:44:03 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-11 20:44:03 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-11 20:44:03 [main] INFO  s.i.BillManagementServiceImpl.callContractGetBill(BillManagementServiceImpl.java:87)
+调用查询账单合约方法
+2024-10-11 20:44:03 [main] INFO  s.i.BillManagementServiceImpl.callContractGetBill(BillManagementServiceImpl.java:92)
+调用查询账单合约-返回类型:class java.util.ArrayList
+2024-10-11 20:44:17 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-11 20:44:17 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-11 20:44:17 [main] INFO  s.i.BillManagementServiceImpl.callContractGetBill(BillManagementServiceImpl.java:87)
+调用查询账单合约方法
+2024-10-11 20:44:18 [main] INFO  s.i.BillManagementServiceImpl.callContractGetBill(BillManagementServiceImpl.java:92)
+调用查询账单合约-返回类型:class java.util.ArrayList
+2024-10-11 20:55:15 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-11 20:55:15 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-11 20:55:15 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:54)
+调用创建账单合约方法
+2024-10-11 20:55:15 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:55)
+contractAddress: 0xe7e971b048b2fecd2054053e6aa97f30692d1959
+2024-10-11 20:55:15 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:63)
+交易信息哈希: 0xe790a9dac6bb998d451426577bb6ccbf1bcf47a2ce571b366e4e1900f97a00b0
+2024-10-11 20:55:19 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:67)
+回执块哈希: 0x48e77572d955bc10245e5636d2537975db2ca3ba1373756f64b4310257f3eec3
+2024-10-11 20:55:29 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-11 20:55:29 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-11 20:55:29 [main] INFO  s.i.BillManagementServiceImpl.callContractGetBill(BillManagementServiceImpl.java:92)
+调用查询账单合约方法
+2024-10-11 20:55:29 [main] ERROR s.i.BillManagementServiceImpl.callContractGetBill(BillManagementServiceImpl.java:103)
+Exception occurred while calling ContractUtil.callContractGetBill: Index: 0
+java.lang.IndexOutOfBoundsException: Index: 0
+	at java.util.Collections$EmptyList.get(Collections.java:4454)
+	at service.Account.appCall(Account.java:192)
+	at service.Account.callContract(Account.java:171)
+	at service.Account.callContract(Account.java:142)
+	at service.impl.BillManagementServiceImpl.callContractGetBill(BillManagementServiceImpl.java:96)
+	at ContractUtilTest.TestCallContractGetBill(ContractUtilTest.java:79)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:727)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:217)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:147)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:127)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:90)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:55)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:102)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:53)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)
+2024-10-11 21:10:13 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-11 21:10:13 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-11 21:10:20 [main] INFO  u.ContractUtil.deployContract(ContractUtil.java:62)
+deploy contract success and contract address is 0x86e39435ba75c27f4e9f50960cbd25ca9713eb3b
+2024-10-11 21:10:20 [main] INFO  c.CITAConfig.update(CITAConfig.java:107)
+update cita.properties success. key: BusinessManagementContractAddress value: 0x86e39435ba75c27f4e9f50960cbd25ca9713eb3b
+2024-10-11 21:10:20 [main] INFO  c.CITAConfig.update(CITAConfig.java:113)
+reload CITAConfig
+2024-10-11 21:10:20 [main] INFO  ContractUtilTest.TestDeployBusinessContract(ContractUtilTest.java:97)
+[TestDeployBusinessContract]contractPath: src/solidity/contracts/BusinessManagement.sol
+2024-10-11 21:10:20 [main] INFO  ContractUtilTest.TestDeployBusinessContract(ContractUtilTest.java:98)
+[TestDeployBusinessContract]contractAddress: 0x86e39435ba75c27f4e9f50960cbd25ca9713eb3b
+2024-10-11 21:10:26 [main] INFO  u.ContractUtil.storeAbiToBlockchain(ContractUtil.java:82)
+call upload abi method success. Receipt com.citahub.cita.protocol.core.methods.response.TransactionReceipt@472466ac
+2024-10-11 21:10:26 [main] INFO  u.ContractUtil.storeAbiToBlockchain(ContractUtil.java:84)
+call upload abi method success and receipt is 0x4cab609fadfa6fc95f6629605b31bddd602a8a2eacbe725c96766bf3dd688e46
+2024-10-11 21:10:26 [main] INFO  ContractUtilTest.TestDeployBusinessContract(ContractUtilTest.java:101)
+[TestDeployBusinessContract]:storeAbiTpBlockChain
+2024-10-11 21:23:34 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-11 21:25:36 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-11 21:32:18 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-11 21:32:19 [main] INFO  ContractUtilTest.TestEvidenceContract(ContractUtilTest.java:119)
+[TestEvidenceContract] createEvidence
+2024-10-11 21:32:19 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-11 21:32:19 [main] INFO  s.i.BusinessManagementServiceImpl.createEvidence(BusinessManagementServiceImpl.java:47)
+调用创建存证合约方法
+2024-10-11 21:32:19 [main] INFO  s.i.BusinessManagementServiceImpl.createEvidence(BusinessManagementServiceImpl.java:48)
+contractAddress: 0x86e39435ba75c27f4e9f50960cbd25ca9713eb3b
+2024-10-11 21:32:19 [main] INFO  s.i.BusinessManagementServiceImpl.createEvidence(BusinessManagementServiceImpl.java:56)
+交易信息哈希: 0xd87076eecbf1c8487ea43635e6465b99e6e96a41e90a1668cd737b4b300adf78
+2024-10-11 21:32:24 [main] INFO  s.i.BusinessManagementServiceImpl.createEvidence(BusinessManagementServiceImpl.java:60)
+回执块哈希: 0xbfe70008d1fb13bf9a2e326eb26db34c8450908eb7d35c7fce2f6ed462ea092a
+2024-10-11 21:32:24 [main] INFO  ContractUtilTest.TestEvidenceContract(ContractUtilTest.java:123)
+[TestEvidenceContract] getEvidence
+2024-10-11 21:32:24 [main] INFO  ContractUtilTest.TestEvidenceContract(ContractUtilTest.java:125)
+queryId:ECNU001
+2024-10-11 21:32:24 [main] INFO  s.i.BusinessManagementServiceImpl.getEvidence(BusinessManagementServiceImpl.java:80)
+调用查询存证合约方法
+2024-10-11 21:32:24 [main] INFO  s.i.BusinessManagementServiceImpl.getEvidence(BusinessManagementServiceImpl.java:83)
+调用查询存证合约方法-返回类型:class java.util.ArrayList
+2024-10-11 21:33:02 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-11 21:33:02 [main] INFO  ContractUtilTest.TestEvidenceContract(ContractUtilTest.java:119)
+[TestEvidenceContract] createEvidence
+2024-10-11 21:33:02 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-11 21:33:02 [main] INFO  s.i.BusinessManagementServiceImpl.createEvidence(BusinessManagementServiceImpl.java:47)
+调用创建存证合约方法
+2024-10-11 21:33:02 [main] INFO  s.i.BusinessManagementServiceImpl.createEvidence(BusinessManagementServiceImpl.java:48)
+contractAddress: 0x86e39435ba75c27f4e9f50960cbd25ca9713eb3b
+2024-10-11 21:33:02 [main] INFO  s.i.BusinessManagementServiceImpl.createEvidence(BusinessManagementServiceImpl.java:56)
+交易信息哈希: 0xcfb8fef2e7dc127144bc782a06e26b82222ae4d53f8f153fb101f9c6347b934d
+2024-10-11 21:33:08 [main] INFO  s.i.BusinessManagementServiceImpl.createEvidence(BusinessManagementServiceImpl.java:60)
+回执块哈希: 0x38ac98a269dcac4c5e5ed1da1c8495a8138a1e99e5cdc13482f744ccee6868e7
+2024-10-11 21:33:08 [main] INFO  ContractUtilTest.TestEvidenceContract(ContractUtilTest.java:123)
+[TestEvidenceContract] getEvidence
+2024-10-11 21:33:08 [main] INFO  ContractUtilTest.TestEvidenceContract(ContractUtilTest.java:125)
+queryId:ECNU001
+2024-10-11 21:33:08 [main] INFO  s.i.BusinessManagementServiceImpl.getEvidence(BusinessManagementServiceImpl.java:80)
+调用查询存证合约方法
+2024-10-11 21:33:08 [main] INFO  s.i.BusinessManagementServiceImpl.getEvidence(BusinessManagementServiceImpl.java:83)
+调用查询存证合约方法-返回类型:class java.util.ArrayList
+2024-10-11 21:33:22 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-11 21:33:23 [main] INFO  ContractUtilTest.TestEvidenceContract(ContractUtilTest.java:119)
+[TestEvidenceContract] createEvidence
+2024-10-11 21:33:23 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-11 21:33:23 [main] INFO  s.i.BusinessManagementServiceImpl.createEvidence(BusinessManagementServiceImpl.java:47)
+调用创建存证合约方法
+2024-10-11 21:33:23 [main] INFO  s.i.BusinessManagementServiceImpl.createEvidence(BusinessManagementServiceImpl.java:48)
+contractAddress: 0x86e39435ba75c27f4e9f50960cbd25ca9713eb3b
+2024-10-11 21:33:23 [main] INFO  s.i.BusinessManagementServiceImpl.createEvidence(BusinessManagementServiceImpl.java:56)
+交易信息哈希: 0x39704ff07cea6316414a9c66ff5bc585823d275288eba9dd1c3097c3e225c2a7
+2024-10-11 21:33:29 [main] INFO  s.i.BusinessManagementServiceImpl.createEvidence(BusinessManagementServiceImpl.java:60)
+回执块哈希: 0x220082a3a8454a102bf2835d00a1858cd850001ae4e71da3937ad150449ac445
+2024-10-11 21:33:29 [main] INFO  ContractUtilTest.TestEvidenceContract(ContractUtilTest.java:123)
+[TestEvidenceContract] getEvidence
+2024-10-11 21:33:29 [main] INFO  ContractUtilTest.TestEvidenceContract(ContractUtilTest.java:125)
+queryId:ECNU001
+2024-10-11 21:33:29 [main] INFO  s.i.BusinessManagementServiceImpl.getEvidence(BusinessManagementServiceImpl.java:80)
+调用查询存证合约方法
+2024-10-11 21:33:29 [main] INFO  s.i.BusinessManagementServiceImpl.getEvidence(BusinessManagementServiceImpl.java:83)
+调用查询存证合约方法-返回类型:class java.util.ArrayList
+2024-10-11 21:34:19 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-11 21:34:20 [main] INFO  ContractUtilTest.TestEvidenceContract(ContractUtilTest.java:119)
+[TestEvidenceContract] createEvidence
+2024-10-11 21:34:20 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-11 21:34:20 [main] INFO  s.i.BusinessManagementServiceImpl.createEvidence(BusinessManagementServiceImpl.java:47)
+调用创建存证合约方法
+2024-10-11 21:34:20 [main] INFO  s.i.BusinessManagementServiceImpl.createEvidence(BusinessManagementServiceImpl.java:48)
+contractAddress: 0x86e39435ba75c27f4e9f50960cbd25ca9713eb3b
+2024-10-11 21:34:20 [main] INFO  s.i.BusinessManagementServiceImpl.createEvidence(BusinessManagementServiceImpl.java:56)
+交易信息哈希: 0x07d07a08f4bd1c3ebe0d3577745ed523180284b712ff28da43527bbc78ce98f6
+2024-10-11 21:34:26 [main] INFO  s.i.BusinessManagementServiceImpl.createEvidence(BusinessManagementServiceImpl.java:60)
+回执块哈希: 0x7b4c0adbe8f079712556cf40cd7196cd31fb5c2c17fe9cd225ce71313039b75c
+2024-10-11 21:34:26 [main] INFO  ContractUtilTest.TestEvidenceContract(ContractUtilTest.java:123)
+[TestEvidenceContract] getEvidence
+2024-10-11 21:34:26 [main] INFO  ContractUtilTest.TestEvidenceContract(ContractUtilTest.java:125)
+queryId:ECNU009
+2024-10-11 21:34:26 [main] INFO  s.i.BusinessManagementServiceImpl.getEvidence(BusinessManagementServiceImpl.java:80)
+调用查询存证合约方法
+2024-10-11 21:34:26 [main] ERROR s.i.BusinessManagementServiceImpl.getEvidence(BusinessManagementServiceImpl.java:89)
+Exception occurred while calling getEvidence: Index: 0
+java.lang.IndexOutOfBoundsException: Index: 0
+	at java.util.Collections$EmptyList.get(Collections.java:4454)
+	at service.Account.appCall(Account.java:191)
+	at service.Account.callContract(Account.java:171)
+	at service.Account.callContract(Account.java:142)
+	at service.impl.BusinessManagementServiceImpl.getEvidence(BusinessManagementServiceImpl.java:82)
+	at ContractUtilTest.TestEvidenceContract(ContractUtilTest.java:126)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:727)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:217)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:147)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:127)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:90)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:55)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:102)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:53)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)
+2024-10-11 21:40:20 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-11 21:40:20 [main] INFO  ContractUtilTest.TestEvidenceContract(ContractUtilTest.java:119)
+[TestEvidenceContract] createEvidence
+2024-10-11 21:40:20 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-11 21:40:20 [main] INFO  s.i.BusinessManagementServiceImpl.createEvidence(BusinessManagementServiceImpl.java:47)
+调用创建存证合约方法
+2024-10-11 21:40:20 [main] INFO  s.i.BusinessManagementServiceImpl.createEvidence(BusinessManagementServiceImpl.java:48)
+contractAddress: 0x86e39435ba75c27f4e9f50960cbd25ca9713eb3b
+2024-10-11 21:40:21 [main] INFO  s.i.BusinessManagementServiceImpl.createEvidence(BusinessManagementServiceImpl.java:56)
+交易信息哈希: 0xcba3200c733736ededc2766cf7424e85fdef5c940fd3bfca589874da2aa66487
+2024-10-11 21:40:26 [main] INFO  s.i.BusinessManagementServiceImpl.createEvidence(BusinessManagementServiceImpl.java:60)
+回执块哈希: 0xf0ac5bc52beecd8157ac76ba7abadea5e3dac7013a8521a7fe9d60c3e28e6d10
+2024-10-11 21:40:26 [main] INFO  ContractUtilTest.TestEvidenceContract(ContractUtilTest.java:123)
+[TestEvidenceContract] getEvidence
+2024-10-11 21:40:26 [main] INFO  ContractUtilTest.TestEvidenceContract(ContractUtilTest.java:125)
+queryId:ECNU009
+2024-10-11 21:40:26 [main] INFO  s.i.BusinessManagementServiceImpl.getEvidence(BusinessManagementServiceImpl.java:80)
+调用查询存证合约方法
+2024-10-11 21:40:26 [main] ERROR s.i.BusinessManagementServiceImpl.getEvidence(BusinessManagementServiceImpl.java:89)
+Exception occurred while calling getEvidence: Index: 0
+java.lang.IndexOutOfBoundsException: Index: 0
+	at java.util.Collections$EmptyList.get(Collections.java:4454)
+	at service.Account.appCall(Account.java:191)
+	at service.Account.callContract(Account.java:171)
+	at service.Account.callContract(Account.java:142)
+	at service.impl.BusinessManagementServiceImpl.getEvidence(BusinessManagementServiceImpl.java:82)
+	at ContractUtilTest.TestEvidenceContract(ContractUtilTest.java:126)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:727)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:217)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:147)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:127)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:90)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:55)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:102)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:53)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)
+2024-10-11 21:40:39 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-11 21:40:39 [main] INFO  ContractUtilTest.TestEvidenceContract(ContractUtilTest.java:119)
+[TestEvidenceContract] createEvidence
+2024-10-11 21:40:39 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-11 21:40:39 [main] INFO  s.i.BusinessManagementServiceImpl.createEvidence(BusinessManagementServiceImpl.java:47)
+调用创建存证合约方法
+2024-10-11 21:40:39 [main] INFO  s.i.BusinessManagementServiceImpl.createEvidence(BusinessManagementServiceImpl.java:48)
+contractAddress: 0x86e39435ba75c27f4e9f50960cbd25ca9713eb3b
+2024-10-11 21:40:40 [main] INFO  s.i.BusinessManagementServiceImpl.createEvidence(BusinessManagementServiceImpl.java:56)
+交易信息哈希: 0x98bb6b293ea5bb2f6397a2aa9d15cdf6f4c093d4997b72a0bc58b6c0bf727569
+2024-10-11 21:40:45 [main] INFO  s.i.BusinessManagementServiceImpl.createEvidence(BusinessManagementServiceImpl.java:60)
+回执块哈希: 0xc40cfa92d86ccba352ce877445f4227d6c9831ca1f5b300b620e72e552367cc7
+2024-10-11 21:40:45 [main] INFO  ContractUtilTest.TestEvidenceContract(ContractUtilTest.java:123)
+[TestEvidenceContract] getEvidence
+2024-10-11 21:40:45 [main] INFO  ContractUtilTest.TestEvidenceContract(ContractUtilTest.java:125)
+queryId:1
+2024-10-11 21:40:45 [main] INFO  s.i.BusinessManagementServiceImpl.getEvidence(BusinessManagementServiceImpl.java:80)
+调用查询存证合约方法
+2024-10-11 21:40:45 [main] INFO  s.i.BusinessManagementServiceImpl.getEvidence(BusinessManagementServiceImpl.java:83)
+调用查询存证合约方法-返回类型:class java.util.ArrayList

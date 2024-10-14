@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteTargetsManager">
+    <targets>
+      <target name="qhx@123.56.0.32:22" type="ssh/sftp" uuid="38d32170-8b4b-472a-b267-2c26e335802a">
+        <config>
+          <option name="projectRootOnTarget" value="/home/qhx/UsingCitaJavaSDK" />
+          <option name="serverName" value="qhx@123.56.0.32:22 agent" />
+        </config>
+        <ContributedStateBase type="JavaLanguageRuntime">
+          <config>
+            <option name="javaVersionString" value="1.8.0_422" />
+          </config>
+        </ContributedStateBase>
+      </target>
+    </targets>
+  </component>
+</project>

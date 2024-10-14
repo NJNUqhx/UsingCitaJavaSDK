@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="9cd7b433-269d-4c36-a1fc-102fef599e13" name="123.56.0.32">
+        <fileTransfer rootFolder="/home/qhx" accessType="SFTP" host="123.56.0.32" port="22" sshConfigId="a03509f9-ec3f-41f4-be66-4997f911e20a" sshConfig="qhx@123.56.0.32:22 agent" authAgent="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,94 @@
+2024-10-14 15:18:19 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-14 15:18:19 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-14 15:18:19 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:55)
+调用创建账单合约方法
+2024-10-14 15:18:19 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:56)
+contractAddress: 0xdca74414efb68f9ab15f155dbbfb27ff7cc26fc0
+2024-10-14 15:18:20 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:64)
+交易信息哈希: 0xcad70c0003beaaa701480ff0755cd3ea7451b1017b402495f3e0f13d295b1bfa
+2024-10-14 15:18:25 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:68)
+回执块哈希: 0x0cceb92b7efe7fcc9632c517bb33bb51aee5cb31c89c290e0eeb884f1b749b2c
+2024-10-14 15:18:25 [main] INFO  s.TestExtractEvent.getSetBillEvents(TestExtractEvent.java:41)
+解析回执com.citahub.cita.protocol.core.methods.response.TransactionReceipt@7da2c5d6SetBill事件
+2024-10-14 15:19:20 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-14 15:19:20 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-14 15:19:20 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:55)
+调用创建账单合约方法
+2024-10-14 15:19:20 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:56)
+contractAddress: 0xdca74414efb68f9ab15f155dbbfb27ff7cc26fc0
+2024-10-14 15:19:20 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:64)
+交易信息哈希: 0x610ab482891db07c25b1dac22fd851dc9112bb25fcd4993e3e6e06666b60279e
+2024-10-14 15:19:25 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:68)
+回执块哈希: 0xdfd512af5080eb2dec7fd381c5bbe123a026267f82e9e543126d84505d4da4c1
+2024-10-14 15:19:25 [main] INFO  s.TestExtractEvent.getSetBillEvents(TestExtractEvent.java:41)
+解析回执com.citahub.cita.protocol.core.methods.response.TransactionReceipt@32bea6e1SetBill事件
+2024-10-14 15:19:25 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:72)
+获取 SetBill 事件
+2024-10-14 15:20:43 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-14 15:20:43 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-14 15:20:43 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:55)
+调用创建账单合约方法
+2024-10-14 15:20:43 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:56)
+contractAddress: 0xdca74414efb68f9ab15f155dbbfb27ff7cc26fc0
+2024-10-14 15:20:44 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:64)
+交易信息哈希: 0x18c368e34de02fed9bb063cda7efb12c773a114eafe6240397227a176c390850
+2024-10-14 15:20:49 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:68)
+回执块哈希: 0x740f28e68af23b66d07e3d2247f4ff051da9076de318fe2a38ec9e66bbb972b7
+2024-10-14 15:20:49 [main] INFO  s.TestExtractEvent.getSetBillEvents(TestExtractEvent.java:42)
+解析回执com.citahub.cita.protocol.core.methods.response.TransactionReceipt@d8296efdSetBill事件
+2024-10-14 15:20:49 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:72)
+获取 SetBill 事件
+2024-10-14 15:21:25 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-14 15:21:25 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-14 15:21:25 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:55)
+调用创建账单合约方法
+2024-10-14 15:21:25 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:56)
+contractAddress: 0xdca74414efb68f9ab15f155dbbfb27ff7cc26fc0
+2024-10-14 15:21:26 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:64)
+交易信息哈希: 0x3c19dfc3efdb180b29619221b1d38b9edc4feb255a235e3725793e90f780b94c
+2024-10-14 15:21:31 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:68)
+回执块哈希: 0xfd2aa21170f2905ea210516f79d98ed58e130e10d41d9fcf11a1fed41256b666
+2024-10-14 15:21:31 [main] INFO  s.TestExtractEvent.getSetBillEvents(TestExtractEvent.java:42)
+解析回执com.citahub.cita.protocol.core.methods.response.TransactionReceipt@a4d9c144SetBill事件
+2024-10-14 15:21:31 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:72)
+获取 SetBill 事件
+2024-10-14 15:27:03 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-14 15:27:04 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-14 15:27:04 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:55)
+调用创建账单合约方法
+2024-10-14 15:27:04 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:56)
+contractAddress: 0xdca74414efb68f9ab15f155dbbfb27ff7cc26fc0
+2024-10-14 15:27:04 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:64)
+交易信息哈希: 0x35ab431f58b41edbb235908101f79e9ef08a12daa942b2ce2cf2ba436d03f7b9
+2024-10-14 15:27:08 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:68)
+回执块哈希: 0xcbe32398076980ac20d72cb25556e555b6fe1f34047606d7fe7b12a1f09c974f
+2024-10-14 15:27:08 [main] INFO  s.TestExtractEvent.getSetBillEvents(TestExtractEvent.java:41)
+解析回执com.citahub.cita.protocol.core.methods.response.TransactionReceipt@413af6dbSetBill事件
+2024-10-14 15:27:08 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:72)
+获取 SetBill 事件
+2024-10-14 15:27:41 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-14 15:27:41 [main] INFO  s.Account.<init>(Account.java:59)
+accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
+2024-10-14 15:27:41 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:55)
+调用创建账单合约方法
+2024-10-14 15:27:41 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:56)
+contractAddress: 0xdca74414efb68f9ab15f155dbbfb27ff7cc26fc0
+2024-10-14 15:27:41 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:64)
+交易信息哈希: 0xd2042403cddb3c0fc54958eb4b0c1675d3d082b892dd76afc691ee7cebfe6442
+2024-10-14 15:27:47 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:68)
+回执块哈希: 0x0eca7681d297ed60ea2e01f81b0a4062a042f26c6032c55c019ab83e871f907d
+2024-10-14 15:27:47 [main] INFO  s.TestExtractEvent.getSetBillEvents(TestExtractEvent.java:41)
+解析回执com.citahub.cita.protocol.core.methods.response.TransactionReceipt@68ce1328SetBill事件
+2024-10-14 15:27:47 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:72)
+获取 SetBill 事件
