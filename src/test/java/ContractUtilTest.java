@@ -56,13 +56,16 @@ public class ContractUtilTest {
     @Test
     void TestCallContractSetBill(){
         String contractAddress = config.billManagementContractAddress;
-        int count = 1;
+        int count = 10;
         for(int i = 0; i < count; i ++){
             // 创建账单
             String description = StringUtil.getRandomString(20);
             String sender = StringUtil.getRandomString(4);
             String receiver = StringUtil.getRandomString(4);
             BigInteger amount = BigInteger.valueOf(1000);
+
+            log.info("[TestCallContractSetBill] setBill");
+            log.info(description + " " + sender + " " + receiver + " " + amount);
 
             Map<String, String> bill = new HashMap<>();
             bill.put("description", description);
@@ -79,7 +82,7 @@ public class ContractUtilTest {
     void TestCallContractGetBill(){
         String contractAddress = config.billManagementContractAddress;
         System.out.println(contractAddress);
-        BigInteger billId = BigInteger.valueOf(1);
+        BigInteger billId = BigInteger.valueOf(5);
         BillManagementService billManagementService = new BillManagementServiceImpl();
         billManagementService.callContractGetBill(contractAddress, billId);
     }

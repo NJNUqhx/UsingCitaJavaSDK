@@ -67,9 +67,8 @@ public class BillManagementServiceImpl implements BillManagementService {
             TransactionReceipt receipt = txProcessor.waitForTransactionReceipt(callHash);
             log.info("回执块哈希: " + receipt.getBlockHash());
 
-            // 获取 SetBill 事件
-            TestExtractEvent.getSetBillEvents(receipt);
-            log.info("获取 SetBill 事件");
+            // 解析回执
+            BaseContractService.extractFromTransactionReceipt(receipt);
         }catch(Exception e){
             log.error("Exception occurred while calling callContractSetBill: {}", e.getMessage(), e);
         }
@@ -98,11 +97,24 @@ public class BillManagementServiceImpl implements BillManagementService {
             log.info("调用查询账单合约方法");
             // 调用查询账单合约方法
             Object object = adminAccount.callContract(contractAddress, "getBill", nonce, quota, version, chainId, value, billId);
+
             log.info("调用查询账单合约-返回类型:" + object.getClass());
+
             ArrayList<BigInteger> txResult = (ArrayList<BigInteger>) object;
             for (int i = 0; i < txResult.size(); i++) {
                 System.out.println(txResult.get(i));
             }
+
+//            AppSendTransaction transaction = (AppSendTransaction) object;
+//
+//            // 获取本次调用合约的交易哈希 callHash
+//            String callHash = transaction.getSendTransactionResult().getHash();
+//            log.info("交易信息哈希: " + callHash);
+//
+//            // 根据交易哈希，查询交易回执
+//            TransactionReceipt receipt = txProcessor.waitForTransactionReceipt(callHash);
+//            log.info("回执块哈希: " + receipt.getBlockHash());
+
         }catch (Exception e){
             log.error("Exception occurred while calling callContractGetBill: {}", e.getMessage(), e);
         }
