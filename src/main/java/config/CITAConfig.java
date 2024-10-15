@@ -16,7 +16,8 @@ import java.util.Properties;
 import static util.CITAUtil.*;
 @Slf4j
 public class CITAConfig {
-    public static final String configPath = "src/main/resources/cita.properties";
+//    public static final String configPath = "src/main/resources/cita.properties";
+    private String configPath;
     private static final String CITA_NET_ADDR = "CITANetIpAddr";
     private static final String BILL_Management_CONTRACT_SOLIDITY = "BillManagementContractSolidity";
     private static final String BILL_Management_CONTRACT_ADDRESS = "BillManagementContractAddress";
@@ -43,19 +44,17 @@ public class CITAConfig {
     public String businessManagementContractSolidity;
     public String businessManagementContractAddress;
 
+    public CITAConfig(String _configPath){
+        try{
+            configPath = _configPath;
+            Properties properties = load(configPath);
+            loadPropsToAttr(properties);
+        }catch(Exception e){
+            log.error("Failed to load CITAConfig at path" + configPath);
+        }
 
-    private static final CITAConfig citaConfig = new CITAConfig();
-
-
-
-    public CITAConfig(){
-        Properties properties = load(configPath);
-        loadPropsToAttr(properties);
     }
 
-    public static CITAConfig getInstance() {
-        return citaConfig;
-    }
 
     public static Properties load(String path) {
         Properties props = new Properties();

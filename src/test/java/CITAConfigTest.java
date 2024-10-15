@@ -9,8 +9,6 @@ import java.util.Properties;
 public class CITAConfigTest {
     @Test
     public void TestLoadProperties(){
-        Properties properties = CITAConfig.load(CITAConfig.configPath);
-        System.out.println(properties.get("BillManagementContractSolidity"));
-        CITAConfig config = new CITAConfig();
+        CITAConfig config = new CITAConfig("src/main/resources/cita.properties");
     }
 }

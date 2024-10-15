@@ -23,7 +23,7 @@ public class BusinessManagementServiceImpl implements BusinessManagementService 
     private static PollingTransactionReceiptProcessor txProcessor;
 
     static {
-        config = CITAConfig.getInstance();
+        config = new CITAConfig("src/main/resources/cita.properties");
         service = config.service;
         txProcessor = config.txProcessor;
         adminAccount = new Account(config.adminPrivateKey, service);

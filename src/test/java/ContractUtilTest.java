@@ -17,7 +17,6 @@ import java.math.BigInteger;
 import java.util.HashMap;
 import java.util.Map;
 
-import static util.ContractUtil.deployContract;
 
 @Slf4j
 public class ContractUtilTest {
@@ -27,11 +26,15 @@ public class ContractUtilTest {
     private static Account adminAccount;
     private static PollingTransactionReceiptProcessor txProcessor;
 
+    private static ContractUtil contractUtil;
+
     static {
-        config = CITAConfig.getInstance();
+        String configPath = "src/main/resources/cita.properties";
+        config = new CITAConfig(configPath);
         service = config.service;
         adminAccount = new Account(config.adminPrivateKey, service);
         txProcessor = config.txProcessor;
+        contractUtil = new ContractUtil(config);
     }
 
     @Test
@@ -44,12 +47,12 @@ public class ContractUtilTest {
         BigInteger chainId = config.chainId;
         int version = config.version;
         String value = "0";
-        String contractAddress = deployContract(contractFile, nonce, quota, version, chainId, value);
+        String contractAddress = contractUtil.deployContract(contractFile, nonce, quota, version, chainId, value);
         config.update("BillManagementContractAddress", contractAddress);
         log.info("[TestDeployContract]contractPath: {}", contractPath);
         log.info("[TestDeployContract]contractAddress: {}", contractAddress);
 
-        ContractUtil.storeAbiToBlockchain(contractAddress, contractPath);
+        contractUtil.storeAbiToBlockchain(contractAddress, contractPath);
         log.info("[TestDeployContract]:storeAbiTpBlockChain");
     }
 
@@ -74,7 +77,7 @@ public class ContractUtilTest {
             bill.put("amount", String.valueOf(amount));
 
             BillManagementService billManagementService = new BillManagementServiceImpl();
-            billManagementService.callContractSetBill(contractAddress, bill);
+            billManagementService.callContractSetBill(config, contractAddress, bill);
         }
     }
 
@@ -84,7 +87,7 @@ public class ContractUtilTest {
         System.out.println(contractAddress);
         BigInteger billId = BigInteger.valueOf(5);
         BillManagementService billManagementService = new BillManagementServiceImpl();
-        billManagementService.callContractGetBill(contractAddress, billId);
+        billManagementService.callContractGetBill(config, contractAddress, billId);
     }
 
     @Test
@@ -97,12 +100,12 @@ public class ContractUtilTest {
         int version = config.version;
         String value = "0";
 
-        String contractAddress = deployContract(contractFile, nonce, quota, version, chainId, value);
+        String contractAddress = contractUtil.deployContract(contractFile, nonce, quota, version, chainId, value);
         config.update("BusinessManagementContractAddress", contractAddress);
         log.info("[TestDeployBusinessContract]contractPath: {}", contractPath);
         log.info("[TestDeployBusinessContract]contractAddress: {}", contractAddress);
 
-        ContractUtil.storeAbiToBlockchain(contractAddress, contractPath);
+        contractUtil.storeAbiToBlockchain(contractAddress, contractPath);
         log.info("[TestDeployBusinessContract]:storeAbiTpBlockChain");
     }
 

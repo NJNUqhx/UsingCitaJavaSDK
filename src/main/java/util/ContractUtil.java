@@ -20,18 +20,17 @@ import java.util.Map;
 
 @Slf4j
 public class ContractUtil {
-    private static CITAConfig config;
-    private static CITAj service;
-    private static Account adminAccount;
-    private static PollingTransactionReceiptProcessor txProcessor;
+    private CITAConfig config;
+    private CITAj service;
+    private Account adminAccount;
+    private PollingTransactionReceiptProcessor txProcessor;
 
-    static {
-        config = CITAConfig.getInstance();
+    public ContractUtil(CITAConfig _config){
+        config = _config;
         service = config.service;
         txProcessor = config.txProcessor;
         adminAccount = new Account(config.adminPrivateKey, service);
     }
-
 
 
     /**
@@ -49,7 +48,7 @@ public class ContractUtil {
      * @throws InterruptedException
      * @throws TransactionException
      */
-    public static String deployContract(File contractFile, String nonce, long quota, int version, BigInteger chainId, String value) throws CompiledContract.ContractCompileError, IOException, InterruptedException, TransactionException {
+    public String deployContract(File contractFile, String nonce, long quota, int version, BigInteger chainId, String value) throws CompiledContract.ContractCompileError, IOException, InterruptedException, TransactionException {
         AppSendTransaction ethSendTransaction = adminAccount.deploy(contractFile, nonce, quota, version,
                 chainId, "0");
 
@@ -64,7 +63,7 @@ public class ContractUtil {
        return contractAddress;
     }
 
-    public static void storeAbiToBlockchain(String contractAddress, String contractPath) throws Exception {
+    public void storeAbiToBlockchain(String contractAddress, String contractPath) throws Exception {
         CompiledContract compiledContract = new CompiledContract(new File(contractPath)); // 编译合约，获取ABI
         System.out.println("get abi from " + contractPath + " : " + compiledContract.getAbi());
         AppSendTransaction ethSendTransaction =
