@@ -6,9 +6,9 @@ import com.citahub.cita.protocol.core.methods.response.TransactionReceipt;
 import com.citahub.cita.tx.response.PollingTransactionReceiptProcessor;
 import config.CITAConfig;
 import lombok.extern.slf4j.Slf4j;
-import service.Account;
+import com.pojo.util.Account;
 import service.BusinessManagementService;
-import util.CITAUtil;
+import com.pojo.util.CITAUtil;
 
 import java.math.BigInteger;
 import java.util.ArrayList;

@@ -1,4 +1,4 @@
-package service;
+package com.pojo.util;
 
 import com.citahub.cita.crypto.ECKeyPair;
 import com.citahub.cita.crypto.Keys;
@@ -39,7 +39,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class Account {
-    private static Logger logger = LoggerFactory.getLogger(Account.class);
+    private static final Logger logger = LoggerFactory.getLogger(Account.class);
     private static final String ABI_ADDRESS = "ffffffffffffffffffffffffffffffffff010001";
     private RawTransactionManager transactionManager;
     private CITAj service;

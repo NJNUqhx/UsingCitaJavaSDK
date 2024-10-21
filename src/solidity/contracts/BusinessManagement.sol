@@ -46,14 +46,5 @@ contract BusinessManagement {
         // 更新业务
         businessRecords[_uuId] = Business(_uuId, _businessType, _businessId, _businessTime, _businessData);
     }
-
-    // 删除业务
-    function deleteBusiness(string _uuId) public {
-        // 确保业务存在
-        require(bytes(businessRecords[_uuId].uuId).length != 0);
-
-        // 删除业务
-        delete businessRecords[_uuId];
-    }
 }
 

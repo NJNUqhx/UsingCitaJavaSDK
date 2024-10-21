@@ -6,17 +6,14 @@ import com.citahub.cita.protocol.core.methods.response.AppSendTransaction;
 import com.citahub.cita.protocol.core.methods.response.TransactionReceipt;
 import com.citahub.cita.protocol.exceptions.TransactionException;
 import com.citahub.cita.tx.response.PollingTransactionReceiptProcessor;
+import com.pojo.util.CITAUtil;
 import config.CITAConfig;
 import lombok.extern.slf4j.Slf4j;
-import service.Account;
+import com.pojo.util.Account;
 
 import java.io.File;
 import java.io.IOException;
 import java.math.BigInteger;
-import java.net.URL;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Map;
 
 @Slf4j
 public class ContractUtil {

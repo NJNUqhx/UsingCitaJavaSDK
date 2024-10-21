@@ -4,6 +4,9 @@ cat cita_key
 
 sudo bin/cita create --super_admin "0xde24b2010e4c883dab2b6097fcd2ab86fb0cf0df" --nodes "127.0.0.1:4000,127.0.0.1:4001,127.0.0.1:4002,127.0.0.1:4003"
 
+部署第二条链
+sudo bin/cita create --super_admin "0xa3f0a498bde99f9e92d2266c50b43a2b53147c0e" --nodes "127.0.0.1:4004,127.0.0.1:4005,127.0.0.1:4006,127.0.0.1:4007" --chain_name test-chain2
+
 docker stop cita_run_container && docker rm cita_run_container
 
 
@@ -12,13 +15,13 @@ docker stop cita_run_container && docker rm cita_run_container
 启动：sudo sh ./start.sh test-chain 4
 停止：sudo sh ./stop.sh test-chain 4
 
+sudo sh ./setup.sh test-chain2 4
+sudo sh ./start.sh test-chain2 4
+sudo sh ./stop.sh test-chain2 4
 
 cita-cli rpc blockNumber
 
 docker tag 386183f731cf cita/cita-run:ubuntu-18.04-20190419
-
-
-
 
 
 cita-cli rpc sendRawTransaction \

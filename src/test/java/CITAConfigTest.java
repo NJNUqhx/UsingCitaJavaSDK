@@ -9,6 +9,7 @@ import java.util.Properties;
 public class CITAConfigTest {
     @Test
     public void TestLoadProperties(){
-        CITAConfig config = new CITAConfig("src/main/resources/cita.properties");
+        CITAConfig config = new CITAConfig("src/main/resources/cita_school.properties");
+
     }
 }

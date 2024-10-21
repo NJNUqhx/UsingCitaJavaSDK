@@ -4,19 +4,16 @@ import com.citahub.cita.protocol.CITAj;
 import com.citahub.cita.protocol.http.HttpService;
 import com.citahub.cita.tx.response.PollingTransactionReceiptProcessor;
 import lombok.extern.slf4j.Slf4j;
-import util.CITAUtil;
+import com.pojo.util.CITAUtil;
 
 import java.io.*;
 import java.math.BigInteger;
-import java.net.URL;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.Properties;
 
-import static util.CITAUtil.*;
 @Slf4j
 public class CITAConfig {
-//    public static final String configPath = "src/main/resources/cita.properties";
     private String configPath;
     private static final String CITA_NET_ADDR = "CITANetIpAddr";
     private static final String BILL_Management_CONTRACT_SOLIDITY = "BillManagementContractSolidity";
@@ -50,7 +47,9 @@ public class CITAConfig {
             Properties properties = load(configPath);
             loadPropsToAttr(properties);
         }catch(Exception e){
-            log.error("Failed to load CITAConfig at path" + configPath);
+            log.error("Failed to load CITAConfig at path: " + configPath);
+            log.error(e.getMessage());
+            e.printStackTrace();
         }
 
     }

@@ -1,0 +1,348 @@
+2024-10-18 19:00:02 [main] INFO  c.p.u.Account.<init>(Account.java:59)
+accountAddress: d5d627aa6cdac7a448db3ce25f4812b6fc55c237
+2024-10-18 19:00:02 [main] INFO  ContractUtilTest.TestCallContractSetBill(ContractUtilTest.java:85)
+[TestCallContractSetBill] setBill
+2024-10-18 19:00:02 [main] INFO  ContractUtilTest.TestCallContractSetBill(ContractUtilTest.java:86)
+tZyEJztVb96syHYR6wfx 58bZ tFwL 1000
+2024-10-18 19:00:02 [main] INFO  c.p.u.Account.<init>(Account.java:59)
+accountAddress: d5d627aa6cdac7a448db3ce25f4812b6fc55c237
+2024-10-18 19:00:02 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:40)
+调用创建账单合约方法
+2024-10-18 19:00:02 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:41)
+contractAddress: 0xec47b6789accb429e80476643f197623fafd620a
+2024-10-18 19:00:02 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:49)
+交易信息哈希: 0x04f45d2e8b9664ad777718e6a836238f577cdbf7dadc05db38569e6e3e079264
+2024-10-18 19:00:09 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:53)
+回执块哈希: 0xc3d8422dc48689b05bfbb09993f105c324ea4a455e7a81887db53fc16d481258
+2024-10-18 19:00:09 [main] INFO  s.BaseContractService.extractFromTransactionReceipt(BaseContractService.java:105)
+num of logs: 1
+2024-10-18 19:00:09 [main] INFO  s.BaseContractService.extractFromTransactionReceipt(BaseContractService.java:108)
+BillCreated Event Parameters:
+ID: 11
+Description: è
+Sender: tZyEJztVb96syHYR6wfx
+Receiver: 58bZ
+Amount: 288
+2024-10-18 19:00:09 [main] INFO  ContractUtilTest.TestCallContractSetBill(ContractUtilTest.java:85)
+[TestCallContractSetBill] setBill
+2024-10-18 19:00:09 [main] INFO  ContractUtilTest.TestCallContractSetBill(ContractUtilTest.java:86)
+9IbZce9lwZQSqQn894N9 kuvN HdBU 1000
+2024-10-18 19:00:09 [main] INFO  c.p.u.Account.<init>(Account.java:59)
+accountAddress: d5d627aa6cdac7a448db3ce25f4812b6fc55c237
+2024-10-18 19:00:09 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:40)
+调用创建账单合约方法
+2024-10-18 19:00:09 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:41)
+contractAddress: 0xec47b6789accb429e80476643f197623fafd620a
+2024-10-18 19:00:09 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:49)
+交易信息哈希: 0x979511f70e67ecff41543b9686acec56c03762582b65c379547fb1b673f90a90
+2024-10-18 19:00:15 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:53)
+回执块哈希: 0xf58c39968c525d30723bfca0f65c3f05c229d812fd90b1eccad10943966b0d24
+2024-10-18 19:00:15 [main] INFO  s.BaseContractService.extractFromTransactionReceipt(BaseContractService.java:105)
+num of logs: 1
+2024-10-18 19:00:15 [main] INFO  s.BaseContractService.extractFromTransactionReceipt(BaseContractService.java:108)
+BillCreated Event Parameters:
+ID: 12
+Description: è
+Sender: 9IbZce9lwZQSqQn894N9
+Receiver: kuvN
+Amount: 288
+2024-10-18 19:00:15 [main] INFO  ContractUtilTest.TestCallContractSetBill(ContractUtilTest.java:85)
+[TestCallContractSetBill] setBill
+2024-10-18 19:00:15 [main] INFO  ContractUtilTest.TestCallContractSetBill(ContractUtilTest.java:86)
+FcHPmW4J7dsdGaiGNJk5 EEB2 6zUM 1000
+2024-10-18 19:00:15 [main] INFO  c.p.u.Account.<init>(Account.java:59)
+accountAddress: d5d627aa6cdac7a448db3ce25f4812b6fc55c237
+2024-10-18 19:00:15 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:40)
+调用创建账单合约方法
+2024-10-18 19:00:15 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:41)
+contractAddress: 0xec47b6789accb429e80476643f197623fafd620a
+2024-10-18 19:00:15 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:49)
+交易信息哈希: 0x1edaca5f734cee3209ca2179ba92d0f052224f0a0ac83b72e6720827bfe65eef
+2024-10-18 19:00:21 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:53)
+回执块哈希: 0xe088fede282fe0e69d6232e5386298e6f414360c590456d3f392002786e2f456
+2024-10-18 19:00:21 [main] INFO  s.BaseContractService.extractFromTransactionReceipt(BaseContractService.java:105)
+num of logs: 1
+2024-10-18 19:00:21 [main] INFO  s.BaseContractService.extractFromTransactionReceipt(BaseContractService.java:108)
+BillCreated Event Parameters:
+ID: 13
+Description: è
+Sender: FcHPmW4J7dsdGaiGNJk5
+Receiver: EEB2
+Amount: 288
+2024-10-18 19:00:21 [main] INFO  ContractUtilTest.TestCallContractSetBill(ContractUtilTest.java:85)
+[TestCallContractSetBill] setBill
+2024-10-18 19:00:21 [main] INFO  ContractUtilTest.TestCallContractSetBill(ContractUtilTest.java:86)
+lnFpeZvFbdMz6u9jBptx 8QPa EFyQ 1000
+2024-10-18 19:00:21 [main] INFO  c.p.u.Account.<init>(Account.java:59)
+accountAddress: d5d627aa6cdac7a448db3ce25f4812b6fc55c237
+2024-10-18 19:00:21 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:40)
+调用创建账单合约方法
+2024-10-18 19:00:21 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:41)
+contractAddress: 0xec47b6789accb429e80476643f197623fafd620a
+2024-10-18 19:00:21 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:49)
+交易信息哈希: 0x0ce6c0913409a10e1600a8a05e44f1e94b660d780e7a6ffe58d31bffc2b06b7e
+2024-10-18 19:00:27 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:53)
+回执块哈希: 0x23fd8e361db9dc4fde2c99ceb0544b73dceb95067f66192b43e153c048a6364b
+2024-10-18 19:00:27 [main] INFO  s.BaseContractService.extractFromTransactionReceipt(BaseContractService.java:105)
+num of logs: 1
+2024-10-18 19:00:27 [main] INFO  s.BaseContractService.extractFromTransactionReceipt(BaseContractService.java:108)
+BillCreated Event Parameters:
+ID: 14
+Description: è
+Sender: lnFpeZvFbdMz6u9jBptx
+Receiver: 8QPa
+Amount: 288
+2024-10-18 19:00:27 [main] INFO  ContractUtilTest.TestCallContractSetBill(ContractUtilTest.java:85)
+[TestCallContractSetBill] setBill
+2024-10-18 19:00:27 [main] INFO  ContractUtilTest.TestCallContractSetBill(ContractUtilTest.java:86)
+TS7TtfWcZOLwVEJYnSrI vxXa UBsv 1000
+2024-10-18 19:00:27 [main] INFO  c.p.u.Account.<init>(Account.java:59)
+accountAddress: d5d627aa6cdac7a448db3ce25f4812b6fc55c237
+2024-10-18 19:00:27 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:40)
+调用创建账单合约方法
+2024-10-18 19:00:27 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:41)
+contractAddress: 0xec47b6789accb429e80476643f197623fafd620a
+2024-10-18 19:00:27 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:49)
+交易信息哈希: 0x51315d99667a743461a29704f92b8c7a8b1bda81dab4731e8fbc771263d50276
+2024-10-18 19:00:33 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:53)
+回执块哈希: 0x7f0d71b7ace721288b5e10ad0329df42296d40c706a4fafb4313f45f7684c1a7
+2024-10-18 19:00:33 [main] INFO  s.BaseContractService.extractFromTransactionReceipt(BaseContractService.java:105)
+num of logs: 1
+2024-10-18 19:00:33 [main] INFO  s.BaseContractService.extractFromTransactionReceipt(BaseContractService.java:108)
+BillCreated Event Parameters:
+ID: 15
+Description: è
+Sender: TS7TtfWcZOLwVEJYnSrI
+Receiver: vxXa
+Amount: 288
+2024-10-18 19:00:33 [main] INFO  ContractUtilTest.TestCallContractSetBill(ContractUtilTest.java:85)
+[TestCallContractSetBill] setBill
+2024-10-18 19:00:33 [main] INFO  ContractUtilTest.TestCallContractSetBill(ContractUtilTest.java:86)
+Iwm7akpwJ4AoIw4tb9tI bBSl YDuI 1000
+2024-10-18 19:00:33 [main] INFO  c.p.u.Account.<init>(Account.java:59)
+accountAddress: d5d627aa6cdac7a448db3ce25f4812b6fc55c237
+2024-10-18 19:00:33 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:40)
+调用创建账单合约方法
+2024-10-18 19:00:33 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:41)
+contractAddress: 0xec47b6789accb429e80476643f197623fafd620a
+2024-10-18 19:00:34 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:49)
+交易信息哈希: 0xe11600c6891bec28ee4797603213cb68722da18c56d5687d6eeb96784d4ef288
+2024-10-18 19:00:39 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:53)
+回执块哈希: 0xdc0be70c3550a68db5c15db547c22e022c60590e407c35740d77df8a3158f9bb
+2024-10-18 19:00:39 [main] INFO  s.BaseContractService.extractFromTransactionReceipt(BaseContractService.java:105)
+num of logs: 1
+2024-10-18 19:00:39 [main] INFO  s.BaseContractService.extractFromTransactionReceipt(BaseContractService.java:108)
+BillCreated Event Parameters:
+ID: 16
+Description: è
+Sender: Iwm7akpwJ4AoIw4tb9tI
+Receiver: bBSl
+Amount: 288
+2024-10-18 19:00:39 [main] INFO  ContractUtilTest.TestCallContractSetBill(ContractUtilTest.java:85)
+[TestCallContractSetBill] setBill
+2024-10-18 19:00:39 [main] INFO  ContractUtilTest.TestCallContractSetBill(ContractUtilTest.java:86)
+Ry8wtnGnlR0ReK9YB4ry mB0S Tp63 1000
+2024-10-18 19:00:39 [main] INFO  c.p.u.Account.<init>(Account.java:59)
+accountAddress: d5d627aa6cdac7a448db3ce25f4812b6fc55c237
+2024-10-18 19:00:39 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:40)
+调用创建账单合约方法
+2024-10-18 19:00:39 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:41)
+contractAddress: 0xec47b6789accb429e80476643f197623fafd620a
+2024-10-18 19:00:39 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:49)
+交易信息哈希: 0xfb127bcf4c11ef9ced9d7bff0da72d17ab7d6d05bddd68b005f45a70e2324432
+2024-10-18 19:00:45 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:53)
+回执块哈希: 0x5363d24b5d868879dcf18bfec1ecca53695dcb5ca2b5204837ca6ddcac091046
+2024-10-18 19:00:45 [main] INFO  s.BaseContractService.extractFromTransactionReceipt(BaseContractService.java:105)
+num of logs: 1
+2024-10-18 19:00:45 [main] INFO  s.BaseContractService.extractFromTransactionReceipt(BaseContractService.java:108)
+BillCreated Event Parameters:
+ID: 17
+Description: è
+Sender: Ry8wtnGnlR0ReK9YB4ry
+Receiver: mB0S
+Amount: 288
+2024-10-18 19:00:45 [main] INFO  ContractUtilTest.TestCallContractSetBill(ContractUtilTest.java:85)
+[TestCallContractSetBill] setBill
+2024-10-18 19:00:45 [main] INFO  ContractUtilTest.TestCallContractSetBill(ContractUtilTest.java:86)
+wu0a66DMVrVHJuBrkEsz dmJY FIpB 1000
+2024-10-18 19:00:45 [main] INFO  c.p.u.Account.<init>(Account.java:59)
+accountAddress: d5d627aa6cdac7a448db3ce25f4812b6fc55c237
+2024-10-18 19:00:45 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:40)
+调用创建账单合约方法
+2024-10-18 19:00:45 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:41)
+contractAddress: 0xec47b6789accb429e80476643f197623fafd620a
+2024-10-18 19:00:45 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:49)
+交易信息哈希: 0xaba3d2987618429b58ea453f128166455dd47adb5b553744ab42e8824350ea67
+2024-10-18 19:00:51 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:53)
+回执块哈希: 0x279df65a14396dba4bfd64e82a740201d025e9aab9f5b586b2f10fce4d79170a
+2024-10-18 19:00:51 [main] INFO  s.BaseContractService.extractFromTransactionReceipt(BaseContractService.java:105)
+num of logs: 1
+2024-10-18 19:00:51 [main] INFO  s.BaseContractService.extractFromTransactionReceipt(BaseContractService.java:108)
+BillCreated Event Parameters:
+ID: 18
+Description: è
+Sender: wu0a66DMVrVHJuBrkEsz
+Receiver: dmJY
+Amount: 288
+2024-10-18 19:00:51 [main] INFO  ContractUtilTest.TestCallContractSetBill(ContractUtilTest.java:85)
+[TestCallContractSetBill] setBill
+2024-10-18 19:00:51 [main] INFO  ContractUtilTest.TestCallContractSetBill(ContractUtilTest.java:86)
+kIF9dbyQYYSV5i9HVzwB RVAg MFeJ 1000
+2024-10-18 19:00:51 [main] INFO  c.p.u.Account.<init>(Account.java:59)
+accountAddress: d5d627aa6cdac7a448db3ce25f4812b6fc55c237
+2024-10-18 19:00:51 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:40)
+调用创建账单合约方法
+2024-10-18 19:00:51 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:41)
+contractAddress: 0xec47b6789accb429e80476643f197623fafd620a
+2024-10-18 19:00:51 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:49)
+交易信息哈希: 0x2d6bc24347cac3c12d0123311ca04391a007a4cdd31d41d3657bdef9d564c27a
+2024-10-18 19:00:57 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:53)
+回执块哈希: 0x9fe4ab32ab0173b19f27f4a4b6159cffe877ba8ad80d37df1f204baad32990b2
+2024-10-18 19:00:57 [main] INFO  s.BaseContractService.extractFromTransactionReceipt(BaseContractService.java:105)
+num of logs: 1
+2024-10-18 19:00:57 [main] INFO  s.BaseContractService.extractFromTransactionReceipt(BaseContractService.java:108)
+BillCreated Event Parameters:
+ID: 19
+Description: è
+Sender: kIF9dbyQYYSV5i9HVzwB
+Receiver: RVAg
+Amount: 288
+2024-10-18 19:00:57 [main] INFO  ContractUtilTest.TestCallContractSetBill(ContractUtilTest.java:85)
+[TestCallContractSetBill] setBill
+2024-10-18 19:00:57 [main] INFO  ContractUtilTest.TestCallContractSetBill(ContractUtilTest.java:86)
+2eCxioSXgDFtx3BxoLCw hJXt fzVJ 1000
+2024-10-18 19:00:57 [main] INFO  c.p.u.Account.<init>(Account.java:59)
+accountAddress: d5d627aa6cdac7a448db3ce25f4812b6fc55c237
+2024-10-18 19:00:57 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:40)
+调用创建账单合约方法
+2024-10-18 19:00:57 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:41)
+contractAddress: 0xec47b6789accb429e80476643f197623fafd620a
+2024-10-18 19:00:57 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:49)
+交易信息哈希: 0xb949f2057a09cac4b4291e05a2188b7d04e5a8b52c00efd02af9686ebb5d0ffa
+2024-10-18 19:01:04 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:53)
+回执块哈希: 0xbe380df32ff2a27ae2c6172bd3fbcdc9f13c1a8fee01cd452edc8f23efe6d8c5
+2024-10-18 19:01:04 [main] INFO  s.BaseContractService.extractFromTransactionReceipt(BaseContractService.java:105)
+num of logs: 1
+2024-10-18 19:01:04 [main] INFO  s.BaseContractService.extractFromTransactionReceipt(BaseContractService.java:108)
+BillCreated Event Parameters:
+ID: 20
+Description: è
+Sender: 2eCxioSXgDFtx3BxoLCw
+Receiver: hJXt
+Amount: 288
+2024-10-18 19:37:37 [main] INFO  c.p.u.Account.<init>(Account.java:59)
+accountAddress: d5d627aa6cdac7a448db3ce25f4812b6fc55c237
+2024-10-18 19:38:53 [main] INFO  c.p.u.Account.<init>(Account.java:59)
+accountAddress: d5d627aa6cdac7a448db3ce25f4812b6fc55c237
+2024-10-18 19:39:11 [main] INFO  c.p.u.Account.<init>(Account.java:59)
+accountAddress: d5d627aa6cdac7a448db3ce25f4812b6fc55c237
+2024-10-18 19:41:21 [main] INFO  c.p.u.Account.<init>(Account.java:59)
+accountAddress: d5d627aa6cdac7a448db3ce25f4812b6fc55c237
+2024-10-18 19:41:46 [main] INFO  c.p.u.Account.<init>(Account.java:59)
+accountAddress: d5d627aa6cdac7a448db3ce25f4812b6fc55c237
+2024-10-18 19:41:53 [main] INFO  u.ContractUtil.deployContract(ContractUtil.java:58)
+deploy contract success and contract address is 0x2d1011023a4f29754647b074b424129d7d08e933
+2024-10-18 19:41:53 [main] INFO  c.CITAConfig.update(CITAConfig.java:105)
+update cita.properties success. key: BillManagementContractAddress value: 0x2d1011023a4f29754647b074b424129d7d08e933
+2024-10-18 19:41:53 [main] INFO  c.CITAConfig.update(CITAConfig.java:111)
+reload CITAConfig
+2024-10-18 19:41:53 [main] INFO  ContractUtilTest.TestDeployBillManagementContract(ContractUtilTest.java:65)
+[TestDeployContract]contractPath: src/solidity/contracts/BillManagement.sol
+2024-10-18 19:41:53 [main] INFO  ContractUtilTest.TestDeployBillManagementContract(ContractUtilTest.java:66)
+[TestDeployContract]contractAddress: 0x2d1011023a4f29754647b074b424129d7d08e933
+2024-10-18 19:41:59 [main] INFO  u.ContractUtil.storeAbiToBlockchain(ContractUtil.java:78)
+call upload abi method success. Receipt com.citahub.cita.protocol.core.methods.response.TransactionReceipt@2d1b2f85
+2024-10-18 19:41:59 [main] INFO  u.ContractUtil.storeAbiToBlockchain(ContractUtil.java:80)
+call upload abi method success and receipt is 0x906c920523c3347c4858061311c1701c86b2c7e7d376ae57ea345099ea2befaa
+2024-10-18 19:41:59 [main] INFO  ContractUtilTest.TestDeployBillManagementContract(ContractUtilTest.java:69)
+[TestDeployContract]:storeAbiTpBlockChain
+2024-10-18 19:42:28 [main] INFO  c.p.u.Account.<init>(Account.java:59)
+accountAddress: d5d627aa6cdac7a448db3ce25f4812b6fc55c237
+2024-10-18 19:48:08 [main] INFO  c.p.u.Account.<init>(Account.java:59)
+accountAddress: d5d627aa6cdac7a448db3ce25f4812b6fc55c237
+2024-10-18 19:48:48 [main] INFO  c.p.u.Account.<init>(Account.java:59)
+accountAddress: d5d627aa6cdac7a448db3ce25f4812b6fc55c237
+2024-10-18 19:49:53 [main] INFO  ContractUtilTest.<clinit>(ContractUtilTest.java:29)
+初始化config
+2024-10-18 19:49:54 [main] INFO  c.p.u.Account.<init>(Account.java:59)
+accountAddress: d5d627aa6cdac7a448db3ce25f4812b6fc55c237
+2024-10-18 19:50:20 [main] INFO  ContractUtilTest.<clinit>(ContractUtilTest.java:29)
+初始化config......
+2024-10-18 19:50:21 [main] INFO  c.p.u.Account.<init>(Account.java:59)
+accountAddress: d5d627aa6cdac7a448db3ce25f4812b6fc55c237
+2024-10-18 19:50:21 [main] INFO  ContractUtilTest.<clinit>(ContractUtilTest.java:33)
+初始化config完成
+2024-10-18 19:52:36 [main] INFO  ContractUtilTest.<clinit>(ContractUtilTest.java:29)
+初始化config......
+2024-10-18 19:52:36 [main] INFO  c.p.u.Account.<init>(Account.java:59)
+accountAddress: d5d627aa6cdac7a448db3ce25f4812b6fc55c237
+2024-10-18 19:52:36 [main] INFO  ContractUtilTest.<clinit>(ContractUtilTest.java:33)
+初始化config完成
+2024-10-18 19:53:18 [main] INFO  ContractUtilTest.<clinit>(ContractUtilTest.java:29)
+初始化config......
+2024-10-18 19:53:19 [main] INFO  c.p.u.Account.<init>(Account.java:59)
+accountAddress: d5d627aa6cdac7a448db3ce25f4812b6fc55c237
+2024-10-18 19:53:19 [main] INFO  ContractUtilTest.<clinit>(ContractUtilTest.java:33)
+初始化config完成
+2024-10-18 19:53:56 [main] INFO  ContractUtilTest.<clinit>(ContractUtilTest.java:29)
+初始化config......
+2024-10-18 19:53:57 [main] INFO  c.p.u.Account.<init>(Account.java:59)
+accountAddress: d5d627aa6cdac7a448db3ce25f4812b6fc55c237
+2024-10-18 19:53:57 [main] INFO  ContractUtilTest.<clinit>(ContractUtilTest.java:33)
+初始化config完成
+2024-10-18 20:04:07 [main] INFO  ContractUtilTest.<clinit>(ContractUtilTest.java:29)
+初始化config......
+2024-10-18 20:04:08 [main] INFO  c.p.u.Account.<init>(Account.java:59)
+accountAddress: d5d627aa6cdac7a448db3ce25f4812b6fc55c237
+2024-10-18 20:04:08 [main] INFO  ContractUtilTest.<clinit>(ContractUtilTest.java:33)
+初始化config完成
+2024-10-18 20:04:37 [main] INFO  ContractUtilTest.<clinit>(ContractUtilTest.java:29)
+初始化config......
+2024-10-18 20:04:37 [main] INFO  c.p.u.Account.<init>(Account.java:59)
+accountAddress: d5d627aa6cdac7a448db3ce25f4812b6fc55c237
+2024-10-18 20:04:37 [main] INFO  ContractUtilTest.<clinit>(ContractUtilTest.java:33)
+初始化config完成
+2024-10-18 20:06:37 [main] INFO  ContractUtilTest.<clinit>(ContractUtilTest.java:29)
+初始化config......
+2024-10-18 20:06:38 [main] INFO  c.p.u.Account.<init>(Account.java:59)
+accountAddress: d5d627aa6cdac7a448db3ce25f4812b6fc55c237
+2024-10-18 20:06:38 [main] INFO  ContractUtilTest.<clinit>(ContractUtilTest.java:33)
+初始化config完成
+2024-10-18 20:43:06 [main] INFO  c.p.u.Account.<init>(Account.java:59)
+accountAddress: d5d627aa6cdac7a448db3ce25f4812b6fc55c237
+2024-10-18 20:43:27 [main] INFO  c.p.u.Account.<init>(Account.java:59)
+accountAddress: d5d627aa6cdac7a448db3ce25f4812b6fc55c237
+2024-10-18 20:46:06 [main] INFO  c.p.u.Account.<init>(Account.java:59)
+accountAddress: d5d627aa6cdac7a448db3ce25f4812b6fc55c237
+2024-10-18 20:49:54 [main] INFO  c.p.u.Account.<init>(Account.java:59)
+accountAddress: d5d627aa6cdac7a448db3ce25f4812b6fc55c237
+2024-10-18 20:52:11 [main] INFO  c.p.u.Account.<init>(Account.java:59)
+accountAddress: d5d627aa6cdac7a448db3ce25f4812b6fc55c237
+2024-10-18 20:53:34 [main] INFO  c.p.u.Account.<init>(Account.java:59)
+accountAddress: d5d627aa6cdac7a448db3ce25f4812b6fc55c237
+2024-10-18 20:53:39 [main] INFO  u.ContractUtil.deployContract(ContractUtil.java:58)
+deploy contract success and contract address is 0x90cbb04af096e8d32247e6bab3a5f74047f78c23
+2024-10-18 20:53:39 [main] INFO  ContractUtilTest.TestDeployBillManagementContract(ContractUtilTest.java:72)
+[TestDeployContract]contractPath: src/main/java/com/solidity/contract/Evidence.sol
+2024-10-18 20:53:39 [main] INFO  ContractUtilTest.TestDeployBillManagementContract(ContractUtilTest.java:73)
+[TestDeployContract]contractAddress: 0x90cbb04af096e8d32247e6bab3a5f74047f78c23
+2024-10-18 20:53:44 [main] INFO  u.ContractUtil.storeAbiToBlockchain(ContractUtil.java:78)
+call upload abi method success. Receipt com.citahub.cita.protocol.core.methods.response.TransactionReceipt@8b49322
+2024-10-18 20:53:44 [main] INFO  u.ContractUtil.storeAbiToBlockchain(ContractUtil.java:80)
+call upload abi method success and receipt is 0x38de9eb3c4f4edd27ce425b1f1a96093cb27c40eb5d8c5f411b9da972bbd7327
+2024-10-18 20:53:44 [main] INFO  ContractUtilTest.TestDeployBillManagementContract(ContractUtilTest.java:76)
+[TestDeployContract]:storeAbiTpBlockChain
+2024-10-18 20:54:39 [main] INFO  c.p.u.Account.<init>(Account.java:59)
+accountAddress: d5d627aa6cdac7a448db3ce25f4812b6fc55c237
+2024-10-18 20:54:45 [main] INFO  u.ContractUtil.deployContract(ContractUtil.java:58)
+deploy contract success and contract address is 0xed2551eb8614b26b5d0edb78d06b8826d3f53dcc
+2024-10-18 20:54:50 [main] INFO  u.ContractUtil.storeAbiToBlockchain(ContractUtil.java:78)
+call upload abi method success. Receipt com.citahub.cita.protocol.core.methods.response.TransactionReceipt@9f1f446c
+2024-10-18 20:54:50 [main] INFO  u.ContractUtil.storeAbiToBlockchain(ContractUtil.java:80)
+call upload abi method success and receipt is 0x42edc57951374dc24fcf7fac152274658ac258a47de9bc7b328aa0f96b8ef7a4
+2024-10-18 21:07:02 [main] INFO  c.p.u.Account.<init>(Account.java:59)
+accountAddress: d5d627aa6cdac7a448db3ce25f4812b6fc55c237
+2024-10-18 21:08:02 [main] INFO  c.p.u.Account.<init>(Account.java:59)
+accountAddress: d5d627aa6cdac7a448db3ce25f4812b6fc55c237
+2024-10-18 21:08:02 [main] INFO  c.p.c.CitaChainClient.<init>(CitaChainClient.java:43)
+Initialize CitaChainClient Successfully!!!

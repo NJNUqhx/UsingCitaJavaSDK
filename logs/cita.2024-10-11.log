@@ -132,9 +132,9 @@ accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
 Exception occurred while calling ContractUtil.callContractGetBill: Index: 0
 java.lang.IndexOutOfBoundsException: Index: 0
 	at java.util.Collections$EmptyList.get(Collections.java:4454)
-	at service.Account.appCall(Account.java:192)
-	at service.Account.callContract(Account.java:171)
-	at service.Account.callContract(Account.java:142)
+	at com.pojo.util.Account.appCall(Account.java:192)
+	at com.pojo.util.Account.callContract(Account.java:171)
+	at com.pojo.util.Account.callContract(Account.java:142)
 	at util.ContractUtil.callContractGetBill(ContractUtil.java:144)
 	at ContractUtilTest.TestCallContractGetBill(ContractUtilTest.java:81)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -217,9 +217,9 @@ accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
 Exception occurred while calling ContractUtil.callContractGetBill: Index: 0
 java.lang.IndexOutOfBoundsException: Index: 0
 	at java.util.Collections$EmptyList.get(Collections.java:4454)
-	at service.Account.appCall(Account.java:192)
-	at service.Account.callContract(Account.java:171)
-	at service.Account.callContract(Account.java:142)
+	at com.pojo.util.Account.appCall(Account.java:192)
+	at com.pojo.util.Account.callContract(Account.java:171)
+	at com.pojo.util.Account.callContract(Account.java:142)
 	at util.ContractUtil.callContractGetBill(ContractUtil.java:144)
 	at ContractUtilTest.TestCallContractGetBill(ContractUtilTest.java:81)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -354,9 +354,9 @@ accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
 Exception occurred while calling ContractUtil.callContractGetBill: Index: 0
 java.lang.IndexOutOfBoundsException: Index: 0
 	at java.util.Collections$EmptyList.get(Collections.java:4454)
-	at service.Account.appCall(Account.java:192)
-	at service.Account.callContract(Account.java:171)
-	at service.Account.callContract(Account.java:142)
+	at com.pojo.util.Account.appCall(Account.java:192)
+	at com.pojo.util.Account.callContract(Account.java:171)
+	at com.pojo.util.Account.callContract(Account.java:142)
 	at service.impl.BillManagementServiceImpl.callContractGetBill(BillManagementServiceImpl.java:96)
 	at ContractUtilTest.TestCallContractGetBill(ContractUtilTest.java:79)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -543,9 +543,9 @@ queryId:ECNU009
 Exception occurred while calling getEvidence: Index: 0
 java.lang.IndexOutOfBoundsException: Index: 0
 	at java.util.Collections$EmptyList.get(Collections.java:4454)
-	at service.Account.appCall(Account.java:191)
-	at service.Account.callContract(Account.java:171)
-	at service.Account.callContract(Account.java:142)
+	at com.pojo.util.Account.appCall(Account.java:191)
+	at com.pojo.util.Account.callContract(Account.java:171)
+	at com.pojo.util.Account.callContract(Account.java:142)
 	at service.impl.BusinessManagementServiceImpl.getEvidence(BusinessManagementServiceImpl.java:82)
 	at ContractUtilTest.TestEvidenceContract(ContractUtilTest.java:126)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -642,9 +642,9 @@ queryId:ECNU009
 Exception occurred while calling getEvidence: Index: 0
 java.lang.IndexOutOfBoundsException: Index: 0
 	at java.util.Collections$EmptyList.get(Collections.java:4454)
-	at service.Account.appCall(Account.java:191)
-	at service.Account.callContract(Account.java:171)
-	at service.Account.callContract(Account.java:142)
+	at com.pojo.util.Account.appCall(Account.java:191)
+	at com.pojo.util.Account.callContract(Account.java:171)
+	at com.pojo.util.Account.callContract(Account.java:142)
 	at service.impl.BusinessManagementServiceImpl.getEvidence(BusinessManagementServiceImpl.java:82)
 	at ContractUtilTest.TestEvidenceContract(ContractUtilTest.java:126)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)

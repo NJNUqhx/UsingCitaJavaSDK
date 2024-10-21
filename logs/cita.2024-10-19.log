@@ -1,0 +1,282 @@
+2024-10-19 11:16:00 [main] ERROR c.p.c.CitaChainClient.load(CitaChainClient.java:86)
+Failed to load properties at path citaChainClientConfigFile.properties
+2024-10-19 11:16:00 [main] ERROR c.p.c.CitaChainClient.<init>(CitaChainClient.java:40)
+Fail to Construct CitaChainClient at path citaChainClientConfigFile.properties
+2024-10-19 11:16:00 [main] ERROR C.TestCitaChainAdapter.TestInitClient(TestCitaChainAdapter.java:25)
+TestInitClient Fail
+2024-10-19 11:16:26 [main] INFO  c.p.u.Account.<init>(Account.java:59)
+accountAddress: d5d627aa6cdac7a448db3ce25f4812b6fc55c237
+2024-10-19 11:16:26 [main] INFO  c.p.c.CitaChainClient.<init>(CitaChainClient.java:43)
+Initialize CitaChainClient Successfully!!!
+2024-10-19 11:18:09 [main] INFO  c.p.u.Account.<init>(Account.java:59)
+accountAddress: d5d627aa6cdac7a448db3ce25f4812b6fc55c237
+2024-10-19 11:18:09 [main] INFO  c.p.c.CitaChainClient.<init>(CitaChainClient.java:43)
+Initialize CitaChainClient Successfully!!!
+2024-10-19 11:18:09 [main] INFO  C.TestCitaChainAdapter.TestInitClient(TestCitaChainAdapter.java:24)
+CitaChainClient{adminAddress='0xd5d627aa6cdac7a448db3ce25f4812b6fc55c237', adminPrivateKey='0x9c44d0ec9fe3b3da1f509148ac863f8f1d3c02a7533596956da7344b74d83e5b', service=com.citahub.cita.protocol.core.JsonRpc2_0CITAj@264f218, adminAccount=com.pojo.util.Account@3576ddc2, evidenceContractAddress='0xed2551eb8614b26b5d0edb78d06b8826d3f53dcc', evidenceContractPath='src/main/java/com/solidity/contract/Evidence.sol', chainId=1, version=2, ipAddr='http:49.52.27.69:1337', defaultQuotaDeployment='null', txProcessor=com.citahub.cita.tx.response.PollingTransactionReceiptProcessor@35b74c5c}
+2024-10-19 11:28:47 [main] INFO  c.p.u.Account.<init>(Account.java:59)
+accountAddress: d5d627aa6cdac7a448db3ce25f4812b6fc55c237
+2024-10-19 11:28:47 [main] INFO  c.p.c.CitaChainClient.<init>(CitaChainClient.java:43)
+Initialize CitaChainClient Successfully!!!
+2024-10-19 11:28:47 [main] INFO  C.TestCitaChainAdapter.TestInitClient(TestCitaChainAdapter.java:24)
+CitaChainClient{adminAddress='0xd5d627aa6cdac7a448db3ce25f4812b6fc55c237', adminPrivateKey='0x9c44d0ec9fe3b3da1f509148ac863f8f1d3c02a7533596956da7344b74d83e5b', service=com.citahub.cita.protocol.core.JsonRpc2_0CITAj@264f218, adminAccount=com.pojo.util.Account@3576ddc2, evidenceContractAddress='0xed2551eb8614b26b5d0edb78d06b8826d3f53dcc', evidenceContractPath='src/main/java/com/solidity/contract/Evidence.sol', chainId=1, version=2, ipAddr='http:49.52.27.69:1337', defaultQuotaDeployment='10000000', txProcessor=com.citahub.cita.tx.response.PollingTransactionReceiptProcessor@35b74c5c}
+2024-10-19 11:36:23 [main] INFO  c.p.u.Account.<init>(Account.java:59)
+accountAddress: d5d627aa6cdac7a448db3ce25f4812b6fc55c237
+2024-10-19 12:05:39 [main] INFO  c.p.u.Account.<init>(Account.java:59)
+accountAddress: d5d627aa6cdac7a448db3ce25f4812b6fc55c237
+2024-10-19 12:07:35 [main] INFO  c.p.u.Account.<init>(Account.java:59)
+accountAddress: d5d627aa6cdac7a448db3ce25f4812b6fc55c237
+2024-10-19 12:12:38 [main] INFO  c.p.u.Account.<init>(Account.java:59)
+accountAddress: d5d627aa6cdac7a448db3ce25f4812b6fc55c237
+2024-10-19 12:14:29 [main] INFO  c.p.u.Account.<init>(Account.java:59)
+accountAddress: d5d627aa6cdac7a448db3ce25f4812b6fc55c237
+2024-10-19 12:14:36 [main] INFO  u.ContractUtil.deployContract(ContractUtil.java:58)
+deploy contract success and contract address is 0xc8ccbaee453816e7ab99f30e1230e34c602f39e7
+2024-10-19 12:14:41 [main] INFO  u.ContractUtil.storeAbiToBlockchain(ContractUtil.java:78)
+call upload abi method success. Receipt com.citahub.cita.protocol.core.methods.response.TransactionReceipt@3d55fda5
+2024-10-19 12:14:41 [main] INFO  u.ContractUtil.storeAbiToBlockchain(ContractUtil.java:80)
+call upload abi method success and receipt is 0x95fe18dcdbb2127acc7ecd402aadd3d3c06784a309ce2cd006853bb492d90ade
+2024-10-19 16:19:08 [main] INFO  c.p.u.Account.<init>(Account.java:59)
+accountAddress: d5d627aa6cdac7a448db3ce25f4812b6fc55c237
+2024-10-19 16:19:08 [main] INFO  c.p.c.CitaChainClient.<init>(CitaChainClient.java:43)
+Initialize CitaChainClient Successfully!!!
+2024-10-19 16:19:08 [main] INFO  C.TestCitaChainAdapter.TestInitClient(TestCitaChainAdapter.java:26)
+CitaChainClient{adminAddress='0xd5d627aa6cdac7a448db3ce25f4812b6fc55c237', adminPrivateKey='0x9c44d0ec9fe3b3da1f509148ac863f8f1d3c02a7533596956da7344b74d83e5b', service=com.citahub.cita.protocol.core.JsonRpc2_0CITAj@264f218, adminAccount=com.pojo.util.Account@3576ddc2, evidenceContractAddress='0xc8ccbaee453816e7ab99f30e1230e34c602f39e7', evidenceContractPath='src/main/java/com/solidity/contract/Evidence.sol', chainId=1, version=2, ipAddr='http:49.52.27.69:1337', defaultQuotaDeployment='10000000', txProcessor=com.citahub.cita.tx.response.PollingTransactionReceiptProcessor@35b74c5c}
+2024-10-19 16:19:08 [main] INFO  C.TestCitaChainAdapter.TestCallCreateEvidence(TestCitaChainAdapter.java:37)
+createEvidence: Evidence{uuId='ce49a338-5eb7-4f29-995e-d6d3a313e791', businessType='1DboVzM810', businessId='3a1dKqPG', businessTime='2011-11-21', businessData='UavkhplffcfhlDtayM1T'}
+2024-10-19 16:19:08 [main] ERROR c.p.a.i.CitaChainAdapter.createEvidence(CitaChainAdapter.java:45)
+argument type mismatch
+2024-10-19 16:19:08 [main] ERROR C.TestCitaChainAdapter.TestCallCreateEvidence(TestCitaChainAdapter.java:42)
+createEvidence fail
+2024-10-19 16:20:21 [main] INFO  c.p.u.Account.<init>(Account.java:59)
+accountAddress: d5d627aa6cdac7a448db3ce25f4812b6fc55c237
+2024-10-19 16:20:21 [main] INFO  c.p.c.CitaChainClient.<init>(CitaChainClient.java:43)
+Initialize CitaChainClient Successfully!!!
+2024-10-19 16:20:21 [main] INFO  C.TestCitaChainAdapter.TestInitClient(TestCitaChainAdapter.java:26)
+CitaChainClient{adminAddress='0xd5d627aa6cdac7a448db3ce25f4812b6fc55c237', adminPrivateKey='0x9c44d0ec9fe3b3da1f509148ac863f8f1d3c02a7533596956da7344b74d83e5b', service=com.citahub.cita.protocol.core.JsonRpc2_0CITAj@264f218, adminAccount=com.pojo.util.Account@3576ddc2, evidenceContractAddress='0xc8ccbaee453816e7ab99f30e1230e34c602f39e7', evidenceContractPath='src/main/java/com/solidity/contract/Evidence.sol', chainId=1, version=2, ipAddr='http:49.52.27.69:1337', defaultQuotaDeployment='10000000', txProcessor=com.citahub.cita.tx.response.PollingTransactionReceiptProcessor@35b74c5c}
+2024-10-19 16:20:21 [main] INFO  C.TestCitaChainAdapter.TestCallCreateEvidence(TestCitaChainAdapter.java:37)
+createEvidence: Evidence{uuId='b9b96304-21e3-43e6-b619-5208be797626', businessType='lNS2LRW7EG', businessId='syu4WQvw', businessTime='2021-05-12', businessData='MOzM2pIdiJMM1D8DPLya'}
+2024-10-19 16:20:21 [main] ERROR c.p.a.i.CitaChainAdapter.createEvidence(CitaChainAdapter.java:47)
+argument type mismatch
+2024-10-19 16:20:21 [main] ERROR C.TestCitaChainAdapter.TestCallCreateEvidence(TestCitaChainAdapter.java:42)
+createEvidence fail
+2024-10-19 16:48:17 [main] INFO  c.p.u.Account.<init>(Account.java:59)
+accountAddress: d5d627aa6cdac7a448db3ce25f4812b6fc55c237
+2024-10-19 16:48:17 [main] INFO  c.p.c.CitaChainClient.<init>(CitaChainClient.java:43)
+Initialize CitaChainClient Successfully!!!
+2024-10-19 16:48:17 [main] INFO  C.TestCitaChainAdapter.TestInitClient(TestCitaChainAdapter.java:26)
+CitaChainClient{adminAddress='0xd5d627aa6cdac7a448db3ce25f4812b6fc55c237', adminPrivateKey='0x9c44d0ec9fe3b3da1f509148ac863f8f1d3c02a7533596956da7344b74d83e5b', service=com.citahub.cita.protocol.core.JsonRpc2_0CITAj@264f218, adminAccount=com.pojo.util.Account@3576ddc2, evidenceContractAddress='0xc8ccbaee453816e7ab99f30e1230e34c602f39e7', evidenceContractPath='src/main/java/com/solidity/contract/Evidence.sol', chainId=1, version=2, ipAddr='http:49.52.27.69:1337', defaultQuotaDeployment='10000000', txProcessor=com.citahub.cita.tx.response.PollingTransactionReceiptProcessor@35b74c5c}
+2024-10-19 16:48:17 [main] INFO  C.TestCitaChainAdapter.TestCallCreateEvidence(TestCitaChainAdapter.java:37)
+createEvidence: Evidence{uuId='87a3d25a-277e-4a4c-b119-ccd673a7d10e', businessType='SVr7HcvxEu', businessId='PF1xtEGC', businessTime='2008-12-05', businessData='hNSeqK9bs0PpWtYeMAHn'}
+2024-10-19 16:53:59 [main] INFO  c.p.u.Account.<init>(Account.java:59)
+accountAddress: d5d627aa6cdac7a448db3ce25f4812b6fc55c237
+2024-10-19 16:53:59 [main] INFO  c.p.c.CitaChainClient.<init>(CitaChainClient.java:43)
+Initialize CitaChainClient Successfully!!!
+2024-10-19 16:53:59 [main] INFO  C.TestCitaChainAdapter.TestInitClient(TestCitaChainAdapter.java:26)
+CitaChainClient{adminAddress='0xd5d627aa6cdac7a448db3ce25f4812b6fc55c237', adminPrivateKey='0x9c44d0ec9fe3b3da1f509148ac863f8f1d3c02a7533596956da7344b74d83e5b', service=com.citahub.cita.protocol.core.JsonRpc2_0CITAj@264f218, adminAccount=com.pojo.util.Account@3576ddc2, evidenceContractAddress='0xc8ccbaee453816e7ab99f30e1230e34c602f39e7', evidenceContractPath='src/main/java/com/solidity/contract/Evidence.sol', chainId=1, version=2, ipAddr='http:49.52.27.69:1337', defaultQuotaDeployment='10000000', txProcessor=com.citahub.cita.tx.response.PollingTransactionReceiptProcessor@35b74c5c}
+2024-10-19 16:53:59 [main] INFO  C.TestCitaChainAdapter.TestCallCreateEvidence(TestCitaChainAdapter.java:37)
+createEvidence: Evidence{uuId='296d6d72-4983-49c4-8aa2-9b29800af444', businessType='f0KxUfb4AW', businessId='Ho1UNzDC', businessTime='2014-09-04', businessData='vCOmKXiSBKlKmxp7icol'}
+2024-10-19 17:03:02 [main] INFO  c.p.u.Account.<init>(Account.java:59)
+accountAddress: d5d627aa6cdac7a448db3ce25f4812b6fc55c237
+2024-10-19 17:03:07 [main] INFO  u.ContractUtil.deployContract(ContractUtil.java:58)
+deploy contract success and contract address is 0x13f665c6d7bc02ab021dae2deebdafe7b91b9680
+2024-10-19 17:03:14 [main] INFO  u.ContractUtil.storeAbiToBlockchain(ContractUtil.java:78)
+call upload abi method success. Receipt com.citahub.cita.protocol.core.methods.response.TransactionReceipt@f0464e3b
+2024-10-19 17:03:14 [main] INFO  u.ContractUtil.storeAbiToBlockchain(ContractUtil.java:80)
+call upload abi method success and receipt is 0x60b6f28bda0de76211016266233dccf8686a624f6264e6306ab48d128bae063c
+2024-10-19 17:03:44 [main] INFO  c.p.u.Account.<init>(Account.java:59)
+accountAddress: d5d627aa6cdac7a448db3ce25f4812b6fc55c237
+2024-10-19 17:03:44 [main] INFO  c.p.c.CitaChainClient.<init>(CitaChainClient.java:43)
+Initialize CitaChainClient Successfully!!!
+2024-10-19 17:03:44 [main] INFO  C.TestCitaChainAdapter.TestInitClient(TestCitaChainAdapter.java:26)
+CitaChainClient{adminAddress='0xd5d627aa6cdac7a448db3ce25f4812b6fc55c237', adminPrivateKey='0x9c44d0ec9fe3b3da1f509148ac863f8f1d3c02a7533596956da7344b74d83e5b', service=com.citahub.cita.protocol.core.JsonRpc2_0CITAj@264f218, adminAccount=com.pojo.util.Account@3576ddc2, evidenceContractAddress='0x13f665c6d7bc02ab021dae2deebdafe7b91b9680', evidenceContractPath='src/main/java/com/solidity/contract/Evidence.sol', chainId=1, version=2, ipAddr='http:49.52.27.69:1337', defaultQuotaDeployment='10000000', txProcessor=com.citahub.cita.tx.response.PollingTransactionReceiptProcessor@35b74c5c}
+2024-10-19 17:03:44 [main] INFO  C.TestCitaChainAdapter.TestCallCreateEvidence(TestCitaChainAdapter.java:37)
+createEvidence: Evidence{uuId='4e4e09c1-fc66-484c-89f0-5c6d5df37a51', businessType='Lnd9bVNCRu', businessId='9q9vj7q6', businessTime='2012-10-27', businessData='uTUtLMTeibzuyqTSosrT'}
+2024-10-19 17:09:47 [main] INFO  c.p.u.Account.<init>(Account.java:59)
+accountAddress: d5d627aa6cdac7a448db3ce25f4812b6fc55c237
+2024-10-19 17:09:47 [main] INFO  c.p.c.CitaChainClient.<init>(CitaChainClient.java:43)
+Initialize CitaChainClient Successfully!!!
+2024-10-19 17:09:47 [main] INFO  C.TestCitaChainAdapter.TestInitClient(TestCitaChainAdapter.java:26)
+CitaChainClient{adminAddress='0xd5d627aa6cdac7a448db3ce25f4812b6fc55c237', adminPrivateKey='0x9c44d0ec9fe3b3da1f509148ac863f8f1d3c02a7533596956da7344b74d83e5b', service=com.citahub.cita.protocol.core.JsonRpc2_0CITAj@264f218, adminAccount=com.pojo.util.Account@3576ddc2, evidenceContractAddress='0x13f665c6d7bc02ab021dae2deebdafe7b91b9680', evidenceContractPath='src/main/java/com/solidity/contract/Evidence.sol', chainId=1, version=2, ipAddr='http:49.52.27.69:1337', defaultQuotaDeployment='10000000', txProcessor=com.citahub.cita.tx.response.PollingTransactionReceiptProcessor@35b74c5c}
+2024-10-19 17:09:47 [main] INFO  C.TestCitaChainAdapter.TestCallCreateEvidence(TestCitaChainAdapter.java:37)
+createEvidence: Evidence{uuId='0339aa42-5925-4790-ae2a-3e91a723169e', businessType='QvrNEJYYA4', businessId='p4b3jcsK', businessTime='2004-03-04', businessData='oWOR1VsLqi4IZZS9xpHx'}
+2024-10-19 17:12:44 [main] INFO  c.p.u.Account.<init>(Account.java:59)
+accountAddress: d5d627aa6cdac7a448db3ce25f4812b6fc55c237
+2024-10-19 17:12:44 [main] INFO  c.p.c.CitaChainClient.<init>(CitaChainClient.java:43)
+Initialize CitaChainClient Successfully!!!
+2024-10-19 17:12:44 [main] INFO  C.TestCitaChainAdapter.TestInitClient(TestCitaChainAdapter.java:26)
+CitaChainClient{adminAddress='0xd5d627aa6cdac7a448db3ce25f4812b6fc55c237', adminPrivateKey='0x9c44d0ec9fe3b3da1f509148ac863f8f1d3c02a7533596956da7344b74d83e5b', service=com.citahub.cita.protocol.core.JsonRpc2_0CITAj@264f218, adminAccount=com.pojo.util.Account@3576ddc2, evidenceContractAddress='0x13f665c6d7bc02ab021dae2deebdafe7b91b9680', evidenceContractPath='src/main/java/com/solidity/contract/Evidence.sol', chainId=1, version=2, ipAddr='http:49.52.27.69:1337', defaultQuotaDeployment='10000000', txProcessor=com.citahub.cita.tx.response.PollingTransactionReceiptProcessor@35b74c5c}
+2024-10-19 17:12:44 [main] INFO  C.TestCitaChainAdapter.TestCallCreateEvidence(TestCitaChainAdapter.java:37)
+createEvidence: Evidence{uuId='7973d762-b584-4000-8036-c4c80b', businessType='TmtuNYnIjk', businessId='hu7rtega', businessTime='2011-11-24', businessData='lSrIbK4WPPcH5ZjUk07k'}
+2024-10-19 17:12:44 [main] INFO  c.p.a.i.CitaChainAdapter.createEvidence(CitaChainAdapter.java:42)
+交易信息哈希:0x66523d46b4766bb88cdd7dd535740d9c45a71fcbb32cfa96cfa8c36c8433eeea
+2024-10-19 17:12:44 [main] INFO  C.TestCitaChainAdapter.TestCallCreateEvidence(TestCitaChainAdapter.java:40)
+createEvidence successfully
+2024-10-19 17:16:30 [main] INFO  c.p.u.Account.<init>(Account.java:59)
+accountAddress: d5d627aa6cdac7a448db3ce25f4812b6fc55c237
+2024-10-19 17:16:30 [main] INFO  c.p.c.CitaChainClient.<init>(CitaChainClient.java:43)
+Initialize CitaChainClient Successfully!!!
+2024-10-19 17:16:30 [main] INFO  C.TestCitaChainAdapter.TestInitClient(TestCitaChainAdapter.java:26)
+CitaChainClient{adminAddress='0xd5d627aa6cdac7a448db3ce25f4812b6fc55c237', adminPrivateKey='0x9c44d0ec9fe3b3da1f509148ac863f8f1d3c02a7533596956da7344b74d83e5b', service=com.citahub.cita.protocol.core.JsonRpc2_0CITAj@264f218, adminAccount=com.pojo.util.Account@3576ddc2, evidenceContractAddress='0x13f665c6d7bc02ab021dae2deebdafe7b91b9680', evidenceContractPath='src/main/java/com/solidity/contract/Evidence.sol', chainId=1, version=2, ipAddr='http:49.52.27.69:1337', defaultQuotaDeployment='10000000', txProcessor=com.citahub.cita.tx.response.PollingTransactionReceiptProcessor@35b74c5c}
+2024-10-19 17:16:30 [main] INFO  C.TestCitaChainAdapter.TestCallCreateEvidence(TestCitaChainAdapter.java:37)
+createEvidence: Evidence{uuId='ecc286c6-c4f6-45ff-a3f2-c22018', businessType='oKRPOAL6Kh', businessId='C5Hmb2KF', businessTime='2011-08-21', businessData='P2CBFTNXTKI2r7TkEUdu'}
+2024-10-19 17:16:30 [main] INFO  c.p.a.i.CitaChainAdapter.createEvidence(CitaChainAdapter.java:40)
+交易信息哈希:0xaaeed7cdae244677703716cde40cd00540a1d4ef9c69dc30a09bf9ccbee7309d
+2024-10-19 17:16:30 [main] INFO  C.TestCitaChainAdapter.TestCallCreateEvidence(TestCitaChainAdapter.java:40)
+createEvidence successfully
+2024-10-19 17:18:06 [main] INFO  c.p.u.Account.<init>(Account.java:59)
+accountAddress: d5d627aa6cdac7a448db3ce25f4812b6fc55c237
+2024-10-19 17:18:07 [main] INFO  c.p.c.CitaChainClient.<init>(CitaChainClient.java:43)
+Initialize CitaChainClient Successfully!!!
+2024-10-19 17:18:07 [main] INFO  C.TestCitaChainAdapter.TestInitClient(TestCitaChainAdapter.java:26)
+CitaChainClient{adminAddress='0xd5d627aa6cdac7a448db3ce25f4812b6fc55c237', adminPrivateKey='0x9c44d0ec9fe3b3da1f509148ac863f8f1d3c02a7533596956da7344b74d83e5b', service=com.citahub.cita.protocol.core.JsonRpc2_0CITAj@264f218, adminAccount=com.pojo.util.Account@3576ddc2, evidenceContractAddress='0x13f665c6d7bc02ab021dae2deebdafe7b91b9680', evidenceContractPath='src/main/java/com/solidity/contract/Evidence.sol', chainId=1, version=2, ipAddr='http:49.52.27.69:1337', defaultQuotaDeployment='10000000', txProcessor=com.citahub.cita.tx.response.PollingTransactionReceiptProcessor@35b74c5c}
+2024-10-19 17:18:07 [main] INFO  C.TestCitaChainAdapter.TestCallCreateEvidence(TestCitaChainAdapter.java:37)
+createEvidence: Evidence{uuId='268c8aeb-1d45-4e0b-8538-343179', businessType='v07wbIQGkv', businessId='LV5Np3d3', businessTime='2009-04-01', businessData='2Iiw4y4G1T2Wsd7mXbyS'}
+2024-10-19 17:18:07 [main] INFO  c.p.a.i.CitaChainAdapter.createEvidence(CitaChainAdapter.java:40)
+交易信息哈希:0x61c7b41223e3838880b0c1be078eba866ebc9e0a42f6d5d960599fc6e5d1b55d
+2024-10-19 17:18:07 [main] INFO  C.TestCitaChainAdapter.TestCallCreateEvidence(TestCitaChainAdapter.java:40)
+createEvidence successfully
+2024-10-19 17:18:11 [main] INFO  c.p.u.Account.<init>(Account.java:59)
+accountAddress: d5d627aa6cdac7a448db3ce25f4812b6fc55c237
+2024-10-19 17:18:12 [main] INFO  c.p.c.CitaChainClient.<init>(CitaChainClient.java:43)
+Initialize CitaChainClient Successfully!!!
+2024-10-19 17:18:12 [main] INFO  C.TestCitaChainAdapter.TestInitClient(TestCitaChainAdapter.java:26)
+CitaChainClient{adminAddress='0xd5d627aa6cdac7a448db3ce25f4812b6fc55c237', adminPrivateKey='0x9c44d0ec9fe3b3da1f509148ac863f8f1d3c02a7533596956da7344b74d83e5b', service=com.citahub.cita.protocol.core.JsonRpc2_0CITAj@264f218, adminAccount=com.pojo.util.Account@3576ddc2, evidenceContractAddress='0x13f665c6d7bc02ab021dae2deebdafe7b91b9680', evidenceContractPath='src/main/java/com/solidity/contract/Evidence.sol', chainId=1, version=2, ipAddr='http:49.52.27.69:1337', defaultQuotaDeployment='10000000', txProcessor=com.citahub.cita.tx.response.PollingTransactionReceiptProcessor@35b74c5c}
+2024-10-19 17:18:12 [main] INFO  C.TestCitaChainAdapter.TestCallCreateEvidence(TestCitaChainAdapter.java:37)
+createEvidence: Evidence{uuId='0e351384-3fe5-4d76-b83b-604416', businessType='xZ3uQuc5yd', businessId='gzlSHov8', businessTime='2016-11-15', businessData='xpe47GdkGOp9K9bpHzgw'}
+2024-10-19 17:18:12 [main] INFO  c.p.a.i.CitaChainAdapter.createEvidence(CitaChainAdapter.java:40)
+交易信息哈希:0x05106e1a238500f096f5293639f1e5e6eda8edc8e9bbb4d298f87c387611c766
+2024-10-19 17:18:12 [main] INFO  C.TestCitaChainAdapter.TestCallCreateEvidence(TestCitaChainAdapter.java:40)
+createEvidence successfully
+2024-10-19 17:19:09 [main] INFO  c.p.u.Account.<init>(Account.java:59)
+accountAddress: d5d627aa6cdac7a448db3ce25f4812b6fc55c237
+2024-10-19 17:19:09 [main] INFO  c.p.c.CitaChainClient.<init>(CitaChainClient.java:43)
+Initialize CitaChainClient Successfully!!!
+2024-10-19 17:19:09 [main] INFO  C.TestCitaChainAdapter.TestInitClient(TestCitaChainAdapter.java:26)
+CitaChainClient{adminAddress='0xd5d627aa6cdac7a448db3ce25f4812b6fc55c237', adminPrivateKey='0x9c44d0ec9fe3b3da1f509148ac863f8f1d3c02a7533596956da7344b74d83e5b', service=com.citahub.cita.protocol.core.JsonRpc2_0CITAj@264f218, adminAccount=com.pojo.util.Account@3576ddc2, evidenceContractAddress='0x13f665c6d7bc02ab021dae2deebdafe7b91b9680', evidenceContractPath='src/main/java/com/solidity/contract/Evidence.sol', chainId=1, version=2, ipAddr='http:49.52.27.69:1337', defaultQuotaDeployment='10000000', txProcessor=com.citahub.cita.tx.response.PollingTransactionReceiptProcessor@35b74c5c}
+2024-10-19 17:19:09 [main] INFO  C.TestCitaChainAdapter.TestCallCreateEvidence(TestCitaChainAdapter.java:38)
+createEvidence: Evidence{uuId='2910ba66-5fd5-42ae-93ab-ea80cc', businessType='VQcvrXK7QQ', businessId='N21AlQoP', businessTime='2018-09-26', businessData='nkhPdrPsIFFPR63h4J1E'}
+2024-10-19 17:19:09 [main] INFO  c.p.a.i.CitaChainAdapter.createEvidence(CitaChainAdapter.java:40)
+交易信息哈希:0xd363ba2d62d165361455bee8a9e3ce01ff811d1da2341a948809a2c15f0484ff
+2024-10-19 17:19:09 [main] INFO  C.TestCitaChainAdapter.TestCallCreateEvidence(TestCitaChainAdapter.java:41)
+createEvidence successfully
+2024-10-19 17:19:09 [main] INFO  C.TestCitaChainAdapter.TestCallCreateEvidence(TestCitaChainAdapter.java:38)
+createEvidence: Evidence{uuId='529b1e74-4c00-4f89-aead-8cdf17', businessType='P7KBQFWPP3', businessId='JxOAkWp9', businessTime='2012-08-24', businessData='MLjwoBXXwTgNeRRYNCYt'}
+2024-10-19 17:19:09 [main] INFO  c.p.a.i.CitaChainAdapter.createEvidence(CitaChainAdapter.java:40)
+交易信息哈希:0x1dd0010fcbc75aa81c9daa9a07d6be56eb62e5e18d8fe47302d5cefa747593b6
+2024-10-19 17:19:09 [main] INFO  C.TestCitaChainAdapter.TestCallCreateEvidence(TestCitaChainAdapter.java:41)
+createEvidence successfully
+2024-10-19 17:19:09 [main] INFO  C.TestCitaChainAdapter.TestCallCreateEvidence(TestCitaChainAdapter.java:38)
+createEvidence: Evidence{uuId='aa845042-c12a-4001-bbfa-70b0e2', businessType='hgf9blOoG3', businessId='0Mx1uX3N', businessTime='2001-05-17', businessData='WwY1iGVSRgM8PVxck1oR'}
+2024-10-19 17:19:09 [main] INFO  c.p.a.i.CitaChainAdapter.createEvidence(CitaChainAdapter.java:40)
+交易信息哈希:0x3e021b67918265d82d5fefb5c88e921c1268c5ab71fd4df27b5add3f228b3933
+2024-10-19 17:19:09 [main] INFO  C.TestCitaChainAdapter.TestCallCreateEvidence(TestCitaChainAdapter.java:41)
+createEvidence successfully
+2024-10-19 17:19:09 [main] INFO  C.TestCitaChainAdapter.TestCallCreateEvidence(TestCitaChainAdapter.java:38)
+createEvidence: Evidence{uuId='b3d64411-a20f-40ed-a6fc-ae05f8', businessType='c27WSrjmoT', businessId='lTEb9isN', businessTime='2001-01-26', businessData='jtz53OauXuxRiN5bKQId'}
+2024-10-19 17:19:10 [main] INFO  c.p.a.i.CitaChainAdapter.createEvidence(CitaChainAdapter.java:40)
+交易信息哈希:0xb5d018714e71b4bddf05074fdf94aecbde91e19e58122de5b02b9c3a30de5685
+2024-10-19 17:19:10 [main] INFO  C.TestCitaChainAdapter.TestCallCreateEvidence(TestCitaChainAdapter.java:41)
+createEvidence successfully
+2024-10-19 17:19:10 [main] INFO  C.TestCitaChainAdapter.TestCallCreateEvidence(TestCitaChainAdapter.java:38)
+createEvidence: Evidence{uuId='fda62bd3-c1f7-47c7-987c-7790db', businessType='p3bvGEHAf1', businessId='hXgH4rFh', businessTime='2004-08-07', businessData='3aL57R6WAWAzllkFbG5d'}
+2024-10-19 17:19:10 [main] INFO  c.p.a.i.CitaChainAdapter.createEvidence(CitaChainAdapter.java:40)
+交易信息哈希:0xcf85f400bc7f19a643a4cd507abaf881ff9dd56890128cfc1841604d6b3ec355
+2024-10-19 17:19:10 [main] INFO  C.TestCitaChainAdapter.TestCallCreateEvidence(TestCitaChainAdapter.java:41)
+createEvidence successfully
+2024-10-19 17:19:10 [main] INFO  C.TestCitaChainAdapter.TestCallCreateEvidence(TestCitaChainAdapter.java:38)
+createEvidence: Evidence{uuId='9ee249b5-c0b8-4028-8e5c-01a077', businessType='Q4Fx8lRJMw', businessId='JRcDS6AW', businessTime='2013-11-12', businessData='Ggoc7nJX4pXo1jCzGV3P'}
+2024-10-19 17:19:10 [main] INFO  c.p.a.i.CitaChainAdapter.createEvidence(CitaChainAdapter.java:40)
+交易信息哈希:0xa3bcb4fc1db46fa28c37a3317986d8c838b91d7e7afe4821fa44cb08ac22129f
+2024-10-19 17:19:10 [main] INFO  C.TestCitaChainAdapter.TestCallCreateEvidence(TestCitaChainAdapter.java:41)
+createEvidence successfully
+2024-10-19 17:19:10 [main] INFO  C.TestCitaChainAdapter.TestCallCreateEvidence(TestCitaChainAdapter.java:38)
+createEvidence: Evidence{uuId='9683ff53-dd19-4eb4-8329-d2e2fb', businessType='crag8c2hHI', businessId='yG4CRKj2', businessTime='2021-05-03', businessData='dlEXln6n0m5pM6gKXmKH'}
+2024-10-19 17:19:10 [main] INFO  c.p.a.i.CitaChainAdapter.createEvidence(CitaChainAdapter.java:40)
+交易信息哈希:0xef6a10b51773e1bccd9da7ddf89241c7abe915d1a0ed25009c6541f48c7ea539
+2024-10-19 17:19:10 [main] INFO  C.TestCitaChainAdapter.TestCallCreateEvidence(TestCitaChainAdapter.java:41)
+createEvidence successfully
+2024-10-19 17:19:10 [main] INFO  C.TestCitaChainAdapter.TestCallCreateEvidence(TestCitaChainAdapter.java:38)
+createEvidence: Evidence{uuId='c7142164-497b-48e8-a4e6-071042', businessType='XBNSBFFWvZ', businessId='Em0a2JFx', businessTime='2022-09-21', businessData='wIkEYHE6KMyPb9Ycuddp'}
+2024-10-19 17:19:10 [main] INFO  c.p.a.i.CitaChainAdapter.createEvidence(CitaChainAdapter.java:40)
+交易信息哈希:0x64dac9975d4438155ecd6ab0df7708eaa7626e39a0ed5b5327ab7c5c48700c84
+2024-10-19 17:19:10 [main] INFO  C.TestCitaChainAdapter.TestCallCreateEvidence(TestCitaChainAdapter.java:41)
+createEvidence successfully
+2024-10-19 17:19:10 [main] INFO  C.TestCitaChainAdapter.TestCallCreateEvidence(TestCitaChainAdapter.java:38)
+createEvidence: Evidence{uuId='17c1049f-8957-4b00-b0ce-8c7f3e', businessType='v55Nhj9VGg', businessId='xl4gaEeZ', businessTime='2014-05-05', businessData='DmhJsYu2PAUJyCw2AidJ'}
+2024-10-19 17:19:10 [main] INFO  c.p.a.i.CitaChainAdapter.createEvidence(CitaChainAdapter.java:40)
+交易信息哈希:0x6113299f9718b7fd6f602f05e974831317904377c03d309053ae58b3fc7270ed
+2024-10-19 17:19:10 [main] INFO  C.TestCitaChainAdapter.TestCallCreateEvidence(TestCitaChainAdapter.java:41)
+createEvidence successfully
+2024-10-19 17:19:10 [main] INFO  C.TestCitaChainAdapter.TestCallCreateEvidence(TestCitaChainAdapter.java:38)
+createEvidence: Evidence{uuId='b816ef1f-20ee-48f5-bf57-f4de3e', businessType='exaizPkFrl', businessId='FAnhPsKM', businessTime='2018-02-12', businessData='XSrJPSdOdAM5XvB2ObYY'}
+2024-10-19 17:19:10 [main] INFO  c.p.a.i.CitaChainAdapter.createEvidence(CitaChainAdapter.java:40)
+交易信息哈希:0xd6b93b9e7219437375130f292e48b4a9e558f09c250c766f2da8dddfc8fb79db
+2024-10-19 17:19:10 [main] INFO  C.TestCitaChainAdapter.TestCallCreateEvidence(TestCitaChainAdapter.java:41)
+createEvidence successfully
+2024-10-19 17:24:14 [main] INFO  c.p.u.Account.<init>(Account.java:59)
+accountAddress: d5d627aa6cdac7a448db3ce25f4812b6fc55c237
+2024-10-19 17:24:15 [main] INFO  c.p.c.CitaChainClient.<init>(CitaChainClient.java:43)
+Initialize CitaChainClient Successfully!!!
+2024-10-19 17:24:15 [main] INFO  C.TestCitaChainAdapter.TestInitClient(TestCitaChainAdapter.java:26)
+CitaChainClient{adminAddress='0xd5d627aa6cdac7a448db3ce25f4812b6fc55c237', adminPrivateKey='0x9c44d0ec9fe3b3da1f509148ac863f8f1d3c02a7533596956da7344b74d83e5b', service=com.citahub.cita.protocol.core.JsonRpc2_0CITAj@264f218, adminAccount=com.pojo.util.Account@3576ddc2, evidenceContractAddress='0x13f665c6d7bc02ab021dae2deebdafe7b91b9680', evidenceContractPath='src/main/java/com/solidity/contract/Evidence.sol', chainId=1, version=2, ipAddr='http:49.52.27.69:1337', defaultQuotaDeployment='10000000', txProcessor=com.citahub.cita.tx.response.PollingTransactionReceiptProcessor@35b74c5c}
+2024-10-19 17:24:15 [main] INFO  C.TestCitaChainAdapter.TestCallCreateEvidence(TestCitaChainAdapter.java:38)
+createEvidence: Evidence{uuId='6ace51e3-56bc-4237-8f24-7fddb2', businessType='eZibAMXwHj', businessId='X3tC0wsD', businessTime='2021-01-19', businessData='WX2XwKxu95HIUqzolstu'}
+2024-10-19 17:24:15 [main] INFO  c.p.a.i.CitaChainAdapter.createEvidence(CitaChainAdapter.java:40)
+交易信息哈希:0x38395f5dae6b480f9b9f3eea062307dd78b21d8347907665a6310a7c9591d1f7
+2024-10-19 17:24:15 [main] INFO  C.TestCitaChainAdapter.TestCallCreateEvidence(TestCitaChainAdapter.java:41)
+createEvidence successfully
+2024-10-19 17:24:15 [main] INFO  C.TestCitaChainAdapter.TestCallCreateEvidence(TestCitaChainAdapter.java:38)
+createEvidence: Evidence{uuId='d3dcf99a-551b-44fe-8a18-e86f3e', businessType='NTOpChwrvt', businessId='VSOklYbt', businessTime='2021-11-14', businessData='0FM9cihVALpcLrdlPCJ3'}
+2024-10-19 17:24:15 [main] INFO  c.p.a.i.CitaChainAdapter.createEvidence(CitaChainAdapter.java:40)
+交易信息哈希:0x49541ebca1c7ced3f44e3740fe7670ba4d0ea28659258d7bc6f08b50103f7129
+2024-10-19 17:24:15 [main] INFO  C.TestCitaChainAdapter.TestCallCreateEvidence(TestCitaChainAdapter.java:41)
+createEvidence successfully
+2024-10-19 17:24:15 [main] INFO  C.TestCitaChainAdapter.TestCallCreateEvidence(TestCitaChainAdapter.java:38)
+createEvidence: Evidence{uuId='b5df097c-3b5a-4198-b865-24b0b7', businessType='pxYyiuhjgg', businessId='Qb9sXFUp', businessTime='2007-05-14', businessData='oMXpHgpxGqCAsxJXFRCA'}
+2024-10-19 17:24:15 [main] INFO  c.p.a.i.CitaChainAdapter.createEvidence(CitaChainAdapter.java:40)
+交易信息哈希:0xde7206cfeaa5efe6e85d86c97fcfe726eadf422c963333a98f357cbb6ed02d76
+2024-10-19 17:24:15 [main] INFO  C.TestCitaChainAdapter.TestCallCreateEvidence(TestCitaChainAdapter.java:41)
+createEvidence successfully
+2024-10-19 17:24:15 [main] INFO  C.TestCitaChainAdapter.TestCallCreateEvidence(TestCitaChainAdapter.java:38)
+createEvidence: Evidence{uuId='8b4a6fe3-87a6-4a30-9a04-347832', businessType='J0qAEqLpGT', businessId='4ulY87vn', businessTime='2022-11-03', businessData='24vyUVPe8QNYfilxxNEq'}
+2024-10-19 17:24:15 [main] INFO  c.p.a.i.CitaChainAdapter.createEvidence(CitaChainAdapter.java:40)
+交易信息哈希:0x201c329e711ae3cb7892a14a71540edf1fad59972b4ec32311ded523b05a46fd
+2024-10-19 17:24:15 [main] INFO  C.TestCitaChainAdapter.TestCallCreateEvidence(TestCitaChainAdapter.java:41)
+createEvidence successfully
+2024-10-19 17:24:15 [main] INFO  C.TestCitaChainAdapter.TestCallCreateEvidence(TestCitaChainAdapter.java:38)
+createEvidence: Evidence{uuId='59344cc6-7f0a-4677-a8a3-4edc37', businessType='FiSdaUYmsL', businessId='u4SYPako', businessTime='2009-04-17', businessData='N4EbzT0Wh2Z7GR9fevnF'}
+2024-10-19 17:24:15 [main] INFO  c.p.a.i.CitaChainAdapter.createEvidence(CitaChainAdapter.java:40)
+交易信息哈希:0x3a36f990729aa98439844f16671bcf5e88de58929ea0049ecc2528087182d8b4
+2024-10-19 17:24:15 [main] INFO  C.TestCitaChainAdapter.TestCallCreateEvidence(TestCitaChainAdapter.java:41)
+createEvidence successfully
+2024-10-19 17:24:15 [main] INFO  C.TestCitaChainAdapter.TestCallCreateEvidence(TestCitaChainAdapter.java:38)
+createEvidence: Evidence{uuId='af38fbeb-edea-439b-9162-445d21', businessType='0QYTRqwVBi', businessId='1Kw3o5yg', businessTime='2012-04-09', businessData='VRViF4zYYqaUjca9u17R'}
+2024-10-19 17:24:15 [main] INFO  c.p.a.i.CitaChainAdapter.createEvidence(CitaChainAdapter.java:40)
+交易信息哈希:0x09345a2b2d13518518e2ed272fb80de6ebfc532d0066cb6f5b62067c848d2658
+2024-10-19 17:24:15 [main] INFO  C.TestCitaChainAdapter.TestCallCreateEvidence(TestCitaChainAdapter.java:41)
+createEvidence successfully
+2024-10-19 17:24:15 [main] INFO  C.TestCitaChainAdapter.TestCallCreateEvidence(TestCitaChainAdapter.java:38)
+createEvidence: Evidence{uuId='e2d8123e-2582-4948-b832-43e6b9', businessType='flLxlASJXg', businessId='SvpG4TL5', businessTime='2006-01-01', businessData='zZguqpZ6kr4dIc82MYt5'}
+2024-10-19 17:24:15 [main] INFO  c.p.a.i.CitaChainAdapter.createEvidence(CitaChainAdapter.java:40)
+交易信息哈希:0xd8b9c5e6413eeabdd0c12518ff7b45facdb6c0f6045a555a31172ab1cdef5dde
+2024-10-19 17:24:15 [main] INFO  C.TestCitaChainAdapter.TestCallCreateEvidence(TestCitaChainAdapter.java:41)
+createEvidence successfully
+2024-10-19 17:24:15 [main] INFO  C.TestCitaChainAdapter.TestCallCreateEvidence(TestCitaChainAdapter.java:38)
+createEvidence: Evidence{uuId='7669fd31-b93c-432a-b6c1-fb2164', businessType='FRdrALa9S2', businessId='LCcq4kza', businessTime='2009-03-03', businessData='xRJbZk5B9MADQ4u4IwOi'}
+2024-10-19 17:24:16 [main] INFO  c.p.a.i.CitaChainAdapter.createEvidence(CitaChainAdapter.java:40)
+交易信息哈希:0x8214e6686f76c01c1a32bac8df45bf981ae8b7568767fb069b3b299600e6d737
+2024-10-19 17:24:16 [main] INFO  C.TestCitaChainAdapter.TestCallCreateEvidence(TestCitaChainAdapter.java:41)
+createEvidence successfully
+2024-10-19 17:24:16 [main] INFO  C.TestCitaChainAdapter.TestCallCreateEvidence(TestCitaChainAdapter.java:38)
+createEvidence: Evidence{uuId='8a7f1b56-d7d0-417a-9d36-679307', businessType='cYfMohlkOs', businessId='K6wcW0Jl', businessTime='2011-05-15', businessData='CSNnOV3xy2RxspNIfQwV'}
+2024-10-19 17:24:16 [main] INFO  c.p.a.i.CitaChainAdapter.createEvidence(CitaChainAdapter.java:40)
+交易信息哈希:0x3d1099647d32f4200c302e090335f7faec8d474f52f784b1712dfc10f22f22cc
+2024-10-19 17:24:16 [main] INFO  C.TestCitaChainAdapter.TestCallCreateEvidence(TestCitaChainAdapter.java:41)
+createEvidence successfully
+2024-10-19 17:24:16 [main] INFO  C.TestCitaChainAdapter.TestCallCreateEvidence(TestCitaChainAdapter.java:38)
+createEvidence: Evidence{uuId='b09da408-d1be-4faf-a43e-a33c11', businessType='h5MU68McRV', businessId='2kp2qGqf', businessTime='2023-04-06', businessData='XDwxsMr3n2RCWJYcoOQ7'}
+2024-10-19 17:24:16 [main] INFO  c.p.a.i.CitaChainAdapter.createEvidence(CitaChainAdapter.java:40)
+交易信息哈希:0x299a502654a92ee07b8bcccecdd772c67b5b343328b6d1d7bfb328083efd13cd
+2024-10-19 17:24:16 [main] INFO  C.TestCitaChainAdapter.TestCallCreateEvidence(TestCitaChainAdapter.java:41)
+createEvidence successfully

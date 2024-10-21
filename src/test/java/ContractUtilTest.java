@@ -1,18 +1,17 @@
-import com.citahub.cita.protocol.CITAj;
-import com.citahub.cita.tx.response.PollingTransactionReceiptProcessor;
+import com.citahub.cita.protocol.account.CompiledContract;
 import config.CITAConfig;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
-import service.Account;
 import service.BillManagementService;
 import service.BusinessManagementService;
 import service.impl.BillManagementServiceImpl;
 import service.impl.BusinessManagementServiceImpl;
-import util.CITAUtil;
+import com.pojo.util.CITAUtil;
 import util.ContractUtil;
 import util.StringUtil;
 
 import java.io.File;
+import java.io.IOException;
 import java.math.BigInteger;
 import java.util.HashMap;
 import java.util.Map;
@@ -22,24 +21,42 @@ import java.util.Map;
 public class ContractUtilTest {
 
     private static CITAConfig config;
-    private static CITAj service;
-    private static Account adminAccount;
-    private static PollingTransactionReceiptProcessor txProcessor;
 
     private static ContractUtil contractUtil;
 
     static {
-        String configPath = "src/main/resources/cita.properties";
+        String configPath = "src/main/resources/cita_school.properties";
         config = new CITAConfig(configPath);
-        service = config.service;
-        adminAccount = new Account(config.adminPrivateKey, service);
-        txProcessor = config.txProcessor;
         contractUtil = new ContractUtil(config);
+    }
+    @Test
+    void TestDeployEvidenceContract() throws Exception {
+        String contractPath = "src/main/java/com/solidity/contract/Evidence.sol";
+        File contractFile = new File(contractPath);
+        if(!contractFile.exists()){
+            throw new Exception("文件不存在");
+        }
+        String nonce = CITAUtil.getNonce();
+        long quota = Long.parseLong(config.defaultQuotaDeployment);
+        BigInteger chainId = config.chainId;
+        int version = config.version;
+        String value = "0";
+        String contractAddress = contractUtil.deployContract(contractFile, nonce, quota, version, chainId, value);
+        contractUtil.storeAbiToBlockchain(contractAddress, contractPath);
+        System.out.println(contractAddress);
+    }
+    @Test
+    void TestGenerateABIFile() throws CompiledContract.ContractCompileError, IOException, InterruptedException {
+        String contractPath = "src/solidity/contracts/Evidence.sol";
+        File contractFile = new File(contractPath);
+        CompiledContract contract = new CompiledContract(contractFile);
+        System.out.println(contract.getAbi());
     }
 
     @Test
     void TestDeployBillManagementContract() throws Exception {
         String contractPath = config.billManagementContractSolidity;
+        //String contractPath = "src/main/java/com/solidity/contract/Evidence.sol";
         System.out.println(contractPath);
         File contractFile = new File(contractPath);
         String nonce = CITAUtil.getNonce();
@@ -47,7 +64,9 @@ public class ContractUtilTest {
         BigInteger chainId = config.chainId;
         int version = config.version;
         String value = "0";
+
         String contractAddress = contractUtil.deployContract(contractFile, nonce, quota, version, chainId, value);
+
         config.update("BillManagementContractAddress", contractAddress);
         log.info("[TestDeployContract]contractPath: {}", contractPath);
         log.info("[TestDeployContract]contractAddress: {}", contractAddress);

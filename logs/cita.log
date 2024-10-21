@@ -1,268 +1,116 @@
-2024-10-15 20:28:30 [main] INFO  s.Account.<init>(Account.java:59)
-accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
-2024-10-15 20:28:30 [main] INFO  s.Account.<init>(Account.java:59)
-accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
-2024-10-15 20:28:37 [main] INFO  u.ContractUtil.deployContract(ContractUtil.java:61)
-deploy contract success and contract address is 0xdca74414efb68f9ab15f155dbbfb27ff7cc26fc0
-2024-10-15 20:28:37 [main] INFO  c.CITAConfig.update(CITAConfig.java:106)
-update cita.properties success. key: BillManagementContractAddress value: 0xdca74414efb68f9ab15f155dbbfb27ff7cc26fc0
-2024-10-15 20:28:37 [main] INFO  c.CITAConfig.update(CITAConfig.java:112)
-reload CITAConfig
-2024-10-15 20:28:37 [main] INFO  ContractUtilTest.TestDeployBillManagementContract(ContractUtilTest.java:52)
-[TestDeployContract]contractPath: src/solidity/contracts/BillManagement.sol
-2024-10-15 20:28:37 [main] INFO  ContractUtilTest.TestDeployBillManagementContract(ContractUtilTest.java:53)
-[TestDeployContract]contractAddress: 0xdca74414efb68f9ab15f155dbbfb27ff7cc26fc0
-2024-10-15 20:28:43 [main] INFO  u.ContractUtil.storeAbiToBlockchain(ContractUtil.java:81)
-call upload abi method success. Receipt com.citahub.cita.protocol.core.methods.response.TransactionReceipt@e0c5297f
-2024-10-15 20:28:43 [main] INFO  u.ContractUtil.storeAbiToBlockchain(ContractUtil.java:83)
-call upload abi method success and receipt is 0x278b2cb94e43a1071252c59495c1fe34c7311ca3ec00bbbd37c76ae94262f4e4
-2024-10-15 20:28:43 [main] INFO  ContractUtilTest.TestDeployBillManagementContract(ContractUtilTest.java:56)
-[TestDeployContract]:storeAbiTpBlockChain
-2024-10-15 20:28:55 [main] INFO  s.Account.<init>(Account.java:59)
-accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
-2024-10-15 20:28:55 [main] INFO  s.Account.<init>(Account.java:59)
-accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
-2024-10-15 20:28:55 [main] INFO  ContractUtilTest.TestCallContractSetBill(ContractUtilTest.java:70)
-[TestCallContractSetBill] setBill
-2024-10-15 20:28:55 [main] INFO  ContractUtilTest.TestCallContractSetBill(ContractUtilTest.java:71)
-loy6785IEs7UVkXwd4Fq BOKi WbjT 1000
-2024-10-15 20:28:55 [main] INFO  s.Account.<init>(Account.java:59)
-accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
-2024-10-15 20:28:55 [main] INFO  s.Account.<init>(Account.java:59)
-accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
-2024-10-15 20:28:55 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:146)
-调用创建账单合约方法
-2024-10-15 20:28:55 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:147)
-contractAddress: 0xdca74414efb68f9ab15f155dbbfb27ff7cc26fc0
-2024-10-15 20:28:55 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:155)
-交易信息哈希: 0xfc04c7290b35d9d76eef4ec269b5de767b68ab2c863777aabaebd30070e6e5c9
-2024-10-15 20:29:01 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:159)
-回执块哈希: 0x0ee5921eba86b4ad2577aebfe38ba6e8c8e92d41acca72ab23e775adbc10bd6d
-2024-10-15 20:29:01 [main] INFO  s.BaseContractService.extractFromTransactionReceipt(BaseContractService.java:105)
-num of logs: 1
-2024-10-15 20:29:01 [main] INFO  s.BaseContractService.extractFromTransactionReceipt(BaseContractService.java:108)
-BillCreated Event Parameters:
-ID: 1
-Description: è
-Sender: loy6785IEs7UVkXwd4Fq
-Receiver: BOKi
-Amount: 288
-2024-10-15 20:29:01 [main] INFO  ContractUtilTest.TestCallContractSetBill(ContractUtilTest.java:70)
-[TestCallContractSetBill] setBill
-2024-10-15 20:29:01 [main] INFO  ContractUtilTest.TestCallContractSetBill(ContractUtilTest.java:71)
-T5r5tNLNxPjSuIxGEZD1 WQ0r hr7l 1000
-2024-10-15 20:29:01 [main] INFO  s.Account.<init>(Account.java:59)
-accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
-2024-10-15 20:29:01 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:146)
-调用创建账单合约方法
-2024-10-15 20:29:01 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:147)
-contractAddress: 0xdca74414efb68f9ab15f155dbbfb27ff7cc26fc0
-2024-10-15 20:29:01 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:155)
-交易信息哈希: 0x5664a682be400c501f65f288db6426efe47124298872097c2b8ffce1cdde3cd7
-2024-10-15 20:29:07 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:159)
-回执块哈希: 0x5d2e471040bafaa07513fffcb19e37eb867f1b42ad23cb240aad034b2e990aa5
-2024-10-15 20:29:07 [main] INFO  s.BaseContractService.extractFromTransactionReceipt(BaseContractService.java:105)
-num of logs: 1
-2024-10-15 20:29:07 [main] INFO  s.BaseContractService.extractFromTransactionReceipt(BaseContractService.java:108)
-BillCreated Event Parameters:
-ID: 2
-Description: è
-Sender: T5r5tNLNxPjSuIxGEZD1
-Receiver: WQ0r
-Amount: 288
-2024-10-15 20:29:07 [main] INFO  ContractUtilTest.TestCallContractSetBill(ContractUtilTest.java:70)
-[TestCallContractSetBill] setBill
-2024-10-15 20:29:07 [main] INFO  ContractUtilTest.TestCallContractSetBill(ContractUtilTest.java:71)
-0HCA4qdbbEcVT4fTP1qq MOL9 Ncds 1000
-2024-10-15 20:29:07 [main] INFO  s.Account.<init>(Account.java:59)
-accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
-2024-10-15 20:29:07 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:146)
-调用创建账单合约方法
-2024-10-15 20:29:07 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:147)
-contractAddress: 0xdca74414efb68f9ab15f155dbbfb27ff7cc26fc0
-2024-10-15 20:29:07 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:155)
-交易信息哈希: 0x58d1d4e7ec5d31c2caa02ea4c0b85757acd2cdd077a330cd42dee7f01573e7a1
-2024-10-15 20:29:12 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:159)
-回执块哈希: 0x3f0fdd82b690208f7843886dc5259b621ce2b57e7e8a7e79a0e28bd5107524fe
-2024-10-15 20:29:12 [main] INFO  s.BaseContractService.extractFromTransactionReceipt(BaseContractService.java:105)
-num of logs: 1
-2024-10-15 20:29:12 [main] INFO  s.BaseContractService.extractFromTransactionReceipt(BaseContractService.java:108)
-BillCreated Event Parameters:
-ID: 3
-Description: è
-Sender: 0HCA4qdbbEcVT4fTP1qq
-Receiver: MOL9
-Amount: 288
-2024-10-15 20:29:12 [main] INFO  ContractUtilTest.TestCallContractSetBill(ContractUtilTest.java:70)
-[TestCallContractSetBill] setBill
-2024-10-15 20:29:12 [main] INFO  ContractUtilTest.TestCallContractSetBill(ContractUtilTest.java:71)
-21M0HmT5vjPtUwKoIfNy v5Wi UCXP 1000
-2024-10-15 20:29:12 [main] INFO  s.Account.<init>(Account.java:59)
-accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
-2024-10-15 20:29:12 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:146)
-调用创建账单合约方法
-2024-10-15 20:29:12 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:147)
-contractAddress: 0xdca74414efb68f9ab15f155dbbfb27ff7cc26fc0
-2024-10-15 20:29:13 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:155)
-交易信息哈希: 0xcb6504bdabb637d68af5fa85bde2692d33d18a991136aa6c9f1486fac0281bf2
-2024-10-15 20:29:19 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:159)
-回执块哈希: 0x9d7a78af2c23f02d6c9fae85b29fd5b18124976d3271f6caeb5886b6f2159663
-2024-10-15 20:29:19 [main] INFO  s.BaseContractService.extractFromTransactionReceipt(BaseContractService.java:105)
-num of logs: 1
-2024-10-15 20:29:19 [main] INFO  s.BaseContractService.extractFromTransactionReceipt(BaseContractService.java:108)
-BillCreated Event Parameters:
-ID: 4
-Description: è
-Sender: 21M0HmT5vjPtUwKoIfNy
-Receiver: v5Wi
-Amount: 288
-2024-10-15 20:29:19 [main] INFO  ContractUtilTest.TestCallContractSetBill(ContractUtilTest.java:70)
-[TestCallContractSetBill] setBill
-2024-10-15 20:29:19 [main] INFO  ContractUtilTest.TestCallContractSetBill(ContractUtilTest.java:71)
-L8rOI9x9PUHieTiavp7H uv9P gcpM 1000
-2024-10-15 20:29:19 [main] INFO  s.Account.<init>(Account.java:59)
-accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
-2024-10-15 20:29:19 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:146)
-调用创建账单合约方法
-2024-10-15 20:29:19 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:147)
-contractAddress: 0xdca74414efb68f9ab15f155dbbfb27ff7cc26fc0
-2024-10-15 20:29:19 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:155)
-交易信息哈希: 0x80ae144ed071f2f55dc99e1e4bfff654bb0e302ec2c5dcfc5ce7534a7cf26646
-2024-10-15 20:29:24 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:159)
-回执块哈希: 0xae15734b82ada6c0c6f4303b63f147e1be965b8cd72b15f4262a0707c1e72eaf
-2024-10-15 20:29:24 [main] INFO  s.BaseContractService.extractFromTransactionReceipt(BaseContractService.java:105)
-num of logs: 1
-2024-10-15 20:29:24 [main] INFO  s.BaseContractService.extractFromTransactionReceipt(BaseContractService.java:108)
-BillCreated Event Parameters:
-ID: 5
-Description: è
-Sender: L8rOI9x9PUHieTiavp7H
-Receiver: uv9P
-Amount: 288
-2024-10-15 20:29:24 [main] INFO  ContractUtilTest.TestCallContractSetBill(ContractUtilTest.java:70)
-[TestCallContractSetBill] setBill
-2024-10-15 20:29:24 [main] INFO  ContractUtilTest.TestCallContractSetBill(ContractUtilTest.java:71)
-fmxqjTQ5Xak3nAxSpHnM Aib8 5HW7 1000
-2024-10-15 20:29:24 [main] INFO  s.Account.<init>(Account.java:59)
-accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
-2024-10-15 20:29:24 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:146)
-调用创建账单合约方法
-2024-10-15 20:29:24 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:147)
-contractAddress: 0xdca74414efb68f9ab15f155dbbfb27ff7cc26fc0
-2024-10-15 20:29:25 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:155)
-交易信息哈希: 0xe2f48415ee786c86868aa7aeb624dd8614ae6ab7385eba4fb732a76678fca2e4
-2024-10-15 20:29:31 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:159)
-回执块哈希: 0x0bfcf16da885e95114d728cee3b4ecd5463eccd5b4a2f170a0546a712c51dda6
-2024-10-15 20:29:31 [main] INFO  s.BaseContractService.extractFromTransactionReceipt(BaseContractService.java:105)
-num of logs: 1
-2024-10-15 20:29:31 [main] INFO  s.BaseContractService.extractFromTransactionReceipt(BaseContractService.java:108)
-BillCreated Event Parameters:
-ID: 6
-Description: è
-Sender: fmxqjTQ5Xak3nAxSpHnM
-Receiver: Aib8
-Amount: 288
-2024-10-15 20:29:31 [main] INFO  ContractUtilTest.TestCallContractSetBill(ContractUtilTest.java:70)
-[TestCallContractSetBill] setBill
-2024-10-15 20:29:31 [main] INFO  ContractUtilTest.TestCallContractSetBill(ContractUtilTest.java:71)
-KmtvoNGCkFuYgr1tXZvv pw8E 83GG 1000
-2024-10-15 20:29:31 [main] INFO  s.Account.<init>(Account.java:59)
-accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
-2024-10-15 20:29:31 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:146)
-调用创建账单合约方法
-2024-10-15 20:29:31 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:147)
-contractAddress: 0xdca74414efb68f9ab15f155dbbfb27ff7cc26fc0
-2024-10-15 20:29:32 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:155)
-交易信息哈希: 0x528645a842ad593c7bb43de02a237ff937a4531c7fd692653d943d1666fd1af2
-2024-10-15 20:29:37 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:159)
-回执块哈希: 0x33b8203200d026c6667d81966efa20d06d0b6d8aa92cccf9d85241540ef30ff7
-2024-10-15 20:29:37 [main] INFO  s.BaseContractService.extractFromTransactionReceipt(BaseContractService.java:105)
-num of logs: 1
-2024-10-15 20:29:37 [main] INFO  s.BaseContractService.extractFromTransactionReceipt(BaseContractService.java:108)
-BillCreated Event Parameters:
-ID: 7
-Description: è
-Sender: KmtvoNGCkFuYgr1tXZvv
-Receiver: pw8E
-Amount: 288
-2024-10-15 20:29:37 [main] INFO  ContractUtilTest.TestCallContractSetBill(ContractUtilTest.java:70)
-[TestCallContractSetBill] setBill
-2024-10-15 20:29:37 [main] INFO  ContractUtilTest.TestCallContractSetBill(ContractUtilTest.java:71)
-go1ExrW6COIW9eyxEyaw 3bMJ cQda 1000
-2024-10-15 20:29:37 [main] INFO  s.Account.<init>(Account.java:59)
-accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
-2024-10-15 20:29:37 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:146)
-调用创建账单合约方法
-2024-10-15 20:29:37 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:147)
-contractAddress: 0xdca74414efb68f9ab15f155dbbfb27ff7cc26fc0
-2024-10-15 20:29:38 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:155)
-交易信息哈希: 0x97523c1fdf90083b8e1bf99016b6edaa2c7317532e6ab9ca0749462f61a656c8
-2024-10-15 20:29:43 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:159)
-回执块哈希: 0x95467f293d61b7c9fefb6f2f36ccf7ece6795d5d845131b2d48407e57ac2c8bb
-2024-10-15 20:29:43 [main] INFO  s.BaseContractService.extractFromTransactionReceipt(BaseContractService.java:105)
-num of logs: 1
-2024-10-15 20:29:43 [main] INFO  s.BaseContractService.extractFromTransactionReceipt(BaseContractService.java:108)
-BillCreated Event Parameters:
-ID: 8
-Description: è
-Sender: go1ExrW6COIW9eyxEyaw
-Receiver: 3bMJ
-Amount: 288
-2024-10-15 20:29:43 [main] INFO  ContractUtilTest.TestCallContractSetBill(ContractUtilTest.java:70)
-[TestCallContractSetBill] setBill
-2024-10-15 20:29:43 [main] INFO  ContractUtilTest.TestCallContractSetBill(ContractUtilTest.java:71)
-YwwSAhFa2Aef5IFhYCo4 FcZO Unl4 1000
-2024-10-15 20:29:43 [main] INFO  s.Account.<init>(Account.java:59)
-accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
-2024-10-15 20:29:43 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:146)
-调用创建账单合约方法
-2024-10-15 20:29:43 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:147)
-contractAddress: 0xdca74414efb68f9ab15f155dbbfb27ff7cc26fc0
-2024-10-15 20:29:43 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:155)
-交易信息哈希: 0xd487e4821a64fa8bf60345337e3ad03ffa021313551db981ec3c479c4bf5b6ee
-2024-10-15 20:29:48 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:159)
-回执块哈希: 0x647e8c2540eaa8c6ea02aebc957865b2bd660d1bb361a8f4a57c732ed58bc0d4
-2024-10-15 20:29:48 [main] INFO  s.BaseContractService.extractFromTransactionReceipt(BaseContractService.java:105)
-num of logs: 1
-2024-10-15 20:29:48 [main] INFO  s.BaseContractService.extractFromTransactionReceipt(BaseContractService.java:108)
-BillCreated Event Parameters:
-ID: 9
-Description: è
-Sender: YwwSAhFa2Aef5IFhYCo4
-Receiver: FcZO
-Amount: 288
-2024-10-15 20:29:48 [main] INFO  ContractUtilTest.TestCallContractSetBill(ContractUtilTest.java:70)
-[TestCallContractSetBill] setBill
-2024-10-15 20:29:48 [main] INFO  ContractUtilTest.TestCallContractSetBill(ContractUtilTest.java:71)
-9m5wGEmnkErq1PpDB9XM Trck 2dOD 1000
-2024-10-15 20:29:48 [main] INFO  s.Account.<init>(Account.java:59)
-accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
-2024-10-15 20:29:48 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:146)
-调用创建账单合约方法
-2024-10-15 20:29:48 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:147)
-contractAddress: 0xdca74414efb68f9ab15f155dbbfb27ff7cc26fc0
-2024-10-15 20:29:49 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:155)
-交易信息哈希: 0xbc5d0a9d92f89384f5486f660b021cbd12e74723dcd57318fd222edf2770b72a
-2024-10-15 20:29:55 [main] INFO  s.i.BillManagementServiceImpl.callContractSetBill(BillManagementServiceImpl.java:159)
-回执块哈希: 0xbc8eeb4aae593ef0861ec6d046871f1648a17a92864e577ffde305985af2afa5
-2024-10-15 20:29:55 [main] INFO  s.BaseContractService.extractFromTransactionReceipt(BaseContractService.java:105)
-num of logs: 1
-2024-10-15 20:29:55 [main] INFO  s.BaseContractService.extractFromTransactionReceipt(BaseContractService.java:108)
-BillCreated Event Parameters:
-ID: 10
-Description: è
-Sender: 9m5wGEmnkErq1PpDB9XM
-Receiver: Trck
-Amount: 288
-2024-10-15 20:30:08 [main] INFO  s.Account.<init>(Account.java:59)
-accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
-2024-10-15 20:30:08 [main] INFO  s.Account.<init>(Account.java:59)
-accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
-2024-10-15 20:30:08 [main] INFO  s.Account.<init>(Account.java:59)
-accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
-2024-10-15 20:30:08 [main] INFO  s.Account.<init>(Account.java:59)
-accountAddress: de24b2010e4c883dab2b6097fcd2ab86fb0cf0df
-2024-10-15 20:30:08 [main] INFO  s.i.BillManagementServiceImpl.callContractGetBill(BillManagementServiceImpl.java:186)
-调用查询账单合约方法
-2024-10-15 20:30:08 [main] INFO  s.i.BillManagementServiceImpl.callContractGetBill(BillManagementServiceImpl.java:190)
-调用查询账单合约-返回类型:class java.util.ArrayList
+2024-10-21 18:55:38 [main] INFO  c.p.u.Account.<init>(Account.java:59)
+accountAddress: d5d627aa6cdac7a448db3ce25f4812b6fc55c237
+2024-10-21 18:55:38 [main] INFO  c.p.c.CitaChainClient.<init>(CitaChainClient.java:43)
+Initialize CitaChainClient Successfully!!!
+2024-10-21 18:55:38 [main] INFO  C.TestCitaChainAdapter.TestInitClient(TestCitaChainAdapter.java:28)
+CitaChainClient{adminAddress='0xd5d627aa6cdac7a448db3ce25f4812b6fc55c237', adminPrivateKey='0x9c44d0ec9fe3b3da1f509148ac863f8f1d3c02a7533596956da7344b74d83e5b', service=com.citahub.cita.protocol.core.JsonRpc2_0CITAj@264f218, adminAccount=com.pojo.util.Account@3576ddc2, evidenceContractAddress='0x13f665c6d7bc02ab021dae2deebdafe7b91b9680', evidenceContractPath='src/main/java/com/solidity/contract/Evidence.sol', citaChainId=1, version=2, ipAddr='http:49.52.27.69:1337', defaultQuotaDeployment='10000000', txProcessor=com.citahub.cita.tx.response.PollingTransactionReceiptProcessor@35b74c5c}
+2024-10-21 18:55:49 [main] INFO  c.p.u.Account.<init>(Account.java:59)
+accountAddress: d5d627aa6cdac7a448db3ce25f4812b6fc55c237
+2024-10-21 18:55:49 [main] INFO  c.p.c.CitaChainClient.<init>(CitaChainClient.java:43)
+Initialize CitaChainClient Successfully!!!
+2024-10-21 18:55:49 [main] INFO  C.TestCitaChainAdapter.TestInitClient(TestCitaChainAdapter.java:28)
+CitaChainClient{adminAddress='0xd5d627aa6cdac7a448db3ce25f4812b6fc55c237', adminPrivateKey='0x9c44d0ec9fe3b3da1f509148ac863f8f1d3c02a7533596956da7344b74d83e5b', service=com.citahub.cita.protocol.core.JsonRpc2_0CITAj@264f218, adminAccount=com.pojo.util.Account@3576ddc2, evidenceContractAddress='0x13f665c6d7bc02ab021dae2deebdafe7b91b9680', evidenceContractPath='src/main/java/com/solidity/contract/Evidence.sol', citaChainId=1, version=2, ipAddr='http:49.52.27.69:1337', defaultQuotaDeployment='10000000', txProcessor=com.citahub.cita.tx.response.PollingTransactionReceiptProcessor@35b74c5c}
+2024-10-21 18:55:49 [main] INFO  C.TestCitaChainAdapter.TestCallCreateEvidence(TestCitaChainAdapter.java:40)
+createEvidence: Evidence{uuId='8330ac77-e7ac-4919-a617-456aa2', businessType='yvgoKTP54s', businessId='Oz4iFiCM', businessTime='2004-04-02 20:01:15', businessData='1abut6vO0ClOUNZ2hCNA'}
+2024-10-21 18:55:49 [main] INFO  c.p.a.i.CitaChainAdapter.createEvidence(CitaChainAdapter.java:65)
+交易信息哈希:0xc514094000fb7c013fef2c73a21ab1e509d6601c978133d7428b2026c781e7e7
+2024-10-21 18:55:49 [main] INFO  C.TestCitaChainAdapter.TestCallCreateEvidence(TestCitaChainAdapter.java:43)
+createEvidence successfully txHash: 0xc514094000fb7c013fef2c73a21ab1e509d6601c978133d7428b2026c781e7e7
+2024-10-21 18:55:49 [main] INFO  C.TestCitaChainAdapter.TestCallCreateEvidence(TestCitaChainAdapter.java:40)
+createEvidence: Evidence{uuId='c0517c55-0723-4732-bcf7-61f54e', businessType='AgGNh84NXh', businessId='KX5j2YCX', businessTime='2021-11-14 12:31:42', businessData='X8Q2VwjuPtBnSyCcnFTC'}
+2024-10-21 18:55:49 [main] INFO  c.p.a.i.CitaChainAdapter.createEvidence(CitaChainAdapter.java:65)
+交易信息哈希:0xb1e705bc9a95a657f8ab78100b67387ea88c63e1378b89fa5c700d8f0a818088
+2024-10-21 18:55:49 [main] INFO  C.TestCitaChainAdapter.TestCallCreateEvidence(TestCitaChainAdapter.java:43)
+createEvidence successfully txHash: 0xb1e705bc9a95a657f8ab78100b67387ea88c63e1378b89fa5c700d8f0a818088
+2024-10-21 18:55:49 [main] INFO  C.TestCitaChainAdapter.TestCallCreateEvidence(TestCitaChainAdapter.java:40)
+createEvidence: Evidence{uuId='5f0dd701-9ed0-4db0-8cc8-f43f66', businessType='BDAlMspOnA', businessId='2uK6ZzWN', businessTime='2002-10-11 22:37:45', businessData='0CK50wLbpeOAC7f1zFB4'}
+2024-10-21 18:55:50 [main] INFO  c.p.a.i.CitaChainAdapter.createEvidence(CitaChainAdapter.java:65)
+交易信息哈希:0x7ca51b12ca8dcca6858017e69348a76ece6efb974e1665c996c926c107c1473a
+2024-10-21 18:55:50 [main] INFO  C.TestCitaChainAdapter.TestCallCreateEvidence(TestCitaChainAdapter.java:43)
+createEvidence successfully txHash: 0x7ca51b12ca8dcca6858017e69348a76ece6efb974e1665c996c926c107c1473a
+2024-10-21 18:55:50 [main] INFO  C.TestCitaChainAdapter.TestCallCreateEvidence(TestCitaChainAdapter.java:40)
+createEvidence: Evidence{uuId='f9bfda90-7015-467d-9ff7-aee500', businessType='8VCpq1fm4x', businessId='D6vJVnsr', businessTime='2005-12-17 19:50:31', businessData='4DULgbSjU8fdNUbXY903'}
+2024-10-21 18:55:50 [main] INFO  c.p.a.i.CitaChainAdapter.createEvidence(CitaChainAdapter.java:65)
+交易信息哈希:0xb03da385e93b9504b9857ffd4d7a94954779cef98b6ec760c02ab8f94bb21dd3
+2024-10-21 18:55:50 [main] INFO  C.TestCitaChainAdapter.TestCallCreateEvidence(TestCitaChainAdapter.java:43)
+createEvidence successfully txHash: 0xb03da385e93b9504b9857ffd4d7a94954779cef98b6ec760c02ab8f94bb21dd3
+2024-10-21 18:55:50 [main] INFO  C.TestCitaChainAdapter.TestCallCreateEvidence(TestCitaChainAdapter.java:40)
+createEvidence: Evidence{uuId='0bd0e130-2c6d-4a9d-ac25-ebc861', businessType='aXTz9xGnCq', businessId='kmZ6A91G', businessTime='2014-12-30 13:36:22', businessData='8mNdqwSUOInzWQWKm9J9'}
+2024-10-21 18:55:50 [main] INFO  c.p.a.i.CitaChainAdapter.createEvidence(CitaChainAdapter.java:65)
+交易信息哈希:0x7a73d21635524c7d1e1d2f37774ded96a3051bb4b641143d595a65a8ce635305
+2024-10-21 18:55:50 [main] INFO  C.TestCitaChainAdapter.TestCallCreateEvidence(TestCitaChainAdapter.java:43)
+createEvidence successfully txHash: 0x7a73d21635524c7d1e1d2f37774ded96a3051bb4b641143d595a65a8ce635305
+2024-10-21 18:55:50 [main] INFO  C.TestCitaChainAdapter.TestCallCreateEvidence(TestCitaChainAdapter.java:40)
+createEvidence: Evidence{uuId='99cf3fc3-504b-43a6-a86e-d032c9', businessType='VSvJGZJzr2', businessId='UhD6TgAf', businessTime='2010-01-18 14:54:52', businessData='4MYKThI6ERrgPBENh16F'}
+2024-10-21 18:55:50 [main] INFO  c.p.a.i.CitaChainAdapter.createEvidence(CitaChainAdapter.java:65)
+交易信息哈希:0xe5ddddf9fb24a8a31c87ffaf60c755c296c8a20267e74d2ec7bba6d09a6ae285
+2024-10-21 18:55:50 [main] INFO  C.TestCitaChainAdapter.TestCallCreateEvidence(TestCitaChainAdapter.java:43)
+createEvidence successfully txHash: 0xe5ddddf9fb24a8a31c87ffaf60c755c296c8a20267e74d2ec7bba6d09a6ae285
+2024-10-21 18:55:50 [main] INFO  C.TestCitaChainAdapter.TestCallCreateEvidence(TestCitaChainAdapter.java:40)
+createEvidence: Evidence{uuId='42359e6a-8508-489d-9ef8-59d641', businessType='g0VJiai8f5', businessId='xRHPUrja', businessTime='2012-12-15 04:29:43', businessData='SIhag7Hr6HmTjvymHaan'}
+2024-10-21 18:55:50 [main] INFO  c.p.a.i.CitaChainAdapter.createEvidence(CitaChainAdapter.java:65)
+交易信息哈希:0xbdbdbb4c3fbc954b4b9f23b434d582c3faa39cbb8929ec66be7b9dadf1901856
+2024-10-21 18:55:50 [main] INFO  C.TestCitaChainAdapter.TestCallCreateEvidence(TestCitaChainAdapter.java:43)
+createEvidence successfully txHash: 0xbdbdbb4c3fbc954b4b9f23b434d582c3faa39cbb8929ec66be7b9dadf1901856
+2024-10-21 18:55:50 [main] INFO  C.TestCitaChainAdapter.TestCallCreateEvidence(TestCitaChainAdapter.java:40)
+createEvidence: Evidence{uuId='2216de7d-bef8-4b4d-89d2-97492b', businessType='SkatM0yJPL', businessId='o7uFU50s', businessTime='2019-03-08 06:24:03', businessData='ZFLsyaCh8P2mRBiBp0s3'}
+2024-10-21 18:55:50 [main] INFO  c.p.a.i.CitaChainAdapter.createEvidence(CitaChainAdapter.java:65)
+交易信息哈希:0x82e4dfe2fae101a753466de700249a52f2509bed55280d9db2f741e815131e82
+2024-10-21 18:55:50 [main] INFO  C.TestCitaChainAdapter.TestCallCreateEvidence(TestCitaChainAdapter.java:43)
+createEvidence successfully txHash: 0x82e4dfe2fae101a753466de700249a52f2509bed55280d9db2f741e815131e82
+2024-10-21 18:55:50 [main] INFO  C.TestCitaChainAdapter.TestCallCreateEvidence(TestCitaChainAdapter.java:40)
+createEvidence: Evidence{uuId='6e6d8938-e4fa-4fed-81e9-382c0b', businessType='u9ezkiGgLB', businessId='QdU9YnJB', businessTime='2014-07-28 19:50:08', businessData='u4Rsq4gH4QN0uPUsVv2J'}
+2024-10-21 18:55:50 [main] INFO  c.p.a.i.CitaChainAdapter.createEvidence(CitaChainAdapter.java:65)
+交易信息哈希:0x27bf8b482221c597c4306decb05e500895d7b6a41e661811e48394564fc2d2f9
+2024-10-21 18:55:50 [main] INFO  C.TestCitaChainAdapter.TestCallCreateEvidence(TestCitaChainAdapter.java:43)
+createEvidence successfully txHash: 0x27bf8b482221c597c4306decb05e500895d7b6a41e661811e48394564fc2d2f9
+2024-10-21 18:55:50 [main] INFO  C.TestCitaChainAdapter.TestCallCreateEvidence(TestCitaChainAdapter.java:40)
+createEvidence: Evidence{uuId='99a83ec6-8882-46c6-8fb0-9f7c8d', businessType='I8U6iSfvwG', businessId='Zk66R72Z', businessTime='2014-03-10 13:49:48', businessData='yN09wXVhyUwMWvkwkJTM'}
+2024-10-21 18:55:50 [main] INFO  c.p.a.i.CitaChainAdapter.createEvidence(CitaChainAdapter.java:65)
+交易信息哈希:0xbb3cb79d42e78af5bb20faa679cae1a290433a1727ae655814b6934f8fe7e62c
+2024-10-21 18:55:50 [main] INFO  C.TestCitaChainAdapter.TestCallCreateEvidence(TestCitaChainAdapter.java:43)
+createEvidence successfully txHash: 0xbb3cb79d42e78af5bb20faa679cae1a290433a1727ae655814b6934f8fe7e62c
+2024-10-21 18:55:57 [main] INFO  c.p.u.Account.<init>(Account.java:59)
+accountAddress: d5d627aa6cdac7a448db3ce25f4812b6fc55c237
+2024-10-21 18:55:57 [main] INFO  c.p.c.CitaChainClient.<init>(CitaChainClient.java:43)
+Initialize CitaChainClient Successfully!!!
+2024-10-21 18:55:57 [main] INFO  C.TestCitaChainAdapter.TestInitClient(TestCitaChainAdapter.java:28)
+CitaChainClient{adminAddress='0xd5d627aa6cdac7a448db3ce25f4812b6fc55c237', adminPrivateKey='0x9c44d0ec9fe3b3da1f509148ac863f8f1d3c02a7533596956da7344b74d83e5b', service=com.citahub.cita.protocol.core.JsonRpc2_0CITAj@264f218, adminAccount=com.pojo.util.Account@3576ddc2, evidenceContractAddress='0x13f665c6d7bc02ab021dae2deebdafe7b91b9680', evidenceContractPath='src/main/java/com/solidity/contract/Evidence.sol', citaChainId=1, version=2, ipAddr='http:49.52.27.69:1337', defaultQuotaDeployment='10000000', txProcessor=com.citahub.cita.tx.response.PollingTransactionReceiptProcessor@35b74c5c}
+2024-10-21 18:55:57 [main] INFO  c.p.a.i.CitaChainAdapter.getEvidence(CitaChainAdapter.java:38)
+class java.util.ArrayList
+2024-10-21 19:42:26 [main] INFO  c.p.u.Account.<init>(Account.java:59)
+accountAddress: d5d627aa6cdac7a448db3ce25f4812b6fc55c237
+2024-10-21 19:42:26 [main] INFO  c.p.c.CitaChainClient.<init>(CitaChainClient.java:43)
+Initialize CitaChainClient Successfully!!!
+2024-10-21 19:42:26 [main] INFO  C.TestCitaChainAdapter.TestInitClient(TestCitaChainAdapter.java:29)
+CitaChainClient{adminAddress='0xd5d627aa6cdac7a448db3ce25f4812b6fc55c237', adminPrivateKey='0x9c44d0ec9fe3b3da1f509148ac863f8f1d3c02a7533596956da7344b74d83e5b', service=com.citahub.cita.protocol.core.JsonRpc2_0CITAj@264f218, adminAccount=com.pojo.util.Account@3576ddc2, evidenceContractAddress='0x13f665c6d7bc02ab021dae2deebdafe7b91b9680', evidenceContractPath='src/main/java/com/solidity/contract/Evidence.sol', citaChainId=1, version=2, ipAddr='http:49.52.27.69:1337', defaultQuotaDeployment='10000000', txProcessor=com.citahub.cita.tx.response.PollingTransactionReceiptProcessor@35b74c5c}
+2024-10-21 19:42:26 [main] INFO  C.TestCitaChainAdapter.TestGetTransactionState(TestCitaChainAdapter.java:72)
+TransactionState{type=CITA, chainId=1, timestamp=1729329860717, blockHash='0x361d7344e6e71fc53b1af81703078048ff94c3874b48c515ecd7d898719acd65', blockHeight=288688, content='0x0aa1041213353638303735323834343730383737313832381880ade20420fecf112aa403f7e67f8a62303964613430382d643162652d346661662d613433652d613333633131000000000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000000e000000000000000000000000000000000000000000000000000000000000001200000000000000000000000000000000000000000000000000000000000000160000000000000000000000000000000000000000000000000000000000000000a68354d5536384d635256000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000008326b703271477166000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a323032332d30342d303600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001458447778734d72336e325243574a59636f4f51370000000000000000000000003220000000000000000000000000000000000000000000000000000000000000000040024a1413f665c6d7bc02ab021dae2deebdafe7b91b9680522000000000000000000000000000000000000000000000000000000000000000011280016cad8e7ac8b41dcdcd3bdfeaf4341e37e3aa7a04358670586b0053b10caf55b1a4d12b9cecf4ae7a20656d8b7d6ade8fb73a1569184af52aad0233223b311077e0390aa1f2923ca9747ff88d8603a6932c60dc13bf1bdc9ab927e600a5550f808eea3ec16a63963830c67e4478dd6cd34ce42b35b3c02b6a1206948d961a28bf', from='0xd5d627aa6cdac7a448db3ce25f4812b6fc55c237', hash='0x299a502654a92ee07b8bcccecdd772c67b5b343328b6d1d7bfb328083efd13cd'}
+2024-10-21 19:47:57 [main] INFO  c.p.u.Account.<init>(Account.java:59)
+accountAddress: d5d627aa6cdac7a448db3ce25f4812b6fc55c237
+2024-10-21 19:47:57 [main] INFO  c.p.c.CitaChainClient.<init>(CitaChainClient.java:43)
+Initialize CitaChainClient Successfully!!!
+2024-10-21 19:47:57 [main] INFO  C.TestCitaChainAdapter.TestInitClient(TestCitaChainAdapter.java:30)
+CitaChainClient{adminAddress='0xd5d627aa6cdac7a448db3ce25f4812b6fc55c237', adminPrivateKey='0x9c44d0ec9fe3b3da1f509148ac863f8f1d3c02a7533596956da7344b74d83e5b', service=com.citahub.cita.protocol.core.JsonRpc2_0CITAj@264f218, adminAccount=com.pojo.util.Account@3576ddc2, evidenceContractAddress='0x13f665c6d7bc02ab021dae2deebdafe7b91b9680', evidenceContractPath='src/main/java/com/solidity/contract/Evidence.sol', citaChainId=1, version=2, ipAddr='http:49.52.27.69:1337', defaultQuotaDeployment='10000000', txProcessor=com.citahub.cita.tx.response.PollingTransactionReceiptProcessor@35b74c5c}
+2024-10-21 19:47:58 [main] INFO  C.TestCitaChainAdapter.TestGetBlockState(TestCitaChainAdapter.java:83)
+BlockState{type=CITA, chainId=1, preHash='0xe0c35448f506fe69ad87f9d32d19fd1da1172d0a1b38b17064f08b9ebf5b1ed4', height=288688, hash='0x361d7344e6e71fc53b1af81703078048ff94c3874b48c515ecd7d898719acd65', timestamp=1729329860717, number=10, transactions=[TransactionState{type=CITA, chainId=1, timestamp=1729329860717, blockHash='0x361d7344e6e71fc53b1af81703078048ff94c3874b48c515ecd7d898719acd65', blockHeight=288688, content='0x0aa1041213373439333532373732373938303231303034391880ade20420fecf112aa403f7e67f8a36616365353165332d353662632d343233372d386632342d376664646232000000000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000000e000000000000000000000000000000000000000000000000000000000000001200000000000000000000000000000000000000000000000000000000000000160000000000000000000000000000000000000000000000000000000000000000a655a6962414d5877486a0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000085833744330777344000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a323032312d30312d313900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001457583258774b78753935484955717a6f6c7374750000000000000000000000003220000000000000000000000000000000000000000000000000000000000000000040024a1413f665c6d7bc02ab021dae2deebdafe7b91b968052200000000000000000000000000000000000000000000000000000000000000001128001a04e414df07d2850e91fabe77e3b65ae6271439cff3269fa188ef90147f58fc48463c90851116c05e8b0a96d8db1d603c62608e6b18aae3ee78a13ed9d11abd8e0390aa1f2923ca9747ff88d8603a6932c60dc13bf1bdc9ab927e600a5550f808eea3ec16a63963830c67e4478dd6cd34ce42b35b3c02b6a1206948d961a28bf', from='0xd5d627aa6cdac7a448db3ce25f4812b6fc55c237', hash='0x38395f5dae6b480f9b9f3eea062307dd78b21d8347907665a6310a7c9591d1f7'}, TransactionState{type=CITA, chainId=1, timestamp=1729329860717, blockHash='0x361d7344e6e71fc53b1af81703078048ff94c3874b48c515ecd7d898719acd65', blockHeight=288688, content='0x0aa1041213373830353834373139333337323436333732311880ade20420fecf112aa403f7e67f8a64336463663939612d353531622d343466652d386131382d653836663365000000000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000000e000000000000000000000000000000000000000000000000000000000000001200000000000000000000000000000000000000000000000000000000000000160000000000000000000000000000000000000000000000000000000000000000a4e544f7043687772767400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000856534f6b6c596274000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a323032312d31312d313400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001430464d3963696856414c70634c72646c50434a330000000000000000000000003220000000000000000000000000000000000000000000000000000000000000000040024a1413f665c6d7bc02ab021dae2deebdafe7b91b9680522000000000000000000000000000000000000000000000000000000000000000011280010774b4fbcdcb53cdbfb73c2163cf1d571cdb20c3b12206ca1bd8b60b03587c2ea7e78f7ba4524a18f67298c06d6d60855e666d7cc4bf4e18ac319f5ca06cf8d3e0390aa1f2923ca9747ff88d8603a6932c60dc13bf1bdc9ab927e600a5550f808eea3ec16a63963830c67e4478dd6cd34ce42b35b3c02b6a1206948d961a28bf', from='0xd5d627aa6cdac7a448db3ce25f4812b6fc55c237', hash='0x49541ebca1c7ced3f44e3740fe7670ba4d0ea28659258d7bc6f08b50103f7129'}, TransactionState{type=CITA, chainId=1, timestamp=1729329860717, blockHash='0x361d7344e6e71fc53b1af81703078048ff94c3874b48c515ecd7d898719acd65', blockHeight=288688, content='0x0aa1041213363434343230303432353832343238383037311880ade20420fecf112aa403f7e67f8a62356466303937632d336235612d343139382d623836352d323462306237000000000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000000e000000000000000000000000000000000000000000000000000000000000001200000000000000000000000000000000000000000000000000000000000000160000000000000000000000000000000000000000000000000000000000000000a707859796975686a67670000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000085162397358465570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a323030372d30352d31340000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000146f4d5870486770784771434173784a58465243410000000000000000000000003220000000000000000000000000000000000000000000000000000000000000000040024a1413f665c6d7bc02ab021dae2deebdafe7b91b96805220000000000000000000000000000000000000000000000000000000000000000112800164b78b226075b2f14407387e6b615d0c4422e819a1ba2719133bee49f4ac9b25ed9d89346f93ba50335408f855eb91eee879e508dd83eab17fb1bbe678cd7439e0390aa1f2923ca9747ff88d8603a6932c60dc13bf1bdc9ab927e600a5550f808eea3ec16a63963830c67e4478dd6cd34ce42b35b3c02b6a1206948d961a28bf', from='0xd5d627aa6cdac7a448db3ce25f4812b6fc55c237', hash='0xde7206cfeaa5efe6e85d86c97fcfe726eadf422c963333a98f357cbb6ed02d76'}, TransactionState{type=CITA, chainId=1, timestamp=1729329860717, blockHash='0x361d7344e6e71fc53b1af81703078048ff94c3874b48c515ecd7d898719acd65', blockHeight=288688, content='0x0aa1041213363731353230373738393332343630323036321880ade20420fecf112aa403f7e67f8a38623461366665332d383761362d346133302d396130342d333437383332000000000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000000e000000000000000000000000000000000000000000000000000000000000001200000000000000000000000000000000000000000000000000000000000000160000000000000000000000000000000000000000000000000000000000000000a4a30714145714c70475400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000834756c593837766e000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a323032322d31312d3033000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000014323476795556506538514e5966696c78784e45710000000000000000000000003220000000000000000000000000000000000000000000000000000000000000000040024a1413f665c6d7bc02ab021dae2deebdafe7b91b968052200000000000000000000000000000000000000000000000000000000000000001128001f6a7f5526fd387de0535b99e27b0a460feca1f2ff89c941cbcdc434a285eba714c9b065d2483b65b4ae7e00d34d8a5dd3acf19d717a19b6c583570eded27ff31e0390aa1f2923ca9747ff88d8603a6932c60dc13bf1bdc9ab927e600a5550f808eea3ec16a63963830c67e4478dd6cd34ce42b35b3c02b6a1206948d961a28bf', from='0xd5d627aa6cdac7a448db3ce25f4812b6fc55c237', hash='0x201c329e711ae3cb7892a14a71540edf1fad59972b4ec32311ded523b05a46fd'}, TransactionState{type=CITA, chainId=1, timestamp=1729329860717, blockHash='0x361d7344e6e71fc53b1af81703078048ff94c3874b48c515ecd7d898719acd65', blockHeight=288688, content='0x0aa1041213363532363832343632313031383233323834311880ade20420fecf112aa403f7e67f8a35393334346363362d376630612d343637372d613861332d346564633337000000000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000000e000000000000000000000000000000000000000000000000000000000000001200000000000000000000000000000000000000000000000000000000000000160000000000000000000000000000000000000000000000000000000000000000a466953646155596d734c0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000087534535950616b6f000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a323030392d30342d31370000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000144e3445627a54305768325a374752396665766e460000000000000000000000003220000000000000000000000000000000000000000000000000000000000000000040024a1413f665c6d7bc02ab021dae2deebdafe7b91b96805220000000000000000000000000000000000000000000000000000000000000000112800177eb26c274ba0b10be1e98f6daa3aa7c6fbd3a7d71e7d43203d5a022ee7b30d79a4dafcceeafffb00fdbdc9641a23cc4e46a7d77e4483a2390b9c24d4f10e310e0390aa1f2923ca9747ff88d8603a6932c60dc13bf1bdc9ab927e600a5550f808eea3ec16a63963830c67e4478dd6cd34ce42b35b3c02b6a1206948d961a28bf', from='0xd5d627aa6cdac7a448db3ce25f4812b6fc55c237', hash='0x3a36f990729aa98439844f16671bcf5e88de58929ea0049ecc2528087182d8b4'}, TransactionState{type=CITA, chainId=1, timestamp=1729329860717, blockHash='0x361d7344e6e71fc53b1af81703078048ff94c3874b48c515ecd7d898719acd65', blockHeight=288688, content='0x0aa1041213363739373833313938383831333531343132381880ade20420fecf112aa403f7e67f8a61663338666265622d656465612d343339622d393136322d343435643231000000000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000000e000000000000000000000000000000000000000000000000000000000000001200000000000000000000000000000000000000000000000000000000000000160000000000000000000000000000000000000000000000000000000000000000a30515954527177564269000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000008314b77336f357967000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a323031322d30342d30390000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000145652566946347a59597161556a636139753137520000000000000000000000003220000000000000000000000000000000000000000000000000000000000000000040024a1413f665c6d7bc02ab021dae2deebdafe7b91b968052200000000000000000000000000000000000000000000000000000000000000001128001588ccf5a6e678d0bddd303dfda4416a8aea0f01ba0aa76fd33c8d9468567b8e1158f3917e6618224978c5ad19dd6348804879806c2f9368ac557d9a9f7779297e0390aa1f2923ca9747ff88d8603a6932c60dc13bf1bdc9ab927e600a5550f808eea3ec16a63963830c67e4478dd6cd34ce42b35b3c02b6a1206948d961a28bf', from='0xd5d627aa6cdac7a448db3ce25f4812b6fc55c237', hash='0x09345a2b2d13518518e2ed272fb80de6ebfc532d0066cb6f5b62067c848d2658'}, TransactionState{type=CITA, chainId=1, timestamp=1729329860717, blockHash='0x361d7344e6e71fc53b1af81703078048ff94c3874b48c515ecd7d898719acd65', blockHeight=288688, content='0x0aa1041213373036333838313930323636333737353733341880ade20420fecf112aa403f7e67f8a65326438313233652d323538322d343934382d623833322d343365366239000000000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000000e000000000000000000000000000000000000000000000000000000000000001200000000000000000000000000000000000000000000000000000000000000160000000000000000000000000000000000000000000000000000000000000000a666c4c786c41534a58670000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000085376704734544c35000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a323030362d30312d30310000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000147a5a677571705a366b723464496338324d5974350000000000000000000000003220000000000000000000000000000000000000000000000000000000000000000040024a1413f665c6d7bc02ab021dae2deebdafe7b91b9680522000000000000000000000000000000000000000000000000000000000000000011280019af1278ec21bab0d06eb56069f64475d61bab0d7dea045978ae012c2b72030b7a90a1e99cf3d37da2b9af76576cdccdda57d41d472795e1b6c7341a826f319d6e0390aa1f2923ca9747ff88d8603a6932c60dc13bf1bdc9ab927e600a5550f808eea3ec16a63963830c67e4478dd6cd34ce42b35b3c02b6a1206948d961a28bf', from='0xd5d627aa6cdac7a448db3ce25f4812b6fc55c237', hash='0xd8b9c5e6413eeabdd0c12518ff7b45facdb6c0f6045a555a31172ab1cdef5dde'}, TransactionState{type=CITA, chainId=1, timestamp=1729329860717, blockHash='0x361d7344e6e71fc53b1af81703078048ff94c3874b48c515ecd7d898719acd65', blockHeight=288688, content='0x0aa1041213363936363338353334393932393733393232301880ade20420fecf112aa403f7e67f8a37363639666433312d623933632d343332612d623663312d666232313634000000000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000000e000000000000000000000000000000000000000000000000000000000000001200000000000000000000000000000000000000000000000000000000000000160000000000000000000000000000000000000000000000000000000000000000a46526472414c613953320000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000084c436371346b7a61000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a323030392d30332d303300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001478524a625a6b3542394d41445134753449774f690000000000000000000000003220000000000000000000000000000000000000000000000000000000000000000040024a1413f665c6d7bc02ab021dae2deebdafe7b91b9680522000000000000000000000000000000000000000000000000000000000000000011280018b64417cf05e6f440480d0ccefd783e3d26e4013eb45c6935e4bce5ad5658a9ebd9b691705aa262472997aebb61c2b37f1a0f86814cb61594e025b9bf4ae8470e0390aa1f2923ca9747ff88d8603a6932c60dc13bf1bdc9ab927e600a5550f808eea3ec16a63963830c67e4478dd6cd34ce42b35b3c02b6a1206948d961a28bf', from='0xd5d627aa6cdac7a448db3ce25f4812b6fc55c237', hash='0x8214e6686f76c01c1a32bac8df45bf981ae8b7568767fb069b3b299600e6d737'}, TransactionState{type=CITA, chainId=1, timestamp=1729329860717, blockHash='0x361d7344e6e71fc53b1af81703078048ff94c3874b48c515ecd7d898719acd65', blockHeight=288688, content='0x0aa1041213353534353234393136303831313133313138351880ade20420fecf112aa403f7e67f8a38613766316235362d643764302d343137612d396433362d363739333037000000000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000000e000000000000000000000000000000000000000000000000000000000000001200000000000000000000000000000000000000000000000000000000000000160000000000000000000000000000000000000000000000000000000000000000a6359664d6f686c6b4f730000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000084b36776357304a6c000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a323031312d30352d313500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001443534e6e4f5633787932527873704e49665177560000000000000000000000003220000000000000000000000000000000000000000000000000000000000000000040024a1413f665c6d7bc02ab021dae2deebdafe7b91b96805220000000000000000000000000000000000000000000000000000000000000000112800124a2c314e3f5dc8a6a6543a2a1bf07ecbea95d1b6ebc60b413e1934da11efa311c46fb3cb46a8bf14f0c0a0f24508847c3b3c1dc1fd8eb87b0ee17ae5ab74a40e0390aa1f2923ca9747ff88d8603a6932c60dc13bf1bdc9ab927e600a5550f808eea3ec16a63963830c67e4478dd6cd34ce42b35b3c02b6a1206948d961a28bf', from='0xd5d627aa6cdac7a448db3ce25f4812b6fc55c237', hash='0x3d1099647d32f4200c302e090335f7faec8d474f52f784b1712dfc10f22f22cc'}, TransactionState{type=CITA, chainId=1, timestamp=1729329860717, blockHash='0x361d7344e6e71fc53b1af81703078048ff94c3874b48c515ecd7d898719acd65', blockHeight=288688, content='0x0aa1041213353638303735323834343730383737313832381880ade20420fecf112aa403f7e67f8a62303964613430382d643162652d346661662d613433652d613333633131000000000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000000e000000000000000000000000000000000000000000000000000000000000001200000000000000000000000000000000000000000000000000000000000000160000000000000000000000000000000000000000000000000000000000000000a68354d5536384d635256000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000008326b703271477166000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a323032332d30342d303600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001458447778734d72336e325243574a59636f4f51370000000000000000000000003220000000000000000000000000000000000000000000000000000000000000000040024a1413f665c6d7bc02ab021dae2deebdafe7b91b9680522000000000000000000000000000000000000000000000000000000000000000011280016cad8e7ac8b41dcdcd3bdfeaf4341e37e3aa7a04358670586b0053b10caf55b1a4d12b9cecf4ae7a20656d8b7d6ade8fb73a1569184af52aad0233223b311077e0390aa1f2923ca9747ff88d8603a6932c60dc13bf1bdc9ab927e600a5550f808eea3ec16a63963830c67e4478dd6cd34ce42b35b3c02b6a1206948d961a28bf', from='0xd5d627aa6cdac7a448db3ce25f4812b6fc55c237', hash='0x299a502654a92ee07b8bcccecdd772c67b5b343328b6d1d7bfb328083efd13cd'}]}
+2024-10-21 19:47:58 [main] INFO  C.TestCitaChainAdapter.TestGetBlockState(TestCitaChainAdapter.java:86)
+解析块中存储交易: TransactionState{type=CITA, chainId=1, timestamp=1729329860717, blockHash='0x361d7344e6e71fc53b1af81703078048ff94c3874b48c515ecd7d898719acd65', blockHeight=288688, content='0x0aa1041213373439333532373732373938303231303034391880ade20420fecf112aa403f7e67f8a36616365353165332d353662632d343233372d386632342d376664646232000000000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000000e000000000000000000000000000000000000000000000000000000000000001200000000000000000000000000000000000000000000000000000000000000160000000000000000000000000000000000000000000000000000000000000000a655a6962414d5877486a0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000085833744330777344000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a323032312d30312d313900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001457583258774b78753935484955717a6f6c7374750000000000000000000000003220000000000000000000000000000000000000000000000000000000000000000040024a1413f665c6d7bc02ab021dae2deebdafe7b91b968052200000000000000000000000000000000000000000000000000000000000000001128001a04e414df07d2850e91fabe77e3b65ae6271439cff3269fa188ef90147f58fc48463c90851116c05e8b0a96d8db1d603c62608e6b18aae3ee78a13ed9d11abd8e0390aa1f2923ca9747ff88d8603a6932c60dc13bf1bdc9ab927e600a5550f808eea3ec16a63963830c67e4478dd6cd34ce42b35b3c02b6a1206948d961a28bf', from='0xd5d627aa6cdac7a448db3ce25f4812b6fc55c237', hash='0x38395f5dae6b480f9b9f3eea062307dd78b21d8347907665a6310a7c9591d1f7'}
+2024-10-21 19:47:58 [main] INFO  C.TestCitaChainAdapter.TestGetBlockState(TestCitaChainAdapter.java:86)
+解析块中存储交易: TransactionState{type=CITA, chainId=1, timestamp=1729329860717, blockHash='0x361d7344e6e71fc53b1af81703078048ff94c3874b48c515ecd7d898719acd65', blockHeight=288688, content='0x0aa1041213373830353834373139333337323436333732311880ade20420fecf112aa403f7e67f8a64336463663939612d353531622d343466652d386131382d653836663365000000000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000000e000000000000000000000000000000000000000000000000000000000000001200000000000000000000000000000000000000000000000000000000000000160000000000000000000000000000000000000000000000000000000000000000a4e544f7043687772767400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000856534f6b6c596274000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a323032312d31312d313400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001430464d3963696856414c70634c72646c50434a330000000000000000000000003220000000000000000000000000000000000000000000000000000000000000000040024a1413f665c6d7bc02ab021dae2deebdafe7b91b9680522000000000000000000000000000000000000000000000000000000000000000011280010774b4fbcdcb53cdbfb73c2163cf1d571cdb20c3b12206ca1bd8b60b03587c2ea7e78f7ba4524a18f67298c06d6d60855e666d7cc4bf4e18ac319f5ca06cf8d3e0390aa1f2923ca9747ff88d8603a6932c60dc13bf1bdc9ab927e600a5550f808eea3ec16a63963830c67e4478dd6cd34ce42b35b3c02b6a1206948d961a28bf', from='0xd5d627aa6cdac7a448db3ce25f4812b6fc55c237', hash='0x49541ebca1c7ced3f44e3740fe7670ba4d0ea28659258d7bc6f08b50103f7129'}
+2024-10-21 19:47:58 [main] INFO  C.TestCitaChainAdapter.TestGetBlockState(TestCitaChainAdapter.java:86)
+解析块中存储交易: TransactionState{type=CITA, chainId=1, timestamp=1729329860717, blockHash='0x361d7344e6e71fc53b1af81703078048ff94c3874b48c515ecd7d898719acd65', blockHeight=288688, content='0x0aa1041213363434343230303432353832343238383037311880ade20420fecf112aa403f7e67f8a62356466303937632d336235612d343139382d623836352d323462306237000000000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000000e000000000000000000000000000000000000000000000000000000000000001200000000000000000000000000000000000000000000000000000000000000160000000000000000000000000000000000000000000000000000000000000000a707859796975686a67670000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000085162397358465570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a323030372d30352d31340000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000146f4d5870486770784771434173784a58465243410000000000000000000000003220000000000000000000000000000000000000000000000000000000000000000040024a1413f665c6d7bc02ab021dae2deebdafe7b91b96805220000000000000000000000000000000000000000000000000000000000000000112800164b78b226075b2f14407387e6b615d0c4422e819a1ba2719133bee49f4ac9b25ed9d89346f93ba50335408f855eb91eee879e508dd83eab17fb1bbe678cd7439e0390aa1f2923ca9747ff88d8603a6932c60dc13bf1bdc9ab927e600a5550f808eea3ec16a63963830c67e4478dd6cd34ce42b35b3c02b6a1206948d961a28bf', from='0xd5d627aa6cdac7a448db3ce25f4812b6fc55c237', hash='0xde7206cfeaa5efe6e85d86c97fcfe726eadf422c963333a98f357cbb6ed02d76'}
+2024-10-21 19:47:58 [main] INFO  C.TestCitaChainAdapter.TestGetBlockState(TestCitaChainAdapter.java:86)
+解析块中存储交易: TransactionState{type=CITA, chainId=1, timestamp=1729329860717, blockHash='0x361d7344e6e71fc53b1af81703078048ff94c3874b48c515ecd7d898719acd65', blockHeight=288688, content='0x0aa1041213363731353230373738393332343630323036321880ade20420fecf112aa403f7e67f8a38623461366665332d383761362d346133302d396130342d333437383332000000000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000000e000000000000000000000000000000000000000000000000000000000000001200000000000000000000000000000000000000000000000000000000000000160000000000000000000000000000000000000000000000000000000000000000a4a30714145714c70475400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000834756c593837766e000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a323032322d31312d3033000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000014323476795556506538514e5966696c78784e45710000000000000000000000003220000000000000000000000000000000000000000000000000000000000000000040024a1413f665c6d7bc02ab021dae2deebdafe7b91b968052200000000000000000000000000000000000000000000000000000000000000001128001f6a7f5526fd387de0535b99e27b0a460feca1f2ff89c941cbcdc434a285eba714c9b065d2483b65b4ae7e00d34d8a5dd3acf19d717a19b6c583570eded27ff31e0390aa1f2923ca9747ff88d8603a6932c60dc13bf1bdc9ab927e600a5550f808eea3ec16a63963830c67e4478dd6cd34ce42b35b3c02b6a1206948d961a28bf', from='0xd5d627aa6cdac7a448db3ce25f4812b6fc55c237', hash='0x201c329e711ae3cb7892a14a71540edf1fad59972b4ec32311ded523b05a46fd'}
+2024-10-21 19:47:58 [main] INFO  C.TestCitaChainAdapter.TestGetBlockState(TestCitaChainAdapter.java:86)
+解析块中存储交易: TransactionState{type=CITA, chainId=1, timestamp=1729329860717, blockHash='0x361d7344e6e71fc53b1af81703078048ff94c3874b48c515ecd7d898719acd65', blockHeight=288688, content='0x0aa1041213363532363832343632313031383233323834311880ade20420fecf112aa403f7e67f8a35393334346363362d376630612d343637372d613861332d346564633337000000000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000000e000000000000000000000000000000000000000000000000000000000000001200000000000000000000000000000000000000000000000000000000000000160000000000000000000000000000000000000000000000000000000000000000a466953646155596d734c0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000087534535950616b6f000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a323030392d30342d31370000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000144e3445627a54305768325a374752396665766e460000000000000000000000003220000000000000000000000000000000000000000000000000000000000000000040024a1413f665c6d7bc02ab021dae2deebdafe7b91b96805220000000000000000000000000000000000000000000000000000000000000000112800177eb26c274ba0b10be1e98f6daa3aa7c6fbd3a7d71e7d43203d5a022ee7b30d79a4dafcceeafffb00fdbdc9641a23cc4e46a7d77e4483a2390b9c24d4f10e310e0390aa1f2923ca9747ff88d8603a6932c60dc13bf1bdc9ab927e600a5550f808eea3ec16a63963830c67e4478dd6cd34ce42b35b3c02b6a1206948d961a28bf', from='0xd5d627aa6cdac7a448db3ce25f4812b6fc55c237', hash='0x3a36f990729aa98439844f16671bcf5e88de58929ea0049ecc2528087182d8b4'}
+2024-10-21 19:47:58 [main] INFO  C.TestCitaChainAdapter.TestGetBlockState(TestCitaChainAdapter.java:86)
+解析块中存储交易: TransactionState{type=CITA, chainId=1, timestamp=1729329860717, blockHash='0x361d7344e6e71fc53b1af81703078048ff94c3874b48c515ecd7d898719acd65', blockHeight=288688, content='0x0aa1041213363739373833313938383831333531343132381880ade20420fecf112aa403f7e67f8a61663338666265622d656465612d343339622d393136322d343435643231000000000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000000e000000000000000000000000000000000000000000000000000000000000001200000000000000000000000000000000000000000000000000000000000000160000000000000000000000000000000000000000000000000000000000000000a30515954527177564269000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000008314b77336f357967000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a323031322d30342d30390000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000145652566946347a59597161556a636139753137520000000000000000000000003220000000000000000000000000000000000000000000000000000000000000000040024a1413f665c6d7bc02ab021dae2deebdafe7b91b968052200000000000000000000000000000000000000000000000000000000000000001128001588ccf5a6e678d0bddd303dfda4416a8aea0f01ba0aa76fd33c8d9468567b8e1158f3917e6618224978c5ad19dd6348804879806c2f9368ac557d9a9f7779297e0390aa1f2923ca9747ff88d8603a6932c60dc13bf1bdc9ab927e600a5550f808eea3ec16a63963830c67e4478dd6cd34ce42b35b3c02b6a1206948d961a28bf', from='0xd5d627aa6cdac7a448db3ce25f4812b6fc55c237', hash='0x09345a2b2d13518518e2ed272fb80de6ebfc532d0066cb6f5b62067c848d2658'}
+2024-10-21 19:47:58 [main] INFO  C.TestCitaChainAdapter.TestGetBlockState(TestCitaChainAdapter.java:86)
+解析块中存储交易: TransactionState{type=CITA, chainId=1, timestamp=1729329860717, blockHash='0x361d7344e6e71fc53b1af81703078048ff94c3874b48c515ecd7d898719acd65', blockHeight=288688, content='0x0aa1041213373036333838313930323636333737353733341880ade20420fecf112aa403f7e67f8a65326438313233652d323538322d343934382d623833322d343365366239000000000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000000e000000000000000000000000000000000000000000000000000000000000001200000000000000000000000000000000000000000000000000000000000000160000000000000000000000000000000000000000000000000000000000000000a666c4c786c41534a58670000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000085376704734544c35000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a323030362d30312d30310000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000147a5a677571705a366b723464496338324d5974350000000000000000000000003220000000000000000000000000000000000000000000000000000000000000000040024a1413f665c6d7bc02ab021dae2deebdafe7b91b9680522000000000000000000000000000000000000000000000000000000000000000011280019af1278ec21bab0d06eb56069f64475d61bab0d7dea045978ae012c2b72030b7a90a1e99cf3d37da2b9af76576cdccdda57d41d472795e1b6c7341a826f319d6e0390aa1f2923ca9747ff88d8603a6932c60dc13bf1bdc9ab927e600a5550f808eea3ec16a63963830c67e4478dd6cd34ce42b35b3c02b6a1206948d961a28bf', from='0xd5d627aa6cdac7a448db3ce25f4812b6fc55c237', hash='0xd8b9c5e6413eeabdd0c12518ff7b45facdb6c0f6045a555a31172ab1cdef5dde'}
+2024-10-21 19:47:58 [main] INFO  C.TestCitaChainAdapter.TestGetBlockState(TestCitaChainAdapter.java:86)
+解析块中存储交易: TransactionState{type=CITA, chainId=1, timestamp=1729329860717, blockHash='0x361d7344e6e71fc53b1af81703078048ff94c3874b48c515ecd7d898719acd65', blockHeight=288688, content='0x0aa1041213363936363338353334393932393733393232301880ade20420fecf112aa403f7e67f8a37363639666433312d623933632d343332612d623663312d666232313634000000000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000000e000000000000000000000000000000000000000000000000000000000000001200000000000000000000000000000000000000000000000000000000000000160000000000000000000000000000000000000000000000000000000000000000a46526472414c613953320000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000084c436371346b7a61000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a323030392d30332d303300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001478524a625a6b3542394d41445134753449774f690000000000000000000000003220000000000000000000000000000000000000000000000000000000000000000040024a1413f665c6d7bc02ab021dae2deebdafe7b91b9680522000000000000000000000000000000000000000000000000000000000000000011280018b64417cf05e6f440480d0ccefd783e3d26e4013eb45c6935e4bce5ad5658a9ebd9b691705aa262472997aebb61c2b37f1a0f86814cb61594e025b9bf4ae8470e0390aa1f2923ca9747ff88d8603a6932c60dc13bf1bdc9ab927e600a5550f808eea3ec16a63963830c67e4478dd6cd34ce42b35b3c02b6a1206948d961a28bf', from='0xd5d627aa6cdac7a448db3ce25f4812b6fc55c237', hash='0x8214e6686f76c01c1a32bac8df45bf981ae8b7568767fb069b3b299600e6d737'}
+2024-10-21 19:47:58 [main] INFO  C.TestCitaChainAdapter.TestGetBlockState(TestCitaChainAdapter.java:86)
+解析块中存储交易: TransactionState{type=CITA, chainId=1, timestamp=1729329860717, blockHash='0x361d7344e6e71fc53b1af81703078048ff94c3874b48c515ecd7d898719acd65', blockHeight=288688, content='0x0aa1041213353534353234393136303831313133313138351880ade20420fecf112aa403f7e67f8a38613766316235362d643764302d343137612d396433362d363739333037000000000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000000e000000000000000000000000000000000000000000000000000000000000001200000000000000000000000000000000000000000000000000000000000000160000000000000000000000000000000000000000000000000000000000000000a6359664d6f686c6b4f730000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000084b36776357304a6c000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a323031312d30352d313500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001443534e6e4f5633787932527873704e49665177560000000000000000000000003220000000000000000000000000000000000000000000000000000000000000000040024a1413f665c6d7bc02ab021dae2deebdafe7b91b96805220000000000000000000000000000000000000000000000000000000000000000112800124a2c314e3f5dc8a6a6543a2a1bf07ecbea95d1b6ebc60b413e1934da11efa311c46fb3cb46a8bf14f0c0a0f24508847c3b3c1dc1fd8eb87b0ee17ae5ab74a40e0390aa1f2923ca9747ff88d8603a6932c60dc13bf1bdc9ab927e600a5550f808eea3ec16a63963830c67e4478dd6cd34ce42b35b3c02b6a1206948d961a28bf', from='0xd5d627aa6cdac7a448db3ce25f4812b6fc55c237', hash='0x3d1099647d32f4200c302e090335f7faec8d474f52f784b1712dfc10f22f22cc'}
+2024-10-21 19:47:58 [main] INFO  C.TestCitaChainAdapter.TestGetBlockState(TestCitaChainAdapter.java:86)
+解析块中存储交易: TransactionState{type=CITA, chainId=1, timestamp=1729329860717, blockHash='0x361d7344e6e71fc53b1af81703078048ff94c3874b48c515ecd7d898719acd65', blockHeight=288688, content='0x0aa1041213353638303735323834343730383737313832381880ade20420fecf112aa403f7e67f8a62303964613430382d643162652d346661662d613433652d613333633131000000000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000000e000000000000000000000000000000000000000000000000000000000000001200000000000000000000000000000000000000000000000000000000000000160000000000000000000000000000000000000000000000000000000000000000a68354d5536384d635256000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000008326b703271477166000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a323032332d30342d303600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001458447778734d72336e325243574a59636f4f51370000000000000000000000003220000000000000000000000000000000000000000000000000000000000000000040024a1413f665c6d7bc02ab021dae2deebdafe7b91b9680522000000000000000000000000000000000000000000000000000000000000000011280016cad8e7ac8b41dcdcd3bdfeaf4341e37e3aa7a04358670586b0053b10caf55b1a4d12b9cecf4ae7a20656d8b7d6ade8fb73a1569184af52aad0233223b311077e0390aa1f2923ca9747ff88d8603a6932c60dc13bf1bdc9ab927e600a5550f808eea3ec16a63963830c67e4478dd6cd34ce42b35b3c02b6a1206948d961a28bf', from='0xd5d627aa6cdac7a448db3ce25f4812b6fc55c237', hash='0x299a502654a92ee07b8bcccecdd772c67b5b343328b6d1d7bfb328083efd13cd'}
